@@ -10,7 +10,7 @@
   </head>
   <body>
     
-    <img class="slide-image" src="http://placehold.it/1920x300" alt="">
+    <img id="bandeau-top" class="slide-image" src="http://placehold.it/1920x300" alt="">
     
     <!-- Navigation -->
     <nav id="navbar-main" class="navbar navbar-inverse navbar-static-top">

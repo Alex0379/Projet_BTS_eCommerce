@@ -1,6 +1,10 @@
-jQuery(document).ready(function ($) {
+jQuery(window).load(function () {
     
-    var navbar = $('#navbar-main'), distance = 300, $window = $(window);
+    var navbar = $('#navbar-main');
+    var distance = navbar.offset().top;
+    var $window = $(window);
+    
+    console.log(distance);
     
     $window.scroll(function () {
         if ($window.scrollTop() >= distance) {
