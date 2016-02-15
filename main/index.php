@@ -7,6 +7,7 @@
     <title>Recherche</title>
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../src/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" />
   </head>
   <body>
     
@@ -63,11 +64,32 @@
 
             <div class="col-md-3">
                 <p class="lead">Formulaire filtre</p>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Category 1</a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">Category 3</a>
-                </div>
+                <form id="bootstrapSelectForm" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label">Famille</label>
+                        <div class="selectContainer">
+                            <select name="famille" class="form-control" multiple title="Selectionner une ou plusieurs famille">
+                                <option value="intelCeleron">Intel Celeron</option>
+                                <option value="intelCorei3">Intel Core i3</option>
+                                <option value="intelCorei5">Intel Core i5</option>
+                                <option value="intelCorei7">Intel Core i7</option>
+                                <option value="intelPentium">Intel Pentium</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="control-label">Socket</label>
+                        <div class="selectContainer">
+                            <select name="socket" class="form-control" multiple title="Selectionner un ou plusieurs socket">
+                                <option value="intel1150">Intel 1150</option>
+                                <option value="intel1151">Intel 1151</option>
+                                <option value="intel1155">Intel 1155</option>
+                                <option value="intel2011-V3">Intel 2011-V3</option>
+                            </select>
+                        </div>
+                    </div>    
+                </form>
             </div>
 
             <div class="col-md-9">
@@ -244,5 +266,6 @@
     <script>window.jQuery || document.write('<script src="../javascript/jquery.js"><\/script>')</script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <script src="../src/javascript/index.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
   </body>
 </html>

@@ -42,3 +42,7 @@
 footer {
     margin: 50px 0;
 }
+
+#bootstrapSelectForm .selectContainer .form-control-feedback {
+    right: -15px;
+}
