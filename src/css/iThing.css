@@ -149,7 +149,7 @@
 }
 
 .ui-rangeSlider-bar{
-	background: #68a1d6;
+	background: #337AB7;
   height: 29px;
   margin:1px 0;
   -moz-border-radius: 4px;
@@ -174,7 +174,7 @@
 .ui-rangeSlider-handle{
 	width:10px;
 	height:30px;
-	background-color: black;
+	background-color: #204d74;
 	cursor:col-resize;
 }
 

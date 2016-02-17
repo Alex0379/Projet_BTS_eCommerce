@@ -48,7 +48,8 @@ footer {
 }
 
 .formConteneur{
-    border: solid 1px grey;
+    background-color: #EEE;
+    border-radius: 5px 5px;
 }
 
 .formPadding{

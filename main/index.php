@@ -1,65 +1,13 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Recherche</title>
-    <link href="../src/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+<?php
+  include('header.php');
+?>
+
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap-multiselect.css" rel="stylesheet">
     <link href="../src/css/iThing.css" rel="stylesheet">
     <link href="../src/css/jquery-ui.min.css" rel="stylesheet">
     <link href="../src/css/jquery-ui.structure.min.css" rel="stylesheet">
     <link href="../src/css/jquery-ui.theme.min.css" rel="stylesheet">
     <link href="../src/css/index.css" rel="stylesheet">
-  </head>
-  <body>
-    
-    <img id="bandeau-top" class="slide-image" src="http://placehold.it/1920x300" alt="">
-    
-    <!-- Navigation -->
-    <nav id="navbar-main" class="navbar navbar-inverse navbar-static-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Nom du site</a>
-      </div>
-  
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Index <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">A propos</a></li>
-          <li><a href="#">Nous Contacter</a></li>
-        </ul>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Recherche">
-          </div>
-          <button type="submit" class="btn btn-default">Rechercher</button>
-        </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Panier</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mon Compte <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Tableau de bord</a></li>
-              <li><a href="#">Historique Commande</a></li>
-              <li><a href="#">Panier</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Se Déconnecter</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
 
     <!-- Page Content -->
     <main class="container">
@@ -68,10 +16,10 @@
 
             <div class="col-md-3 formConteneur">
               <div class="formPadding">
-                <p class="lead">Formulaire filtre</p>
+                <p class="lead">Filtres</p>
                 <form id="bootstrapSelectForm" method="post" class="form-horizontal">
                     <div class="form-group">
-                        <label class="control-label">Famille</label>
+                        <label class="control-label"><i class="fa fa-users"></i> Famille</label>
                         <div class="selectContainer">
                             <select id="triFamille" multiple="multiple">
                                 <option value="intelCeleron">Intel Celeron</option>
@@ -84,7 +32,7 @@
                       </div>
                       
                       <div class="form-group">
-                        <label class="control-label">Socket</label>
+                        <label class="control-label"><i class="fa fa-cogs"></i> Socket</label>
                         <div class="selectContainer">
                             <select id="triSocket" multiple="multiple">
                                 <option value="intel1150">Intel 1150</option>
@@ -96,13 +44,23 @@
                       </div>
                         
                   <div class="form-group">
-                    <label for="sliderPrix">Prix</label>
+                    <label for="sliderNbCoeur"><i class="fa fa-heart"></i> Nombre de coeurs</label>
+                    <div id="sliderNbCoeur" name="sliderNbCoeur"></div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="sliderFreq"><i class="fa fa-heartbeat"></i> Fréquence - (GHz)</label>
+                    <div id="sliderFreq" name="sliderFreq"></div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="sliderPrix"><i class="fa fa-eur"></i> Prix - (Euro)</label>
                     <div id="sliderPrix" name="sliderPrix"></div>
                   </div>
                     
                   <div class="form-group">
                     <div class="text-center">
-                      <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-glass"></span> Appliquer les filtres</button>
+                      <button type="submit" class="btn btn-primary"><i class="fa fa-filter"></i> Appliquer les filtres</button>
                     </div>
                   </div>
                 </form>
@@ -263,22 +221,6 @@
     </main>
     <!-- /.container -->
 
-    <div class="container">
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>2014-2016 Copyright &copy; <a href="#">Alexandre Pacaud</a> et <a href="#">Samuel Prézeau</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
-    
     <script src="../src/javascript/jquery.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap-multiselect.js"></script>
@@ -286,5 +228,7 @@
     <script src="../src/javascript/lib/jquery-ui.min.js"></script>
     <script src="../src/javascript/jQRangeSlider-min.js"></script>
     <script src="../src/javascript/index.js"></script>
-  </body>
-</html>
+    
+<?php
+  include('footer.php')
+?>
