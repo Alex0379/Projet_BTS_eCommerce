@@ -46,3 +46,11 @@ footer {
 #bootstrapSelectForm .selectContainer .form-control-feedback {
     right: -15px;
 }
+
+.formConteneur{
+    border: solid 1px grey;
+}
+
+.formPadding{
+    padding: 15px;   
+}

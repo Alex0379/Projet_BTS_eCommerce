@@ -6,8 +6,12 @@
     <meta name="author" content="">
     <title>Recherche</title>
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../src/bootstrap-3.3.6-dist/css/bootstrap-multiselect.css" rel="stylesheet">
+    <link href="../src/css/iThing.css" rel="stylesheet">
+    <link href="../src/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="../src/css/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="../src/css/jquery-ui.theme.min.css" rel="stylesheet">
     <link href="../src/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" />
   </head>
   <body>
     
@@ -62,13 +66,14 @@
 
         <div class="row">
 
-            <div class="col-md-3">
+            <div class="col-md-3 formConteneur">
+              <div class="formPadding">
                 <p class="lead">Formulaire filtre</p>
                 <form id="bootstrapSelectForm" method="post" class="form-horizontal">
                     <div class="form-group">
                         <label class="control-label">Famille</label>
                         <div class="selectContainer">
-                            <select name="famille" class="form-control" multiple title="Selectionner une ou plusieurs famille">
+                            <select id="triFamille" multiple="multiple">
                                 <option value="intelCeleron">Intel Celeron</option>
                                 <option value="intelCorei3">Intel Core i3</option>
                                 <option value="intelCorei5">Intel Core i5</option>
@@ -76,21 +81,33 @@
                                 <option value="intelPentium">Intel Pentium</option>
                             </select>
                         </div>
-                    </div>
-                    
-                    <div class="form-group">
+                      </div>
+                      
+                      <div class="form-group">
                         <label class="control-label">Socket</label>
                         <div class="selectContainer">
-                            <select name="socket" class="form-control" multiple title="Selectionner un ou plusieurs socket">
+                            <select id="triSocket" multiple="multiple">
                                 <option value="intel1150">Intel 1150</option>
                                 <option value="intel1151">Intel 1151</option>
                                 <option value="intel1155">Intel 1155</option>
                                 <option value="intel2011-V3">Intel 2011-V3</option>
                             </select>
                         </div>
-                    </div>    
+                      </div>
+                        
+                  <div class="form-group">
+                    <label for="sliderPrix">Prix</label>
+                    <div id="sliderPrix" name="sliderPrix"></div>
+                  </div>
+                    
+                  <div class="form-group">
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-glass"></span> Appliquer les filtres</button>
+                    </div>
+                  </div>
                 </form>
             </div>
+          </div>
 
             <div class="col-md-9">
 
@@ -262,10 +279,12 @@
     </div>
     <!-- /.container -->
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../javascript/jquery.js"><\/script>')</script>
+    <script src="../src/javascript/jquery.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="../src/bootstrap-3.3.6-dist/js/bootstrap-multiselect.js"></script>
+    <script src="../src/javascript/lib/jquery.mousewheel.min.js"></script>
+    <script src="../src/javascript/lib/jquery-ui.min.js"></script>
+    <script src="../src/javascript/jQRangeSlider-min.js"></script>
     <script src="../src/javascript/index.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
   </body>
 </html>

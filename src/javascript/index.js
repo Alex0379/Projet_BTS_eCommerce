@@ -21,52 +21,43 @@ jQuery(window).load(function () {
 
 /* Formulaire de Tri */
 $(document).ready(function() {
-    $('#bootstrapSelectForm')
-        .find('[name="famille"]')
-            .selectpicker()
-            .change(function(e) {
-                $('#bootstrapSelectForm').formValidation('revalidateField', 'famille');
-            })
-            .end()
-        .find('[name="socket"]')
-            .selectpicker()
-            .change(function(e) {
-                $('#bootstrapSelectForm').formValidation('revalidateField', 'socket');
-            })
-            .end()
-        .formValidation({
-            framework: 'bootstrap',
-            excluded: ':disabled',
-            icon: {
-                valid: 'glyphicon glyphicon-ok',
-                invalid: 'glyphicon glyphicon-remove',
-                validating: 'glyphicon glyphicon-refresh'
-            },
-            fields: {
-                colors: {
-                    validators: {
-                        callback: {
-                            message: 'Selectionner une ou plusieurs famille',
-                            callback: function(value, validator, $field) {
-                                // Get the selected options
-                                var options = validator.getFieldElements('colors').val();
-                                return (options != null && options.length >= 1 && options.length <= options.length);
-                            }
-                        }
-                    }
-                },
-                socket: {
-                    validators: {
-                        callback: {
-                            message: 'Selectionner un ou plusieurs socket',
-                            callback: function(value, validator, $field) {
-                                // Get the selected options
-                                var options = validator.getFieldElements('socket').val();
-                                return (options != null && options.length >= 1 && options.length <= options.length);
-                            }
-                        }
-                    }
-                }
-            }
+    /* Tri famille - config */
+        $('#triFamille').multiselect({
+            includeSelectAllOption: true,
+            nonSelectedText: 'Selectionner une ou plusieurs famille',
+            nSelectedText: ' familles sélectionnés',
+            allSelectedText: 'Toutes les familles sélectionnées...',
+            selectAllText: 'Sélectionner tout',
+            buttonWidth: '100%',
+            selectAllValue: 'valeurAdefinir'
         });
-});
+        
+    /* Tri socket - config */
+        $('#triSocket').multiselect({
+            includeSelectAllOption: true,
+            nonSelectedText: 'Selectionner un ou plusieurs socket',
+            nSelectedText: ' sockets sélectionnés',
+            allSelectedText: 'Tous les sockets sélectionnés',
+            selectAllText: 'Sélectionner tout',
+            buttonWidth: '100%',
+            selectAllValue: 'valeurAdefinir'
+        });
+        
+    /* Initialisation des tri */
+        $('#triFamille').multiselect('selectAll', false);
+        $('#triFamille').multiselect('updateButtonText');
+        $('#triSocket').multiselect('selectAll', false);
+        $('#triSocket').multiselect('updateButtonText');
+        
+    /* Sliders */
+        $("#sliderPrix").rangeSlider(
+            {bounds:{min: 100, max: 1000}},
+            {defaultValues:{min: 100, max: 1000}},
+            {step: 5}
+        );
+        
+        // Renvoi des valeurs max et min
+        var valeurSliderPrix = $("#sliderPrix").rangeSlider("values");
+        console.log(valeurSliderPrix.min + " " + valeurSliderPrix.max);
+    });
+
