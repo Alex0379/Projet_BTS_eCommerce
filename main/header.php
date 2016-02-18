@@ -23,7 +23,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">E - Processor</a>
+        <img class="logoEProcessor" src="../images/logo-E-Processor.png">
       </div>
   
       <!-- Collect the nav links, forms, and other content for toggling -->
