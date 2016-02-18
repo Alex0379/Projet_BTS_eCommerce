@@ -10,7 +10,7 @@
   </head>
   <body>
     
-    <img id="bandeau-top" class="slide-image" src="http://placehold.it/1920x300" alt="">
+    <img id="bandeau-top" class="slide-image" src="../images/e-processor.jpg" alt="">
     
     <!-- Navigation -->
     <nav id="navbar-main" class="navbar navbar-inverse navbar-static-top">
@@ -23,7 +23,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Nom du site</a>
+        <a class="navbar-brand" href="#">E - Processor</a>
       </div>
   
       <!-- Collect the nav links, forms, and other content for toggling -->
