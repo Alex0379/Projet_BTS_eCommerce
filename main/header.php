@@ -6,6 +6,7 @@
     <meta name="author" content="">
     <title>Titre du Site</title>
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../src/css/header_footer.css" rel="stylesheet">
     <link href="../src/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
@@ -43,18 +44,135 @@
           </div>
         </form>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><i class="fa fa-shopping-cart"></i> Panier</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-shopping-cart"></i> Panier <span class="badge">4</span><span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-cart" role="menu">
+              <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_1.jpg" alt="" />
+                        <span class="item-info">
+                            <span>Nom article</span>
+                            <span>prix: 27$</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+<li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_2.jpg" alt="" />
+                        <span class="item-info">
+                            <span>Nom article</span>
+                            <span>prix: 3$</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+                            <li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_3.jpeg" alt="" />
+                        <span class="item-info">
+                            <span>Nom article</span>
+                            <span>prix: 12$</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+<li>
+                  <span class="item">
+                    <span class="item-left">
+                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_4.jpg" alt="" />
+                        <span class="item-info">
+                            <span>Nom article</span>
+                            <span>prix: 7$</span>
+                        </span>
+                    </span>
+                    <span class="item-right">
+                        <button class="btn btn-danger  fa fa-close"></button>
+                    </span>
+                </span>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#" class="text-center"><i class="fa fa-sign-out"></i> Voir Panier</a></li>
+            </ul>
+          </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Mon Compte <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#"><i class="fa fa-tachometer"></i> Tableau de bord</a></li>
               <li><a href="#"><i class="fa fa-history"></i> Historique Commande</a></li>
-              <li><a href="#"><i class="fa fa-shopping-cart"></i> Panier</a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i> Panier <span class="badge">4</span></a></li>
               <li role="separator" class="divider"></li>
               <li><a href="#"><i class="fa fa-sign-out"></i> Se Déconnecter</a></li>
             </ul>
           </li>
+          <li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target=".modal-connex">Connexion</button></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+
+<!-- Modal de connexion -->
+<div class="modal-connex modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="Connexion">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Fermer</span></button>
+              <h4 class="modal-title" id="Connexion">Se connecter</h4>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-xs-6">
+                      <div class="well">
+                          <form id="connexForm" method="POST" action="" novalidate="novalidate">
+                              <div class="form-group">
+                                  <label for="identifiant" class="control-label">Identifiant</label>
+                                  <input type="text" class="form-control" id="identifiant" name="identifiant" value="" required="" title="Merci de rentrer votre identifiant" placeholder="example@gmail.com">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="password" class="control-label">Mot de passe</label>
+                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Merci de rentrer votre mot de passe">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div id="loginErrorMsg" class="alert alert-error hide">Identifiant ou mot de passe incorrect...</div>
+                              <div class="checkbox">
+                                  <label>
+                                      <input type="checkbox" name="remember" id="remember"> Se souvenir de moi
+                                  </label>
+                              </div>
+                              <button type="submit" class="btn btn-success btn-block">Se connecter</button>
+                              <a href="#">Mot de passe oublié?</a>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="col-xs-6">
+                      <p class="lead">S'inscrire maintenant, c'est <span class="text-success">GRATUIT</span> !</p>
+                      <ul class="list-unstyled" style="line-height: 2">
+                          <li><span class="fa fa-check text-success"></span> Voir toutes vos commandes</li>
+                          <li><span class="fa fa-check text-success"></span> Sauvegardez vos favoris</li>
+                          <li><span class="fa fa-check text-success"></span> Paiement en un click</li>
+                          <li><span class="fa fa-check text-success"></span> Historique de commande</li>
+                          <li><span class="fa fa-check text-success"></span> Obtenez un cadeau <small>(seulement pour les nouveaux comptes)</small></li>
+                          <li><a href="#"><u>Plus de détails...</u></a></li>
+                      </ul>
+                      <p><a href="#" class="btn btn-info btn-block">S'inscrire maintenant!</a></p>
+                  </div>
+              </div>
+          </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

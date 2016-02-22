@@ -13,7 +13,6 @@ jQuery(window).load(function () {
             navbar.removeClass('navbar-fixed-top');
             $('body').css('padding-top', '0px');
         }
-        
     });
 });
 
