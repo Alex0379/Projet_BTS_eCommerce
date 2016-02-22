@@ -55,3 +55,40 @@ footer {
 .formPadding{
     padding: 15px;   
 }
+
+.info{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.separator{
+    border-top: 1px solid #FFCCCC;
+}
+
+.clear-left{
+    clear: left;
+}
+
+.separator p{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.separator p i{
+    margin-right: 5px;
+}
+
+.btn-add{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #CC9999;
+}
+
+.btn-details{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
