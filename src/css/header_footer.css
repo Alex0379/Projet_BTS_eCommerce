@@ -41,4 +41,8 @@ ul.dropdown-cart li .item-right{
 }
 ul.dropdown-cart li .item-right button{
     margin-top:14px;
-}   
+}
+
+.container-fluid{
+    background-color: #090D0E;
+}
