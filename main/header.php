@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Titre du Site</title>
+    <title>E - Processor</title>
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../src/css/header_footer.css" rel="stylesheet">
     <link href="../src/css/font-awesome.min.css" rel="stylesheet">
