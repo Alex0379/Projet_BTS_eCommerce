@@ -1,0 +1,26 @@
+.table th, .table td {
+    padding: 18px 0;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.alignRight{
+    text-align: right !important;
+}
+
+.alignLeft{
+    text-align: left !important;
+}
+
+td.desc, .table th.desc {
+    text-align: left;
+}
+
+ul.unstyled, ol.unstyled {
+    margin-left: 0;
+    list-style: none;
+}
+
+.ecoPart{
+    color: #c1c1c1;
+}
