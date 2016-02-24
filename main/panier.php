@@ -175,9 +175,8 @@
                                 <input type="email" class="form-control" id="codeReduc" placeholder="Code promo">
                             </div>
                         </form>
-                            <a class="btn btn-default update" href="">Get Quotes</a>
-                            <a class="btn btn-default check_out" href="">Continue</a>
-                        </div>
+                        <a class="btn btn-default update" href="">Get Quotes</a>
+                        <a class="btn btn-default check_out" href="">Continue</a>
                     </div><!--end span7-->
     
     
