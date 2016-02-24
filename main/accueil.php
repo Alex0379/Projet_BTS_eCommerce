@@ -18,7 +18,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Titre du site???</h3>
+              <h3 class="masthead-brand">E - Processor</h3>
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="#">Accueil</a></li>
@@ -31,8 +31,8 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Bienvenue !</h1>
-            <p class="lead">Mettre une description ou message de bienvenue ici...</p>
+            <h1 class="cover-heading">Bienvenue sur E - Processor !</h1>
+            <p class="lead">Le site E-Commerce, spécialisé dans les processeurs.</p>
             <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Recherche</a>
             </p>
