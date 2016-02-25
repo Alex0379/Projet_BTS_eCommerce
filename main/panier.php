@@ -2,13 +2,54 @@
 
 <!-- Intégration du css -->
     <link href="../src/css/panier.css" rel="stylesheet">
+	<link href="../src/bootstrap-3.3.6-dist/css/jquery.bootstrap-touchspin.css" rel="stylesheet">
 
 <!-- Corps -->
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-
+			
+			<div class="container" style="margin-top: 30px; margin-bottom: 50px;">
 				<div class="row">
+					<div class="progress" id="progress1">
+						<div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">                
+						</div>
+						<span class="progress-type">Progression</span>
+						<span class="progress-completed">20%</span>
+					</div>      
+				</div>
+				<div class="row">
+					<div class="row step">
+						
+						<div id="div1" class="col-md-3">
+							<a href="index.php">
+								<span class="fa fa-cart-plus"></span>
+								<p>Ajout d'article</p>
+							</a>
+						</div>				
+						<div class="col-md-2 activestep">
+							<a href="panier.php" style="color: #23527c;">
+								<span class="fa fa-pencil"></span>
+								<p>Commande</p>
+							</a>
+						</div>						
+						<div class="col-md-2">
+							<span class="fa fa-sign-in"></span>
+							<p>Inscription/Connexion</p>
+						</div>
+						<div class="col-md-2">
+							<span class="fa fa-eur"></span>
+							<p>Paiement</p>
+						</div>
+						<div id="last" class="col-md-3">
+							<span class="fa fa-print"></span>
+							<p>Facture</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+				<div class="row"><!-- Tableau Panier -->
                     <div class="col-md-12">
                         <table class="table">
                             <thead>
@@ -36,11 +77,9 @@
                                         </ul>
                                     </td>
                                     <td class="quantity">
-                                        <div class="input-prepend input-append">
-                                            <button class="btn"><i class="icon-chevron-left"></i></button>
-                                            <input type="text" name="" value="1">
-                                            <button class="btn"><i class="icon-chevron-right"></i></button>
-                                        </div>
+										<div class="spinner-group">
+											<input id="demo1" class="spinner" type="text" value="1" name="demo1">
+										</div>
                                     </td>
                                     <td class="sub-price">
                                         <h3>150.00€</h3>
@@ -69,11 +108,9 @@
                                         </ul>
                                     </td>
                                     <td class="quantity">
-                                        <div class="input-prepend input-append">
-                                            <button class="btn"><i class="icon-chevron-left"></i></button>
-                                            <input type="text" name="" value="1">
-                                            <button class="btn"><i class="icon-chevron-right"></i></button>
-                                        </div>
+                                        <div class="spinner-group">
+											<input id="demo2" class="spinner" type="text" value="1" name="demo2">
+										</div>
                                     </td>
                                     <td class="sub-price">
                                         <h3>150.00€</h3>
@@ -102,11 +139,9 @@
                                         </ul>
                                     </td>
                                     <td class="quantity">
-                                        <div class="input-prepend input-append">
-                                            <button class="btn"><i class="icon-chevron-left"></i></button>
-                                            <input type="text" name="" value="1">
-                                            <button class="btn"><i class="icon-chevron-right"></i></button>
-                                        </div>
+                                        <div class="spinner-group">
+											<input id="demo3" class="spinner" type="text" value="1" name="demo3">
+										</div>
                                     </td>
                                     <td class="sub-price">
                                         <h3>150.00€</h3>
@@ -129,54 +164,47 @@
 
 				<div class="row">
                     <div class="col-md-7">
-                        <form class="form-horizontal">
+                        <div class="form-horizontal">
+							<div class="form-group">
+								<h4>Avez vous un code de réduction?</h4>
+								<div class="btn-group" data-toggle="buttons">
+									<label class="btn btn-primary">
+									  <input type="radio" name="options" id="option1" autocomplete="off" checked> Oui
+									</label>
+									<label class="btn btn-primary active">
+									  <input type="radio" name="options" id="option2" autocomplete="off"> Non
+									</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>Code de réduction</label>
+								<input type="email" class="form-control" id="codeReduc" placeholder="Code promo">
+							</div>
                             <div class="form-group">
-                                <input type="checkbox">
-                                <label>Use Coupon Code</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="checkbox">
-                                <label>Use Coupon Code</label>
-                            </div>
-                            <div class="form-group">
-                                <input type="checkbox">
-                                <label>Use Coupon Code</label>
-                            </div>
-                        </form>
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <label>Country:</label>
-                                <select>
-                                    <option>United States</option>
-                                    <option>Bangladesh</option>
-                                    <option>UK</option>
-                                    <option>India</option>
-                                    <option>Pakistan</option>
-                                    <option>Ucrane</option>
-                                    <option>Canada</option>
-                                    <option>Dubai</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Region / State:</label>
-                                <select>
-                                    <option>Select</option>
-                                    <option>Dhaka</option>
-                                    <option>London</option>
-                                    <option>Dillih</option>
-                                    <option>Lahore</option>
-                                    <option>Alaska</option>
-                                    <option>Canada</option>
-                                    <option>Dubai</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="codeReduc">Code de réduction</label>
-                                <input type="email" class="form-control" id="codeReduc" placeholder="Code promo">
-                            </div>
-                        </form>
-                        <a class="btn btn-default update" href="">Get Quotes</a>
-                        <a class="btn btn-default check_out" href="">Continue</a>
+                                <label>Mode de livraison</label>                            
+								<div class="btn-group btn-width100" data-toggle="buttons">
+									<label class="btn btn-primary active">
+									  <input type="radio" name="options" id="option1" autocomplete="off" checked> Point relais
+									</label>
+									<label class="btn btn-primary">
+									  <input type="radio" name="options" id="option2" autocomplete="off"> À domicile
+									</label>
+									<label class="btn btn-primary">
+									  <input type="radio" name="options" id="option3" autocomplete="off"> Chronopost (48h)
+									</label>
+									<label class="btn btn-primary">
+									  <input type="radio" name="options" id="option4" autocomplete="off"> Chronopost (24h)
+									</label>
+									<label class="btn btn-primary">
+									  <input type="radio" name="options" id="option5" autocomplete="off"> UPS
+									</label>
+								</div>
+							</div>
+						</div>                        
+                        <div class="form-group text-right">							
+							<button type="button" class="btn">Annuler</button>
+							<button type="button" class="btn btn-primary">Valider</button>
+						</div>
                     </div><!--end span7-->
     
     
@@ -217,5 +245,7 @@
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<script src="../src/bootstrap-3.3.6-dist/js/jquery.bootstrap-touchspin.min.js"></script>
+	<script src="../src/javascript/panier.js"></script>
 
 <?php include('footer.php') ?>

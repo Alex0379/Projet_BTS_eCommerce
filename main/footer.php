@@ -13,6 +13,6 @@
 
     </div>
     <!-- /.container -->
-    
+    <script src="../src/javascript/header.js"></script>
   </body>
 </html>
