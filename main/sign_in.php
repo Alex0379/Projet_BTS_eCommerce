@@ -4,10 +4,9 @@
     <link href="../src/css/sign_in.css" rel="stylesheet">
 
 <!-- Corps -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="container" style="margin-top: 30px; margin-bottom: 50px;">
+<main class="container">
+    <div class="col-md-12">  
+        <div class="col-md-12" style="margin-top: 30px; margin-bottom: 50px;">
 				<div class="row">
 					<div class="progress" id="progress1">
 						<div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">                
@@ -48,7 +47,6 @@
 					</div>
 				</div>
 			</div>
-        </div>
     </div>
     <div class="row">
         <div class="col-md-4">
@@ -80,10 +78,7 @@
                 
         </div>
         
-        <div class="col-md-1 middle-border"></div>
-        <div class="col-md-1"></div>
-        
-        <div class="col-md-6">
+        <div class="col-md-8">
             
                         <div class="form-box">
                             <div class="form-top">
@@ -224,7 +219,7 @@
             
         </div>
     </div>
-</div>
+</main>
 
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>

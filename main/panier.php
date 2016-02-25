@@ -5,11 +5,10 @@
 	<link href="../src/bootstrap-3.3.6-dist/css/jquery.bootstrap-touchspin.css" rel="stylesheet">
 
 <!-- Corps -->
-<div class="container">
-    <div class="row">
+<main class="container">
         <div class="col-md-12">
 			
-			<div class="container" style="margin-top: 30px; margin-bottom: 50px;">
+			<div class="col-md-12" style="margin-top: 30px; margin-bottom: 50px;">
 				<div class="row">
 					<div class="progress" id="progress1">
 						<div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">                
@@ -239,8 +238,9 @@
                         </div>
                     </div>
 				</div><!--end span5-->
-    </div>
-</div>
+			</div>
+		</div>
+</main>
 
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>

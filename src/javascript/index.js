@@ -5,7 +5,7 @@ $(document).ready(function() {
             includeSelectAllOption: true,
             nonSelectedText: 'Selectionner une ou plusieurs famille',
             nSelectedText: ' familles sélectionnés',
-            allSelectedText: 'Toutes les familles sélectionnées...',
+            allSelectedText: 'Tous sélectionné',
             selectAllText: 'Sélectionner tout',
             buttonWidth: '100%',
             selectAllValue: 'valeurAdefinir'
@@ -16,7 +16,7 @@ $(document).ready(function() {
             includeSelectAllOption: true,
             nonSelectedText: 'Selectionner un ou plusieurs socket',
             nSelectedText: ' sockets sélectionnés',
-            allSelectedText: 'Tous les sockets sélectionnés',
+            allSelectedText: 'Tous sélectionné',
             selectAllText: 'Sélectionner tout',
             buttonWidth: '100%',
             selectAllValue: 'valeurAdefinir'

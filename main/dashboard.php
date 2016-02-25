@@ -4,8 +4,7 @@
     <link href="../src/css/dashboard.css" rel="stylesheet">
 
 <!-- Corps -->
-<div class="container">
-    <div class="row">
+<main class="container">
         <div class="col-md-12">
             
             <div class="row">
@@ -355,8 +354,7 @@
                         </div>
             
         </div>
-    </div>
-</div>
+</main>
 
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>

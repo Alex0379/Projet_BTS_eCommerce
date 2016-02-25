@@ -1,4 +1,4 @@
-<div class="container">
+<main class="container">
 
         <hr>
 
@@ -11,7 +11,7 @@
             </div>
         </footer>
 
-    </div>
+    </main>
     <!-- /.container -->
     <script src="../src/javascript/header.js"></script>
   </body>

@@ -14,8 +14,8 @@
 
         <div class="row">
 
-            <div class="col-md-3 formConteneur">
-              <div class="formPadding">
+            <div class="col-md-3">
+              <div class="formConteneur">
                 <p class="lead">Filtres</p>
                 <form id="bootstrapSelectForm" method="post" class="form-horizontal">
                     <div class="form-group">

@@ -1,3 +1,17 @@
+body {
+    background-image: url('../../images/fond_page.png');
+    color: #3A4144;
+}
+
+main{
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+}
+
 ul.dropdown-cart{
     min-width:250px;
     padding: 2px;

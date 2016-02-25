@@ -4,7 +4,7 @@
     <link href="../src/css/dashboard.css" rel="stylesheet">
 
 <!-- Corps -->
-<div class="container">
+<main class="container">
     <div class="row">
         <div class="col-md-12">
             
@@ -12,7 +12,7 @@
             
         </div>
     </div>
-</div>
+</main>
 
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>
