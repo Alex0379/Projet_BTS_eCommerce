@@ -25,14 +25,14 @@
           <span class="icon-bar"></span>
         </button>
         <img class="logoEProcessor" src="../images/logo-E-Processor.png">
-        <a class="navbar-brand" href="#">E - Processor</a>
+        <a class="navbar-brand" href="accueil.php">E - Processor</a>
       </div>
   
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Index <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">A propos</a></li>
+          <li class="active"><a href="index.php">Index <span class="sr-only">(current)</span></a></li>
+          <li><a href="a_propos.php">A propos</a></li>
           <li><a href="#">Nous Contacter</a></li>
         </ul>
         <form class="navbar-form navbar-left" role="search">
@@ -106,15 +106,15 @@
                 </span>
               </li>
               <li role="separator" class="divider"></li>
-              <li><a href="#" class="text-center"><i class="fa fa-sign-out"></i> Voir Panier</a></li>
+              <li><a href="panier.php" class="text-center"><i class="fa fa-sign-out"></i> Voir Panier</a></li>
             </ul>
           </li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Mon Compte <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#"><i class="fa fa-tachometer"></i> Tableau de bord</a></li>
-              <li><a href="#"><i class="fa fa-history"></i> Historique Commande</a></li>
-              <li><a href="#"><i class="fa fa-shopping-cart"></i> Panier <span class="badge">4</span></a></li>
+              <li><a href="dashboard.php"><i class="fa fa-tachometer"></i> Tableau de bord</a></li>
+              <li><a href="histo_commande.php"><i class="fa fa-history"></i> Historique Commande</a></li>
+              <li><a href="panier.php"><i class="fa fa-shopping-cart"></i> Panier <span class="badge">4</span></a></li>
               <li role="separator" class="divider"></li>
               <li><a href="#"><i class="fa fa-sign-out"></i> Se Déconnecter</a></li>
             </ul>
@@ -169,7 +169,7 @@
                           <li><span class="fa fa-check text-success"></span> Obtenez un cadeau <small>(seulement pour les nouveaux comptes)</small></li>
                           <li><a href="#"><u>Plus de détails...</u></a></li>
                       </ul>
-                      <p><a href="#" class="btn btn-info btn-block">S'inscrire maintenant!</a></p>
+                      <p><a href="inscription.php" class="btn btn-info btn-block">S'inscrire maintenant!</a></p>
                   </div>
               </div>
           </div>

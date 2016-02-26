@@ -22,8 +22,8 @@
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="#">Accueil</a></li>
-				  <li><a href="#">Index</a></li>
-                  <li><a href="#">A propos</a></li>
+				  <li><a href="index.php">Index</a></li>
+                  <li><a href="a_propos.php">A propos</a></li>
                   <li><a href="#">Nous Contacter</a></li>
                 </ul>
               </nav>
@@ -34,7 +34,7 @@
             <h1 class="cover-heading">Bienvenue sur E - Processor !</h1>
             <p class="lead">Le site E-Commerce, spécialisé dans les processeurs.</p>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Recherche</a>
+              <a href="index.php" class="btn btn-lg btn-default">Recherche</a>
             </p>
           </div>
 

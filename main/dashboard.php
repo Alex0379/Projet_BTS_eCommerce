@@ -19,7 +19,7 @@
                                 </div>
                                 <div class="desc"> Historique Commande </div>
                             </div>
-                        <a class="more" href="javascript:;"> Voir détails
+                        <a class="more" href="histo_commande.php"> Voir détails
                             <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="desc"> Article Panier </div>
                         </div>
-                        <a class="more" href="javascript:;"> Voir détails
+                        <a class="more" href="panier.php"> Voir détails
                             <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>
@@ -50,7 +50,7 @@
                                 <span data-counter="counterup" data-value="89"> $nomClient </span></div>
                             <div class="desc"> Profil </div>
                         </div>
-                        <a class="more" href="javascript:;"> Voir détails
+                        <a class="more" href="profil.php"> Voir détails
                             <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>

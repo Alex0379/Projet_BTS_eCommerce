@@ -5,49 +5,7 @@
 
 <!-- Corps -->
 <main class="container">
-    <div class="col-md-12">  
-        <div class="col-md-12" style="margin-top: 30px; margin-bottom: 50px;">
-				<div class="row">
-					<div class="progress" id="progress1">
-						<div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div>
-						<div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 20%"></div>
-						<span class="progress-type">Progression</span>
-						<span class="progress-completed">40%</span>
-					</div>      
-				</div>
-				<div class="row">
-					<div class="row step">
-						
-						<div id="div1" class="col-md-3">
-							<a href="index.php">
-								<span class="fa fa-cart-plus"></span>
-								<p>Ajout d'article</p>
-							</a>
-						</div>				
-						<div class="col-md-2">
-							<a href="panier.php">
-								<span class="fa fa-pencil"></span>
-								<p>Commande</p>
-							</a>
-						</div>						
-						<div class="col-md-2 activestep">
-                            <a href="sign_in.php" style="color: #23527c;">
-								<span class="fa fa-sign-in"></span>
-                                <p>Inscription/Connexion</p>
-							</a>							
-						</div>
-						<div class="col-md-2">
-							<span class="fa fa-eur"></span>
-							<p>Paiement</p>
-						</div>
-						<div id="last" class="col-md-3">
-							<span class="fa fa-print"></span>
-							<p>Facture</p>
-						</div>
-					</div>
-				</div>
-			</div>
-    </div>
+        
     <div class="row">
         <div class="col-md-4">
             
@@ -217,18 +175,7 @@
                             </div>
                         </div>
             
-        </div>
-		
-		<div class="col-md-12">
-			<hr>
-			<nav>
-			    <ul class="pager">
-				    <li class="previous"><a href="panier.php"><span aria-hidden="true">&larr;</span> Précédent</a></li>
-				    <li class="next"><a href="paiement.php">Suivant <span aria-hidden="true">&rarr;</span></a></li>
-			    </ul>
-		    </nav>
-		</div>
-		
+        </div>	
     </div>
 </main>
 
