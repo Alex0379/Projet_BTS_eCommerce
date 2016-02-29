@@ -33,7 +33,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.php">Index <span class="sr-only">(current)</span></a></li>
           <li><a href="a_propos.php">A propos</a></li>
-          <li><a href="#">Nous Contacter</a></li>
+          <li><a href="contact.php">Nous Contacter</a></li>
         </ul>
         <form class="navbar-form navbar-left" role="search">
           <div class="input-group">
