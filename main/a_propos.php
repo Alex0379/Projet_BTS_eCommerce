@@ -14,7 +14,7 @@
 
             <div class="container">
                 <div class="summary">
-                    <img class="summary-image img-suqare img-responsive pull-right" alt="Bootstrap template" src="http://placehold.it/500x500">
+                    <img class="summary-image img-suqare img-responsive pull-right" alt="Bootstrap template" src="../images/logo-aPropos.jpg">
                     <h2 class="summary-heading">E- Processor <span class="text-muted">L'entreprise exterte en processeurs</span>
                     </h2>
                     <p class="lead">
