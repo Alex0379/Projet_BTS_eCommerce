@@ -1,53 +1,85 @@
 <?php include('header.php')?>
 
 <!-- Intégration du css -->
-    <link href="../src/css/index_admin.css" rel="stylesheet">
+    <link href="../../src/css/index_admin.css" rel="stylesheet">
 
-<!-- Corps -->
-<div id="wrapper">
-
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a href="#">
-                    Start Bootstrap
-                </a>
-            </li>
-            <li>
-                <a href="#">Dashboard</a>
-            </li>
-            <li>
-                <a href="#">Shortcuts</a>
-            </li>
-            <li>
-                <a href="#">Overview</a>
-            </li>
-            <li>
-                <a href="#">Events</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
+<!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Simple Sidebar</h1>
-                    <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                    <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    
+                        <h1>Tableau de bord <small>Mode Admin</small></h1>
+                        <hr>
+                    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="dashboard-stat blue">
+                                <div class="visual">
+                                    <i class="fa fa-bar-chart-o"></i>
+                                </div>
+                                    <div class="details">
+                                        <div class="number">
+                                            <span data-counter="counterup" data-value="15">15</span>
+                                        </div>
+                                        <div class="desc"> Historique Commande </div>
+                                    </div>
+                                <a class="more" href="histo_commande.php"> Voir détails
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dashboard-stat red">
+                                <div class="visual">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span data-counter="counterup" data-value="4">4</span>
+                                    </div>
+                                    <div class="desc"> Article Panier </div>
+                                </div>
+                                <a class="more" href="panier.php"> Voir détails
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dashboard-stat purple">
+                                <div class="visual">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                                <div class="details">
+                                    <div class="number">
+                                        <span data-counter="counterup" data-value="89"> $nomClient </span></div>
+                                    <div class="desc"> Profil </div>
+                                </div>
+                                <a class="more" href="profil.php"> Voir détails
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="dashboard-stat blue">
+                                <div class="visual">
+                                    <i class="fa fa-bar-chart-o"></i>
+                                </div>
+                                    <div class="details">
+                                        <div class="number">
+                                            <span data-counter="counterup" data-value="15">15</span>
+                                        </div>
+                                        <div class="desc"> Historique Commande </div>
+                                    </div>
+                                <a class="more" href="histo_commande.php"> Voir détails
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
                 </div>
             </div>
         </div>

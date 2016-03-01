@@ -1,0 +1,111 @@
+/* Panels */
+.dashboard-stat {
+    display: block;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.dashboard-stat:after, .dashboard-stat:before {
+    content: " ";
+    display: table;
+}
+
+.visual {
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.details {
+    position: absolute;
+    right: 15px;
+    padding-right: 15px;
+}
+
+.more {
+    clear: both;
+    display: block;
+    padding: 6px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 11px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+.details .number {
+    padding-top: 25px;
+    text-align: right;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.details .desc {
+    text-align: right;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 300;
+}
+
+.dashboard-stat .visual>i {
+    margin-left: -35px;
+    font-size: 110px;
+    line-height: 110px;
+}
+
+.dashboard-stat .more>i {
+    display: inline-block;
+    margin-top: 1px;
+    float: right;
+}
+
+.dashboard-stat .visual>i {
+    color: #FFF;
+    opacity: .1;
+}
+
+.dashboard-stat .details .desc {
+    color: #FFF;
+    opacity: 1;
+}
+
+/* Panel bleu */
+.dashboard-stat.blue .more {
+    color: #FFF;
+    background-color: #258fd7;
+}
+
+.dashboard-stat.blue {
+    background-color: #3598dc;
+}
+
+/* Panel rouge */
+.dashboard-stat.red {
+    background-color: #e7505a;
+}
+
+.dashboard-stat.red .more {
+    color: #FFF;
+    background-color: #e53e49;
+}
+
+/* Panel violet */
+.dashboard-stat.purple {
+    background-color: #8E44AD;
+}
+
+.dashboard-stat.purple .more {
+    color: #FFF;
+    background-color: #823e9e;
+}
