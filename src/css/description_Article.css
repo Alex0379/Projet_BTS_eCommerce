@@ -1,0 +1,33 @@
+.carousel {
+    margin-top: 20px;
+}
+
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+    padding: 10px;
+}
+
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+
+.item img {
+	width: 100%;
+}
+
+.quantiteArticle{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.center{
+width: 150px;
+  margin: 40px auto;
+}
+
+.description_Complete{
+    margin-top: 50px;
+}
