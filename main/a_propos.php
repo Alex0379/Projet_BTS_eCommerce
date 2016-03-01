@@ -12,11 +12,9 @@
                 <h1>À propos de E - Processor</h1>
             </div>
 
-            <div class="container">
                 <div class="summary">
                     <img class="summary-image img-suqare img-responsive pull-right" alt="Bootstrap template" src="../images/logo-aPropos.jpg">
-                    <h2 class="summary-heading">E- Processor <span class="text-muted">L'entreprise exterte en processeurs</span>
-                    </h2>
+                    <h2 class="summary-heading">E- Processor <br><small>L'entreprise exterte en processeurs</small></h2>
                     <p class="lead">
                         La société E- Processor a été créée en 2000,
                         et n'a cessé de proposer au public des prestations concernant les processeurs.
@@ -25,7 +23,6 @@
                         et vend toutes sortes de processeurs de toutes marques.
                     </p>
                 </div>
-            </div>
             
         </div>
     </div>

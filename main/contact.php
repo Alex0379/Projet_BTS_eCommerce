@@ -8,8 +8,6 @@
     <div class="row">
         <div class="col-md-12">
             
-                <div class="container">
-                    <div class="row">
                         <div class="col-md-6">
                             <div class="well well-sm">
                                 <form class="form-horizontal" method="post">
@@ -72,8 +70,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
 
             <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>

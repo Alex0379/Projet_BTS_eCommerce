@@ -2,9 +2,6 @@
 
 <!-- Intégration du css -->
     <link href="../src/css/description_Article.css" rel="stylesheet">
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     
 <!-- Corps -->
 <main class="container">
