@@ -1,5 +1,11 @@
 <?php
   include('header.php');
+  
+  // Connexion à la base de données
+  $idcom = connex($DB);
+  
+  // Requête sql
+  $sql = "SELECT * FROM `articles`";
 ?>
 
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap-multiselect.css" rel="stylesheet">
@@ -101,138 +107,52 @@
                 </div>
 
                 <div class="row">
-
+                  
+                  <?php
+					// Définir le recherche comme négative si aucun article n'a pu être identifié.
+					$succesRecherche="NO";
+							
+					$resultat = $idcom->query($sql) or die("Erreur requête");
+					while($donnees = $resultat->fetch()){
+					  $succesRecherche="YES";						
+				  ?>
+                  <form method="post" action="">
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
-                                <h4 class="pull-right">24.99€</h4>
-                                <h4><a href="#">First Product</a></h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                                <h4 class="pull-right"><?php echo $donnees['prix'] ?>€</h4>
+                                <h4><a href="description_Article.php"><?php echo $donnees['famille'] . "<br>" . $donnees['modele'] ?></a></h4>
+                                <p>Produit de la marque <?php echo $donnees['marque'] ?> et commercialisé le <?php echo $donnees['date_commercialisation'] ?>.</p>
                             </div>
                             <div class="info">
                                 <div class="separator clear-left">
                                     <p class="btn-add">
-                                      <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Ajouter</a>
+                                      <i class="fa fa-shopping-cart"></i><a href="#" name="ajout_article" type="submit" class="hidden-sm">Ajouter</a>
                                     </p>
                                     <p class="btn-details">
-                                      <i class="fa fa-list"></i><a href="#" class="hidden-sm">Détails</a>
+                                      <i class="fa fa-list"></i><a href="description_Article.php" class="hidden-sm">Détails</a>
                                     </p>
                                 </div>
                                 <div class="clearfix"></div>
+                                <input type="hidden" name="id_article_choisi" value="<?php echo $donnees["id_article"]; ?>">
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">24.99€</h4>
-                                <h4><a href="#">First Product</a></h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="info">
-                                <div class="separator clear-left">
-                                    <p class="btn-add">
-                                      <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Ajouter</a>
-                                    </p>
-                                    <p class="btn-details">
-                                      <i class="fa fa-list"></i><a href="#" class="hidden-sm">Détails</a>
-                                    </p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">24.99€</h4>
-                                <h4><a href="#">First Product</a></h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="info">
-                                <div class="separator clear-left">
-                                    <p class="btn-add">
-                                      <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Ajouter</a>
-                                    </p>
-                                    <p class="btn-details">
-                                      <i class="fa fa-list"></i><a href="#" class="hidden-sm">Détails</a>
-                                    </p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">24.99€</h4>
-                                <h4><a href="#">First Product</a></h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="info">
-                                <div class="separator clear-left">
-                                    <p class="btn-add">
-                                      <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Ajouter</a>
-                                    </p>
-                                    <p class="btn-details">
-                                      <i class="fa fa-list"></i><a href="#" class="hidden-sm">Détails</a>
-                                    </p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">24.99€</h4>
-                                <h4><a href="#">First Product</a></h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="info">
-                                <div class="separator clear-left">
-                                    <p class="btn-add">
-                                      <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Ajouter</a>
-                                    </p>
-                                    <p class="btn-details">
-                                      <i class="fa fa-list"></i><a href="#" class="hidden-sm">Détails</a>
-                                    </p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right">24.99€</h4>
-                                <h4><a href="#">First Product</a></h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
-                            </div>
-                            <div class="info">
-                                <div class="separator clear-left">
-                                    <p class="btn-add">
-                                      <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Ajouter</a>
-                                    </p>
-                                    <p class="btn-details">
-                                      <i class="fa fa-list"></i><a href="#" class="hidden-sm">Détails</a>
-                                    </p>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
+                  </form>
+                    <?php
+								} // Fin de la boucle while
+							
+							if($succesRecherche=="NO")
+							{
+								echo "<h4> Aucun article identifié.</h4>";
+							}
+							
+							if(isset($_POST["ajout_article"]))
+							{
+								ajoutPanier();
+							}
+							?>
 
                 </div>
           

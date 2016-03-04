@@ -1,840 +1,839 @@
-Marque;Famille;Modele;Nom de code;Plate-forme;Frequence;Nombre de Transistors;Gravure;Jeux d'instructions;Tension;Socket;Nombre de coeur;Date de commercialisation;prix
-Intel;;4004;;;108 kHz;2300;10 micrometres;;15 V;DIP16;;15/11/1971;1571
-Intel;;4040;;;500 kHz a 740 kHz;3000;10 micrometres;;15 V;DIP24;;01/11/1974;1688
-Intel;;8008;;;500 kHz a 800 kHz;3500;10 micrometres;;12 V;DIP18;;01/04/1972;2842
-Intel;;8080;;;2 MHz;6000;6 micrometres;;12 V;DIP40;;01/04/1974;3045
-Intel;;8085;;;5 MHz;6500;3 micrometres;;5 V;DIP40;;01/03/1976;1853
-Intel;;8086;;;5 MHz;29000;3 micrometres;;5 V;DIP40;;08/06/1978;2806
-Intel;;8086;;;8 MHz;29000;3 micrometres;;5 V;DIP40;;08/06/1978;2262
-Intel;;8086;;;10 MHz;29000;3 micrometres;;5 V;DIP40;;08/06/1978;2522
-Intel;;8088;;;5 MHz;29000;3 micrometres;;5 V;DIP40;;01/06/1979;1265
-Intel;;8088;;;10 MHz;29000;3 micrometres;;5 V;DIP40;;01/06/1979;1534
-Intel;;80186;;;6 MHz;55000;3 micrometres;;5 V;PGA68;;01/01/1982;2584
-Intel;;80186;;;8 MHz;55000;3 micrometres;;5 V;PGA68;;01/01/1982;1407
-Intel;;80188;;;6 MHz;55000;3 micrometres;;5 V;PGA68;;01/01/1982;1925
-Intel;;80286;;;6 MHz;134000;1,5 micrometres;;5 V;PGA68;;01/02/1982;2865
-Intel;;80286;;;8 MHz;134000;1,5 micrometres;;5 V;PGA68;;01/02/1982;1864
-Intel;;80286;;;12,5 MHz;134000;1,5 micrometres;;5 V;PGA68;;01/02/1982;960
-Intel;;80386DX;;;16 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;17/10/1985;3112
-Intel;;80386DX;;;20 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;16/02/1987;1731
-Intel;;80386DX;;;25 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;04/04/1988;1178
-Intel;;80386DX;;;33 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;10/04/1989;3493
-Intel;;80386SX;;;16 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;16/06/1988;3403
-Intel;;80386SX;;;20 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;25/01/1989;2041
-Intel;;80386SX;;;33 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;26/10/1992;2475
-Intel;;80376;;;16 MHz;;;32 bits;5 V;PGA88;;16/01/1989;3113
-Intel;;80376;;;20 MHz;;;32 bits;5 V;PGA88;;16/01/1989;1554
-Intel;;80386SL;;;20 MHz;855000;1 micrometres;32 bits;5 V;PGA132;;15/10/1990;3304
-Intel;;80386SL;;;25 MHz;855000;1 micrometres;32 bits;5 V;PGA132;;30/09/1991;2939
-Intel;;386 EX;;;;;;;;;;01/08/1994;3151
-Intel;;80486DX;;;25 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;10/04/1989;2975
-Intel;;80486DX;;;33 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;07/05/1990;3514
-Intel;;80486DX;;;50 MHz;1,200,000;0,8 micrometres;32 bits;5 V;PGA168;;24/06/1991;1337
-Intel;;80486SX;;;16 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;22/04/1991;3312
-Intel;;80486SX;;;20 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;16/09/1991;2808
-Intel;;80486SX;;;25 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;16/09/1991;435
-Intel;;80486SX;;;33 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;21/09/1992;1509
-Intel;;80486DX2;;;50 MHz;1,200,000;0,8 micrometres;32 bits;5 V;PGA168;;03/03/1992;2109
-Intel;;80486DX2;;;66 MHz;1,200,000;0,8 micrometres;32 bits;5 V;PGA168;;10/08/1992;2452
-Intel;;80486SL;;;20 MHz;1,400,000;0,8 micrometres;32 bits;3,3 V;QFP196;;15/10/1990;543
-Intel;;80486SL;;;25 MHz;1,400,000;0,8 micrometres;32 bits;3,3 V;QFP196;;30/09/1991;261
-Intel;;80486SL;;;33 MHz;1,400,000;0,8 micrometres;32 bits;3,3 V;QFP196;;30/09/1991;2465
-Intel;;80486DX4;;;75 MHz;1,600,000;0,6 micrometres;32 bits;3,3 V;PGA168;;07/03/1994;2008
-Intel;;80486DX4;;;100 MHz;1,600,000;0,6 micrometres;32 bits;3,3 V;PGA168;;07/03/1994;323
-Intel;;80486DX4;;;120 MHz;1,600,000;0,6 micrometres;32 bits;3,3 V;PGA168;;07/03/1994;921
-Intel;Pentium; P5;;;60 MHz;3,100,000;0,8 micrometres;32 bits;5 V;PGA273;1;22/03/1993;1153
-Intel;Pentium; P5;;;66 MHz;3,100,000;0,8 micrometres;32 bits;5 V;PGA273;1;22/03/1993;2171
-Intel;Pentium;P54C;;;75 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;10/10/1994;496
-Intel;Pentium;P54C;;;90 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;07/03/1994;1849
-Intel;Pentium;P54C;;;100 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;07/03/1994;877
-Intel;Pentium;P54C;;;120 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;27/03/1995;2056
-Intel;Pentium;P54C;;;133 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;01/06/1995;1904
-Intel;Pentium;P54C;;;150 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;04/01/1996;2536
-Intel;Pentium;P54C;;;166 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;04/01/1996;2887
-Intel;Pentium;P54C;;;200 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;10/06/1996;2418
-Intel;Pentium;MMX;;;120 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1995;3110
-Intel;Pentium;MMX;;;133 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1995;1566
-Intel;Pentium;MMX;;;150 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1995;200
-Intel;Pentium;MMX;;;166 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1997;1565
-Intel;Pentium;MMX;;;200 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1997;3022
-Intel;Pentium;MMX;;;233 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1997;1610
-Intel;Pentium;MMX;;;200 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1997;3355
-Intel;Pentium;MMX;;;233 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1997;325
-Intel;Pentium;MMX;;;266 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1998;2193
-Intel;Pentium;MMX;;;300 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1999;2665
-Intel;Pentium Pro;P6;;;150 MHz;5,500,000;0,6 micrometres;32 bits;3,1 V;SPGA387;1;01/11/1995;3295
-Intel;Pentium Pro;P6;;;166 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;2861
-Intel;Pentium Pro;P6;;;180 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;691
-Intel;Pentium Pro;P6;;;200 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;2627
-Intel;Pentium Pro;P6;;;200 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;527
-Intel;Pentium Pro;P6;;;200 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/01/1997;3178
-Intel;Pentium II Celeron;;Klamath;;233 MHz;7,500,000;0,35 micrometres;32 bits;2,8 V;Slot 1;1;01/05/1997;1986
-Intel;Pentium II Celeron;;Klamath;;266 MHz;7,500,000;0,35 micrometres;32 bits;2,8 V;Slot 1;1;01/05/1997;921
-Intel;Pentium II Celeron;;Klamath;;300 MHz;7,500,000;0,35 micrometres;32 bits;2,8 V;Slot 1;1;01/05/1997;1857
-Intel;Pentium II Celeron;;Deschutes;;333 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;01/02/1998;3174
-Intel;Pentium II Celeron;;;;266 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;15/04/1998;2827
-Intel;Pentium II Celeron;;;;300 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;24/08/1998;2551
-Intel;Pentium II Celeron;;;;333 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;24/08/1998;1067
-Intel;Pentium II Celeron;;;;366 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;04/01/1999;939
-Intel;Pentium II Celeron;;;;400 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;04/01/1999;2750
-Intel;Pentium II Celeron;;;;433 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;22/03/1999;2898
-Intel;Pentium II Celeron;;;;466 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;26/04/1999;3336
-Intel;Pentium II Celeron;;;;500 MHz;7,500,000;0,18 micrometres;32 bits;2,0 V;Slot 1;1;02/08/1999;2896
-Intel;Pentium II Celeron;;;;533 MHz;7,500,000;0,18 micrometres;32 bits;2,0 V;Slot 1;1;04/01/2000;1682
-Intel;Pentium II Xeon;;;;400 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 2;1;29/06/1998;3123
-Intel;Pentium II Xeon;;;;400 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 2;1;29/06/1998;3096
-Intel;Pentium II Xeon;;;;450 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 2;1;06/10/1998;707
-Intel;Pentium III;450;Katmai;;450 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;26/02/1999;3060
-Intel;Pentium III;500;Katmai;;500 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;26/02/1999;3147
-Intel;Pentium III;533B;Katmai;;533 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;27/09/1999;3388
-Intel;Pentium III;550;Katmai;;550 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;17/05/1999;2881
-Intel;Pentium III;600;Katmai;;600 MHz;9,500,000;0,25 micrometres;32 bits;1,98 V;Slot 1;1;02/08/1999;1816
-Intel;Pentium III;600B;Katmai;;600 MHz;9,500,000;0,25 micrometres;32 bits;1,98 V;Slot 1;1;27/09/1999;1811
-Intel;Pentium III;500E;Coppermine;;500 MHz;28000000;0,18 micrometres;32 bits;1,6 V;Socket 370;1;25/10/1999;2946
-Intel;Pentium III;533EB;Coppermine;;533 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;3440
-Intel;Pentium III;550E;Coppermine;;550 MHz;28,000,000;0,18 micrometres;32 bits;1,6 V;Socket 370;1;25/10/1999;1774
-Intel;Pentium III;600E;Coppermine;;600 MHz;28,000,000;0,18 micrometres;32 bits;1,7 V;Socket 370;1;25/10/1999;2339
-Intel;Pentium III;600EB;Coppermine;;600 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;721
-Intel;Pentium III;650;Coppermine;;650 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;3533
-Intel;Pentium III;667;Coppermine;;666 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;2932
-Intel;Pentium III;700;Coppermine;;700 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;3373
-Intel;Pentium III;733;Coppermine;;733 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;2613
-Intel;Pentium III;750;Coppermine;;750 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/12/1999;489
-Intel;Pentium III;800;Coppermine;;800 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/12/1999;2160
-Intel;Pentium III;800EB;Coppermine;;800 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/12/1999;1569
-Intel;Pentium III;850;Coppermine;;850 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/03/2000;667
-Intel;Pentium III;866;Coppermine;;866 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/03/2000;2950
-Intel;Pentium III;900;Coppermine;;900 MHz;28,000,000;0,18 micrometres;32 bits;1,7 V;Socket 370;1;01/10/2000;1328
-Intel;Pentium III;933;Coppermine;;933 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;24/05/2000;1321
-Intel;Pentium III;1000;Coppermine;;1000 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;08/03/2000;291
-Intel;Pentium III;1000EB;Coppermine;;1000 MHz;28,000,000;0,18 micrometres;32 bits;1,7 V;Socket 370;1;08/03/2000;1027
-Intel;Pentium III;1100;Coppermine;;1100 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2000;3555
-Intel;Pentium III;1133;Coppermine;;1130 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;31/07/2000;3377
-Intel;Pentium III;800;Coppermine T;;800 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;2129
-Intel;Pentium III;866;Coppermine T;;866 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;1026
-Intel;Pentium III;933;Coppermine T;;933 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;3320
-Intel;Pentium III;1000;Coppermine T;;1000 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;3443
-Intel;Pentium III;1133;Coppermine T;;1130 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;3504
-Intel;Pentium III;1000;Tualatin;;1000 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/07/2001;3469
-Intel;Pentium III;1000S;Tualatin;;1000 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/06/2001;2325
-Intel;Pentium III;1133;Tualatin;;1130 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/07/2001;540
-Intel;Pentium III;1133S;Tualatin;;1130 MHz;45,000,000;0,13 micrometres;32 bits;1,45 V;Socket 370;1;01/06/2001;532
-Intel;Pentium III;1200;Tualatin;;1200 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/07/2001;2312
-Intel;Pentium III;1266S;Tualatin;;1260 MHz;45,000,000;0,13 micrometres;32 bits;1,45 V;Socket 370;1;01/07/2001;1797
-Intel;Pentium III;1333;Tualatin;;1330 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/12/2001;511
-Intel;Pentium III;1400;Tualatin;;1400 MHz;45,000,000;0,13 micrometres;32 bits;1,5 V;Socket 370;1;01/12/2001;2301
-Intel;Pentium III;1400S;Tualatin;;1400 MHz;45,000,000;0,13 micrometres;32 bits;1,45 V;Socket 370;1;08/01/2002;3321
-Intel;Pentium 4;1 3;Willamette;;1300 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;03/01/2001;1195
-Intel;Pentium 4;1 4;Willamette;;1400 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;20/11/2000;707
-Intel;Pentium 4 ;1 5;Willamette;;1500 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;20/11/2000;686
-Intel;Pentium 4;1 6;Willamette;;1600 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;02/07/2001;3503
-Intel;Pentium 4;1 7;Willamette;;1700 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;23/04/2001;587
-Intel;Pentium 4;1 8;Willamette;;1800 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;02/07/2001;3204
-Intel;Pentium 4;1 9;Willamette;;1900 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;27/08/2001;533
-Intel;Pentium 4;2 0;Willamette;;2000 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;27/08/2001;2369
-Intel;Pentium 4;1 4;Willamette;;1400 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2038
-Intel;Pentium 4;1 5;Willamette;;1500 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2513
-Intel;Pentium 4;1 6;Willamette;;1600 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2585
-Intel;Pentium 4;1 7;Willamette;;1700 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;481
-Intel;Pentium 4;1 8;Willamette;;1800 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2192
-Intel;Pentium 4;1 9;Willamette;;1900 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;372
-Intel;Pentium 4;2 0;Willamette;;2000 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2737
-Intel;Pentium 4;1 6A;Northwood;;1600 MHz;55,000,000;0,13 micrometres;32 bits;1,475 V;Socket 478;1;01/01/2002;2667
-Intel;Pentium 4;1 8A;Northwood;;1800 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;01/01/2002;2217
-Intel;Pentium 4;2 0A;Northwood;;2000 MHz;55,000,000;0,13 micrometres;32 bits;1,435 V;Socket 478;1;07/01/2002;3428
-Intel;Pentium 4;2 2;Northwood;;2 2 GHz;55,000,000;0,13 micrometres;32 bits;1,435 V;Socket 478;1;07/01/2002;2685
-Intel;Pentium 4;2 4;Northwood;;2400 MHz;55,000,000;0,13 micrometres;32 bits;1,430 V;Socket 478;1;02/04/2002;2943
-Intel;Pentium 4;2 5;Northwood;;2500 MHz;55,000,000;0,13 micrometres;32 bits;1,430 V;Socket 478;1;25/08/2002;750
-Intel;Pentium 4;2 6;Northwood;;2600 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;25/08/2002;1203
-Intel;Pentium 4;2 8;Northwood;;2800 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;01/11/2002;2338
-Intel;Pentium 4;3 0;Northwood;;3000 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;06/05/2002;2992
-Intel;Pentium 4;2 26;Northwood;;2267 MHz;55,000,000;0,13 micrometres;32 bits;1,435 V;Socket 478;1;06/05/2002;421
-Intel;Pentium 4;2 4B;Northwood;;2400 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;06/05/2002;927
-Intel;Pentium 4;2 53;Northwood;;2530 MHz;55,000,000;0,13 micrometres;32 bits;1,430 V;Socket 478;1;06/05/2002;2207
-Intel;Pentium 4;2 66;Northwood;;2660 MHz;55,000,000;0,13 micrometres;32 bits;1,420 V;Socket 478;1;25/08/2002;812
-Intel;Pentium 4;2 8;Northwood;;2800 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;25/08/2002;2353
-Intel;Pentium 4;2 40A;Prescott;;2400 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/03/2004;2893
-Intel;Pentium 4;2 66A;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,388 V;Socket 478;1;01/03/2004;1344
-Intel;Pentium 4;2 80;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/02/2004;1669
-Intel;Pentium 4;2 80A;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/02/2004;2754
-Intel;Pentium 4;505;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;656
-Intel;Pentium 4;505J;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;2613
-Intel;Pentium 4;506;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/06/2005;1170
-Intel;Pentium 4;511;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;3390
-Intel;Pentium 4;515;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;2938
-Intel;Pentium 4;515J;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;3429
-Intel;Pentium 4;516;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/09/2005;3463
-Intel;Pentium 4;519J;Prescott;;3067 MHz;125,000,000;90 nanometres;64 bit;1,388 V;LGA 775;1;01/12/2004;646
-Intel;Pentium 4;519K;Prescott;;3067 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;;2506
-Intel;Pentium 4 HT;2 4C;Northwood;;2400 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;21/05/2003;1457
-Intel;Pentium 4 HT;2 6C;Northwood;;2600 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;21/05/2003;2895
-Intel;Pentium 4 HT;2 8C;Northwood;;2800 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;21/05/2003;433
-Intel;Pentium 4 HT;3 0;Northwood;;3000 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;14/04/2003;2378
-Intel;Pentium 4 HT;3 06;Northwood;;3067 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;12/11/2002;1117
-Intel;Pentium 4 HT;3 2;Northwood;;3200 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;23/06/2003;3257
-Intel;Pentium 4 HT;3 4;Northwood;;3400 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;02/02/2004;1283
-Intel;Pentium 4 HT;2 8E;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/02/2004;3459
-Intel;Pentium 4 HT;3 0E;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;Socket 478;1;01/02/2004;3066
-Intel;Pentium 4 HT - ;3 2E;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/04/2004;3387
-Intel;Pentium 4 HT;3 2F;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/08/2004;1336
-Intel;Pentium 4 HT;3 4;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;Socket 478;1;01/02/2004;1622
-Intel;Pentium 4 HT;3 4F;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/08/2004;549
-Intel;Pentium 4 HT;3 6F;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;04/08/2004;1675
-Intel;Pentium 4 HT;3 8F;Prescott;;3800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/11/2004;1747
-Intel;Pentium 4 HT;517;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/09/2005;1568
-Intel;Pentium 4 HT;520;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/06/2004;2719
-Intel;Pentium 4 HT;520J;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/10/2004;2582
-Intel;Pentium 4 HT;521;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;2201
-Intel;Pentium 4 HT;524;Prescott;;3067 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/09/2005;3357
-Intel;Pentium 4 HT;530;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/06/2004;1823
-Intel;Pentium 4 HT;530J;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/10/2004;1337
-Intel;Pentium 4 HT;531;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;2964
-Intel;Pentium 4 HT;540;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;21/06/2004;3338
-Intel;Pentium 4 HT;540J;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/10/2004;641
-Intel;Pentium 4 HT;541;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;1911
-Intel;Pentium 4 HT;550;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;21/06/2004;1425
-Intel;Pentium 4 HT;550;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;21/06/2004;3534
-Intel;Pentium 4 HT;550J;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/10/2004;1113
-Intel;Pentium 4 HT;551;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;259
-Intel;Pentium 4 HT;550 (G1);Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;Socket 478;1;27/01/2006;2886
-Intel;Pentium 4 HT;560;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;21/06/2004;2917
-Intel;Pentium 4 HT;560J;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/10/2004;2677
-Intel;Pentium 4 HT;561;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;3186
-Intel;Pentium 4 HT;570J;Prescott;;3800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/11/2004;1104
-Intel;Pentium 4 HT;571;Prescott;;3800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;1777
-Intel;Pentium 4 HT;620;Prescott 2M;;2800 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;1854
-Intel;Pentium 4 HT;630;Prescott 2M;;3000 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;345
-Intel;Pentium 4 HT;640;Prescott 2M;;3200 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;2084
-Intel;Pentium 4 HT;650;Prescott 2M;;3400 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;2713
-Intel;Pentium 4 HT;660;Prescott 2M;;3600 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;3487
-Intel;Pentium 4 HT;662;Prescott 2M;;3600 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;14/11/2005;958
-Intel;Pentium 4 HT;670;Prescott 2M;;3800 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;26/05/2005;1556
-Intel;Pentium 4 HT;672;Prescott 2M;;3800 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;14/11/2005;3364
-Intel;Pentium 4 HT;4 00;Prescott 2M;;4000 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;;1176
-Intel;Pentium 4 HT;631;Cedar Mill;;3000 MHz;188,000,000;65 nanometres;64 bit;1,325 V;LGA 775;1;05/06/2006;2490
-Intel;Pentium 4 HT;641;Cedar Mill;;3200 MHz;188,000,000;65 nanometres;64 bit;1,40 V;LGA 775;1;05/06/2006;2024
-Intel;Pentium 4 HT;651;Cedar Mill;;3400 MHz;188,000,000;65 nanometres;64 bit;1,40 V;LGA 775;1;05/06/2006;311
-Intel;Pentium 4 HT;661;Cedar Mill;;3600 MHz;188,000,000;65 nanometres;64 bit;1,40 V;LGA 775;1;05/06/2006;1811
-Intel;Pentium 4 Extreme Edition ;3,2;Gallatin;;3200 MHz;169,000,000;130 nanometres;32 bits;1,55 V;Socket 478;1;03/11/2003;3073
-Intel;Pentium 4 Extreme Edition ;3,4;Gallatin;;3400 MHz;169,000,000;130 nanometres;32 bits;1,575 V;Socket 478;1;02/02/2004;2637
-Intel;Pentium 4 Extreme Edition ;3,4;Gallatin;;3400 MHz;169,000,000;130 nanometres;32 bits;1,4 V;LGA 775;1;21/06/2004;1651
-Intel;Pentium 4 Extreme Edition ;3,46;Gallatin;;3460 MHz;169,000,000;130 nanometres;32 bits;1,4 V;LGA 775;1;31/10/2004;3252
-Intel;Pentium 4 Extreme Edition ;3,73;Prescott 2M;;3730 MHz;169,000,000;90 nanometres;64 bit;1,4 V;LGA 775;1;21/02/2005;802
-Intel;Pentium D;805;Smithfield;;2667 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;01/12/2005;920
-Intel;Pentium D;820;Smithfield;;2800 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;26/05/2005;242
-Intel;Pentium D;830;Smithfield;;3000 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;26/05/2005;473
-Intel;Pentium D;840;Smithfield;;3200 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;26/05/2005;2836
-Intel;Pentium D;915;Presler;;2800 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;23/07/2006;930
-Intel;Pentium D;920;Presler;;2800 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;3117
-Intel;Pentium D;925;Presler;;3000 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;01/10/2006;2169
-Intel;Pentium D;930;Presler;;3000 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;2343
-Intel;Pentium D;935;Presler;;3200 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;01/01/2007;2587
-Intel;Pentium D;940;Presler;;3200 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;421
-Intel;Pentium D;945;Presler;;3400 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;23/07/2006;494
-Intel;Pentium D;950;Presler;;3400 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;3522
-Intel;Pentium D;960;Presler;;3600 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;02/05/2006;2037
-Intel;Pentium  Extreme Edition;840;Smithfield;;3200 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;01/05/2005;2450
-Intel;Pentium  Extreme Edition;955;Presler;;3460 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;2413
-Intel;Pentium  Extreme Edition;965;Presler;;3730 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;22/03/2006;3202
-Intel;Pentium M;715;Dothan;Carmel Refresh;1500 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;23/06/2004;1745
-Intel;Pentium M;725;Dothan;Carmel Refresh;1600 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;23/06/2004;598
-Intel;Pentium M;735;Dothan;Carmel Refresh;1700 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;3015
-Intel;Pentium M;745;Dothan;Carmel Refresh;1800 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;991
-Intel;Pentium M;745A;Dothan;Carmel Refresh;1800 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;3001
-Intel;Pentium M;755;Dothan;Carmel Refresh;2000 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;2742
-Intel;Pentium M;765;Dothan;Carmel Refresh;2100 MHz;144,000,000;90 nanometres;32 bit;1,356 V;Socket 479;1;20/10/2004;2743
-Intel;Pentium M;LV 738;Dothan;Carmel Refresh;1400 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;20/07/2004;2493
-Intel;Pentium M;LV 758;Dothan;Carmel Refresh;1500 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;19/01/2005;3316
-Intel;Pentium M;LV 778;Dothan;Carmel Refresh;1600 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;01/07/2005;1950
-Intel;Pentium M;ULV 723;Dothan;Carmel Refresh;1000 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;20/07/2004;3314
-Intel;Pentium M;ULV 733;Dothan;Carmel Refresh;1100 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;20/07/2004;1131
-Intel;Pentium M;ULV 753;Dothan;Carmel Refresh;1200 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;19/01/2005;325
-Intel;Pentium M;ULV 773;Dothan;Carmel Refresh;1300 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;01/01/2006;797
-Intel;Core Solo;T1250;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1547
-Intel;Core Solo;T1300;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;2581
-Intel;Core Solo;T1400;Yonah;Sonoma;1830 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1167
-Intel;Core Solo;U1300;Yonah;Sonoma;1060 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;2831
-Intel;Core Solo;U1400;Yonah;Sonoma;1200 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1660
-Intel;Core Solo;U1500;Yonah;Sonoma;1330 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1615
-Intel;Core Duo;T2300E;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2067
-Intel;Core Duo;T2050;Yonah;Sonoma;1600 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;987
-Intel;Core Duo;T2250;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2386
-Intel;Core Duo;T2300;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1732
-Intel;Core Duo;T2350;Yonah;Sonoma;1860 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1015
-Intel;Core Duo;T2400;Yonah;Sonoma;1830 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1738
-Intel;Core Duo;T2450;Yonah;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;345
-Intel;Core Duo;T2500;Yonah;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;373
-Intel;Core Duo;T2600;Yonah;Sonoma;2160 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;3077
-Intel;Core Duo;T2700;Yonah;Sonoma;2330 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;989
-Intel;Core Duo;L2300;Yonah;Sonoma;1500 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2930
-Intel;Core Duo;L2400;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;3152
-Intel;Core Duo;L2500;Yonah;Sonoma;1830 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2536
-Intel;Core Duo;U2400;Yonah;Sonoma;1060 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2700
-Intel;Core Duo;U2500;Yonah;Sonoma;1200 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;3224
-Intel;Pentium Dual-Core;T2060;Yonah;Sonoma;1600 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2881
-Intel;Pentium Dual-Core;T2080;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;552
-Intel;Pentium Dual-Core;T2130;Yonah;Sonoma;1860 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1352
-Intel;Celeron M;410;Yonah;Sonoma;1460 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;873
-Intel;Celeron M;420;Yonah;Sonoma;1600 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;3436
-Intel;Celeron M;423;Yonah;Sonoma;1060 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1153
-Intel;Celeron M;430;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1813
-Intel;Celeron M;440;Yonah;Sonoma;1860 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;3124
-Intel;Celeron M;443;Yonah;Sonoma;1200 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1243
-Intel;Celeron M;450;Yonah;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;849
-Intel;Xeon Dual-Core;ULV 1 6 GHz;Sossaman;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;958
-Intel;Xeon Dual-Core;LV 1 6 GHz;Sossaman;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;295
-Intel;Xeon Dual-Core;LV 2 0 GHz;Sossaman;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2690
-Intel;Xeon Dual-Core;LV 2 16 GHz;Sossaman;Sonoma;2167 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;234
-Intel;Core 2 Duo Mobile;T7200;Merom;Napa Refresh;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;474
-Intel;Core 2 Duo Mobile;T7400;Merom;Napa Refresh;2167 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1383
-Intel;Core 2 Duo Mobile;T5470;Merom;Napa Refresh;1600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1078
-Intel;Core 2 Duo Mobile;T5550;Merom;Napa Refresh;1830 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1397
-Intel;Core 2 Duo Mobile;T7600;Merom;Napa Refresh;2330 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1756
-Intel;Core 2 Duo Mobile;T7600G;Merom;Napa Refresh;2330 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1926
-Intel;Core 2 Duo Mobile;T5200;Merom;Napa Refresh;1600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;783
-Intel;Core 2 Duo Mobile;T5250;Merom;Napa Refresh;1500 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;1857
-Intel;Core 2 Duo Mobile;T5300;Merom;Napa Refresh;1730 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;1531
-Intel;Core 2 Duo Mobile;T5450;Merom;Napa Refresh;1667 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;227
-Intel;Core 2 Duo Mobile;T5500;Merom;Napa Refresh;1667 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;474
-Intel;Core 2 Duo Mobile;T5600;Merom;Napa Refresh;1830 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;3520
-Intel;Core 2 Duo Mobile;L7200;Merom;Napa Refresh;1330 MHz;291,000,000;65 nanometres;64 bit;1,10 V;Socket M;2;01/02/2007;3489
-Intel;Core 2 Duo Mobile;L7400;Merom;Napa Refresh;1500 MHz;291,000,000;65 nanometres;64 bit;1,10 V;Socket M;2;01/02/2007;1365
-Intel;Core 2 Duo Mobile;U7500;Merom;Napa Refresh;1060 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;01/04/2007;2946
-Intel;Core 2 Duo Mobile;U7600;Merom;Napa Refresh;1200 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;01/04/2007;564
-Intel;Core 2 Duo Mobile;U7700;Merom;Napa Refresh;1330 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;01/04/2007;766
-Intel;Core 2 Solo;U2100;Merom;Napa Refresh;1060 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;02/09/2007;761
-Intel;Core 2 Solo;U2200;Merom;Napa Refresh;1200 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;02/09/2007;379
-Intel;Core 2 Extreme Mobile;X7800;Merom;Santa Rosa;2600 MHz;291,000,000;65 nanometres;64 bit;1,375 V;Socket P;2;10/07/2007;1522
-Intel;Core 2 Extreme Mobile;X7900;Merom;Santa Rosa;2800 MHz;291,000,000;65 nanometres;64 bit;1,375 V;Socket P;2;10/07/2007;689
-Intel;Core 2 Duo Mobile;T7100;Merom;Santa Rosa;1800 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;2686
-Intel;Core 2 Duo Mobile;T7250;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;02/09/2007;922
-Intel;Core 2 Duo Mobile;T7300;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;3289
-Intel;Core 2 Duo Mobile;T7500;Merom;Santa Rosa;2200 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;2766
-Intel;Core 2 Duo Mobile;T7700;Merom;Santa Rosa;2400 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;718
-Intel;Core 2 Duo Mobile;T7800;Merom;Santa Rosa;2600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;02/09/2007;2067
-Intel;Core 2 Duo Mobile;T5250;Merom;Santa Rosa;1500 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;2369
-Intel;Core 2 Duo Mobile;T5270;Merom;Santa Rosa;1400 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;2567
-Intel;Core 2 Duo Mobile;T5450;Merom;Santa Rosa;1667 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;2162
-Intel;Core 2 Duo Mobile;T5470;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;3124
-Intel;Core 2 Duo Mobile;T5550;Merom;Santa Rosa;1830 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;;3361
-Intel;Core 2 Duo Mobile;T5670;Merom;Santa Rosa;1800 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1893
-Intel;Core 2 Duo Mobile;T5750;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;605
-Intel;Core 2 Duo Mobile;T5800;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;324
-Intel;Core 2 Duo Mobile;T5850;Merom;Santa Rosa;2160 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1675
-Intel;Core 2 Duo Mobile;T5870;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1500
-Intel;Core 2 Duo Mobile;T5900;Merom;Santa Rosa;2200 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1395
-Intel;Core 2 Duo Mobile;T5950;Merom;Santa Rosa;2330 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;905
-Intel;Core 2 Duo Mobile;T7300;Merom;Santa Rosa;1400 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;09/05/2007;355
-Intel;Core 2 Duo Mobile;T7500;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;09/05/2007;432
-Intel;Core 2 Duo Mobile;T7700;Merom;Santa Rosa;1800 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;02/09/2007;989
-Intel;Core 2 Duo Mobile;T7800;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;02/09/2007;324
-Intel;Core 2 Solo;U2100;Merom;Santa Rosa;1060 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket P;1;02/09/2007;2229
-Intel;Core 2 Solo;U2200;Merom;Santa Rosa;1200 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket P;1;02/09/2007;760
-Intel;Pentium Dual-Core;T3200;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;3258
-Intel;Pentium Dual-Core;T3400;Merom;Santa Rosa;2160 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;3335
-Intel;Pentium Dual-Core;T2310;Merom;Santa Rosa;1460 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1106
-Intel;Pentium Dual-Core;T2330;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1460
-Intel;Pentium Dual-Core;T2370;Merom;Santa Rosa;1730 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1759
-Intel;Pentium Dual-Core;T2390;Merom;Santa Rosa;1860 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1009
-Intel;Mobile Celeron Dual-Core;T1600;Merom;Santa Rosa;1667 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1475
-Intel;Mobile Celeron Dual-Core;T1700;Merom;Santa Rosa;1830 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;3166
-Intel;Celeron M;520;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;1933
-Intel;Celeron M;523;Merom;Santa Rosa;933 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;969
-Intel;Celeron M;530;Merom;Santa Rosa;1730 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2059
-Intel;Celeron M;540;Merom;Santa Rosa;1860 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2045
-Intel;Celeron M;550;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;571
-Intel;Celeron M;560;Merom;Santa Rosa;2130 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2366
-Intel;Celeron M;570;Merom;Santa Rosa;2260 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;1703
-Intel;Celeron M;575;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2113
-Intel;Celeron M;585;Merom;Santa Rosa;2160 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2631
-Intel;Core 2 Extreme;X6800;Conroe XE;Santa Rosa;2930 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;23/07/2006;3057
-Intel;Core 2 Duo;E6300;Conroe;Santa Rosa;1860 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;1514
-Intel;Core 2 Duo;E6320;Conroe;Santa Rosa;1860 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/04/2007;2928
-Intel;Core 2 Duo;E6400;Conroe;Santa Rosa;2130 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;2824
-Intel;Core 2 Duo;E6420;Conroe;Santa Rosa;2130 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/04/2007;3075
-Intel;Core 2 Duo;E6540;Conroe;Santa Rosa;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/07/2006;2809
-Intel;Core 2 Duo;E6550;Conroe;Santa Rosa;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;16/07/2007;1861
-Intel;Core 2 Duo;E6600;Conroe;Santa Rosa;2400 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;2145
-Intel;Core 2 Duo;E6700;Conroe;Santa Rosa;2660 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;1002
-Intel;Core 2 Duo;E6750;Conroe;Santa Rosa;2660 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;16/07/2007;691
-Intel;Core 2 Duo;E6850;Conroe;Santa Rosa;3000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;16/07/2007;1831
-Intel;Core 2 Duo;E4300;Allendale;Santa Rosa;1800 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;21/01/2007;1279
-Intel;Core 2 Duo;E4400;Allendale;Santa Rosa;2000 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/04/2007;2349
-Intel;Core 2 Duo;E4500;Allendale;Santa Rosa;2200 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/07/2007;3457
-Intel;Core 2 Duo;E4600;Allendale;Santa Rosa;2400 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;21/10/2007;3408
-Intel;Core 2 Duo;E4700;Allendale;Santa Rosa;2600 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;28/03/2008;1000
-Intel;Pentium Dual-Core;E2140;Allendale;Santa Rosa;1600 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;03/06/2007;3364
-Intel;Pentium Dual-Core;E2160;Allendale;Santa Rosa;1800 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;03/06/2007;1270
-Intel;Pentium Dual-Core;E2180;Allendale;Santa Rosa;2000 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;03/06/2007;1085
-Intel;Pentium Dual-Core;E2200;Allendale;Santa Rosa;2200 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;02/12/2007;2528
-Intel;Pentium Dual-Core;E2220;Allendale;Santa Rosa;2400 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;02/12/2007;600
-Intel;Celeron;420;Conroe L;Santa Rosa;1600 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;22/04/2007;1590
-Intel;Celeron;430;Conroe L;Santa Rosa;1800 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;22/04/2007;1993
-Intel;Celeron;440;Conroe L;Santa Rosa;2000 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;22/04/2007;1714
-Intel;Celeron;220;Conroe L;Santa Rosa;1200 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;21/10/2007;2242
-Intel;Celeron Dual-Core;E1200;Allendale;Santa Rosa;1600 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/01/2008;2461
-Intel;Celeron Dual-Core;E1400;Allendale;Santa Rosa;2000 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;11/05/2008;1850
-Intel;Celeron Dual-Core;E1500;Allendale;Santa Rosa;2200 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;01/12/2008;2943
-Intel;Xeon;3040;Allendale;Garlow;1860 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2006;2590
-Intel;Xeon;3050;Allendale;Garlow;2130 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2006;3184
-Intel;Xeon;3060;Allendale;Garlow;2400 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2006;1332
-Intel;Xeon;3065;Allendale;Garlow;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;2807
-Intel;Xeon;3070;Allendale;Garlow;2670 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;2355
-Intel;Xeon;3075;Allendale;Garlow;2670 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;1548
-Intel;Xeon;3085;Allendale;Garlow;3000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;407
-Intel;Core 2 Extreme;QX6700;Kentsfield;Santa Rosa;2660 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;02/11/2006;1539
-Intel;Core 2 Extreme;QX6800;Kentsfield;Santa Rosa;2930 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;01/04/2007;3454
-Intel;Core 2 Extreme;QX6850;Kentsfield;Santa Rosa;3000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;16/07/2007;2167
-Intel;Core 2 Quad;Q6600;Kentsfield;Santa Rosa;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;08/01/2007;1973
-Intel;Core 2 Quad;Q6700;Kentsfield;Santa Rosa;2660 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;16/07/2007;2774
-Intel;Core 2 Quad;Q6850;Kentsfield;Santa Rosa;3000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;01/10/2008;2371
-Intel;Xeon 3200;X3210;Kentsfield;Garlow;2130 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;;2107
-Intel;Xeon 3200;X3220;Kentsfield;Garlow;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;;3152
-Intel;Xeon 3200;X3230;Kentsfield;Garlow;2600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;;222
-Intel;Xeon 5100;5110;Woodcrest;Bensley;1600 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;2121
-Intel;Xeon 5100;5120;Woodcrest;Bensley;1860 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;1222
-Intel;Xeon 5100;5128;Woodcrest;Bensley;1860 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;2038
-Intel;Xeon 5100;5130;Woodcrest;Bensley;2000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;2125
-Intel;Xeon 5100;5138;Woodcrest;Bensley;2000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;1987
-Intel;Xeon 5100;5140;Woodcrest;Bensley;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;381
-Intel;Xeon 5100;5148;Woodcrest;Bensley;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;1661
-Intel;Xeon 5100;5150;Woodcrest;Bensley;2660 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;3393
-Intel;Xeon 5100;5160;Woodcrest;Bensley;3000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;3488
-Intel;Xeon 5300;L5310;Clovertown;Bensley;1600 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;12/03/2007;3154
-Intel;Xeon 5300;L5318;Clovertown;Bensley;1600 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;12/03/2007;1850
-Intel;Xeon 5300;E5310;Clovertown;Bensley;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;14/11/2006;1460
-Intel;Xeon 5300;L5320;Clovertown;Bensley;1860 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;12/03/2007;3232
-Intel;Xeon 5300;E5320;Clovertown;Bensley;1860 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;14/11/2006;1902
-Intel;Xeon 5300;L5335;Clovertown;Bensley;2000 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;13/08/2007;415
-Intel;Xeon 5300;E5335;Clovertown;Bensley;2000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;04/04/2007;2901
-Intel;Xeon 5300;X5345;Clovertown;Bensley;2330 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;04/04/2007;3359
-Intel;Xeon 5300;X5355;Clovertown;Bensley;2660 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;01/09/2007;3379
-Intel;Xeon 5300;X5365;Clovertown;Bensley;3000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;01/09/2007;2451
-Intel;Xeon 5300;L5310;Tigerton;Caneland;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;882
-Intel;Xeon 5300;L5318;Tigerton;Caneland;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;1140
-Intel;Xeon 7300;E7310;Tigerton;Caneland;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;408
-Intel;Xeon 7300;E7320;Tigerton;Caneland;2130 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;441
-Intel;Xeon 7300;E7330;Tigerton;Caneland;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;3168
-Intel;Xeon 7300;E7340;Tigerton;Caneland;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;279
-Intel;Xeon 7300;E7345;Tigerton;Caneland;1860 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;1298
-Intel;Xeon 7300;X7350;Tigerton;Caneland;2930 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;2848
-Intel;Xeon 7200;E7210;Tigerton;Caneland;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;2929
-Intel;Xeon 7200;E7220;Tigerton;Caneland;2930 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;2080
-Intel;Core 2 Duo;E8190;Wolfdale;Santa Rosa;2660 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;806
-Intel;Core 2 Duo;E8200;Wolfdale;Santa Rosa;2660 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;1199
-Intel;Core 2 Duo;E8300;Wolfdale;Santa Rosa;2830 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;20/04/2008;697
-Intel;Core 2 Duo;E8400;Wolfdale;Santa Rosa;3000 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;1445
-Intel;Core 2 Duo;E8500;Wolfdale;Santa Rosa;3160 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;2336
-Intel;Core 2 Duo;E8600;Wolfdale;Santa Rosa;3330 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;10/08/2008;2384
-Intel;Core 2 Duo;E7200;Wolfdale-3M;Santa Rosa;2530 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;20/04/2008;1617
-Intel;Core 2 Duo;E7300;Wolfdale-3M;Santa Rosa;2660 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;10/08/2008;991
-Intel;Core 2 Duo;E7400;Wolfdale-3M;Santa Rosa;2800 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;19/10/2008;1297
-Intel;Core 2 Duo;E7500;Wolfdale-3M;Santa Rosa;2930 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;18/01/2009;488
-Intel;Core 2 Duo;E7600;Wolfdale-3M;Santa Rosa;3060 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;31/05/2009;1681
-Intel;Pentium Dual-Core;E6300;Wolfdale-3M;Santa Rosa;2800 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;31/05/2009;1593
-Intel;Pentium Dual-Core;E5200;Wolfdale-3M;Santa Rosa;2500 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;31/08/2008;1359
-Intel;Pentium Dual-Core;E5300;Wolfdale-3M;Santa Rosa;2600 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/12/2008;1562
-Intel;Pentium Dual-Core;E5400;Wolfdale-3M;Santa Rosa;2700 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;18/01/2009;1880
-Intel;Pentium Dual-Core;E5500;Wolfdale-3M;Santa Rosa;2800 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;18/04/2010;2471
-Intel;Pentium Dual-Core;E5700;Wolfdale-3M;Santa Rosa;3000 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;08/08/2010;1754
-Intel;Pentium Dual-Core;E5800;Wolfdale-3M;Santa Rosa;3200 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;28/11/2010;3459
-Intel;Celeron Dual-Core;E3200;Wolfdale-3M;Santa Rosa;2400 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/09/2009;1448
-Intel;Celeron Dual-Core;E3300;Wolfdale-3M;Santa Rosa;2500 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/09/2009;1655
-Intel;Celeron Dual-Core;E3400;Wolfdale-3M;Santa Rosa;2600 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/01/2010;3447
-Intel;Celeron Dual-Core;E3500;Wolfdale-3M;Santa Rosa;2700 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/10/2010;714
-Intel;Xeon 5200;X5260;Wolfdale;Bensley;3330 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;11/11/2007;2107
-Intel;Xeon 5200;X5272;Wolfdale;Bensley;3400 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;11/11/2007;2483
-Intel;Xeon 5200;X5270;Wolfdale;Bensley;3500 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;01/12/2008;3492
-Intel;Xeon 5200;E5205;Wolfdale;Bensley;1860 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;11/11/2007;318
-Intel;Xeon 5200;E5220;Wolfdale;Bensley;2330 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;01/03/2008;2698
-Intel;Xeon 5200;E5240;Wolfdale;Bensley;3000 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;01/03/2008;455
-Intel;Xeon 5200;L5238;Wolfdale;Bensley;2660 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;27/02/2008;2449
-Intel;Xeon 3100;E3110;Wolfdale;Garlow;3000 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;1100
-Intel;Core 2 Extreme Mobile;X9000;Penryn;Santa Rosa Refresh;2800 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;1834
-Intel;Core 2 Duo  Mobile;T8100;Penryn;Santa Rosa Refresh;2100 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;2651
-Intel;Core 2 Duo  Mobile;T8300;Penryn;Santa Rosa Refresh;2400 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;1645
-Intel;Core 2 Duo  Mobile;T9300;Penryn;Santa Rosa Refresh;2500 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;1143
-Intel;Core 2 Duo  Mobile;T9500;Penryn;Santa Rosa Refresh;2600 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;3528
-Intel;Core 2 Extreme Mobile;X9100;Penryn;Montevina;3060 MHz;410,000,000;45 nanometres;64 bit;1,2625 V;Socket P;2;01/10/2008;2697
-Intel;Core 2 Extreme Mobile;QX9300;Penryn;Montevina;2530 MHz;820,000,000;45 nanometres;64 bit;1,175 V;Socket P;4;01/10/2008;2755
-Intel;Core 2 Quad Mobile;Q9100;Penryn;Montevina;2260 MHz;820,000,000;45 nanometres;64 bit;1,175 V;Socket P;4;01/10/2008;3431
-Intel;Core 2 Duo Mobile;SP9300;Penryn;Montevina;2260 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;383
-Intel;Core 2 Duo Mobile;SP9400;Penryn;Montevina;2400 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;738
-Intel;Core 2 Duo Mobile;P7350;Penryn;Montevina;2000 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;1578
-Intel;Core 2 Duo Mobile;P8400;Penryn;Montevina;2260 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;1165
-Intel;Core 2 Duo Mobile;P8600;Penryn;Montevina;2400 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;212
-Intel;Core 2 Duo Mobile;P9500;Penryn;Montevina;2530 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;2042
-Intel;Core 2 Duo Mobile;E8135;Penryn;Montevina;2660 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;2713
-Intel;Core 2 Duo Mobile;E8235;Penryn;Montevina;2800 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;731
-Intel;Core 2 Duo Mobile;E8335;Penryn;Montevina;2930 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;2818
-Intel;Core 2 Duo Mobile;E8435;Penryn;Montevina;3060 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;3389
-Intel;Core 2 Duo Mobile;T9400;Penryn;Montevina;2530 MHz;410,000,000;45 nanometres;64 bit;1,162 V;Socket P;2;01/07/2008;3271
-Intel;Core 2 Duo Mobile;T9600;Penryn;Montevina;2800 MHz;410,000,000;45 nanometres;64 bit;1,2125 V;Socket P;2;01/07/2008;2192
-Intel;Core 2 Duo Mobile;SL9300;Penryn;Montevina;1600 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;892
-Intel;Core 2 Duo Mobile;SL9400;Penryn;Montevina;1860 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;622
-Intel;Core 2 Solo;SU3300;Penryn-3M;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;1;01/07/2008;1725
-Intel;Core 2 Duo;SU9300;Penryn-3M;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;515
-Intel;Core 2 Duo;SU9400;Penryn-3M;Montevina;1400 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;2463
-Intel;Celeron M;575;Merom;Montevina;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;1;01/07/2008;2037
-Intel;Celeron M;585;Merom;Montevina;2160 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;1;01/07/2008;632
-Intel;Celeron M;723;Penryn;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;1;01/07/2008;3512
-Intel;Mobile Celeron Dual-Core;SU2300;Penryn-3M;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;BGA956;1;02/06/2009;2743
-Intel;Mobile Celeron Dual-Core;SU2700;Penryn-3M;Montevina;1300 MHz;410,000,000;45 nanometres;64 bit;1,150 V;BGA956;1;12/06/2009;3456
-Intel;Core 2 Extreme;QX9650;Yorkfield;Montevina;3000 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;11/11/2007;2007
-Intel;Core 2 Extreme;QX9775;Yorkfield;Montevina;3200 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;11/11/2007;2644
-Intel;Core 2 Extreme;QX9770;Yorkfield;Montevina;3200 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/01/2008;1979
-Intel;Core 2 Quad;Q8200S;Yorkfield;Montevina;2330 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/08/2008;1703
-Intel;Core 2 Quad;Q8200;Yorkfield;Montevina;2330 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/03/2008;2825
-Intel;Core 2 Quad;Q8300;Yorkfield;Montevina;2500 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;30/11/2008;1605
-Intel;Core 2 Quad;Q9300;Yorkfield;Montevina;2500 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/03/2008;295
-Intel;Core 2 Quad;Q9400S;Yorkfield;Montevina;2660 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/07/2008;302
-Intel;Core 2 Quad;Q9400;Yorkfield;Montevina;2660 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;10/08/2008;3030
-Intel;Core 2 Quad;Q9450;Yorkfield;Montevina;2660 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/03/2008;2403
-Intel;Core 2 Quad;Q9550S;Yorkfield;Montevina;2830 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/12/2008;2134
-Intel;Core 2 Quad;Q9550;Yorkfield;Montevina;2830 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/07/2008;1850
-Intel;Core 2 Quad;Q9650;Yorkfield;Montevina;3000 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;10/08/2008;1248
-Intel;Xeon 3300;X3320;Yorkfield;Garlow;2500 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;07/01/2008;846
-Intel;Xeon 3300;X3350;Yorkfield;Garlow;2660 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;07/01/2008;1922
-Intel;Xeon 3300;X3360;Yorkfield;Garlow;2830 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;07/01/2008;2910
-Intel;Xeon 5400;X5450;Harpertown;Bensley;3000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2393
-Intel;Xeon 5400;X5460;Harpertown;Bensley;3160 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2841
-Intel;Xeon 5400;X5470;Harpertown;Bensley;3330 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;08/09/2008;2753
-Intel;Xeon 5400;X5472;Harpertown;Bensley;3000 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2848
-Intel;Xeon 5400;X5482;Harpertown;Bensley;3200 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1381
-Intel;Xeon 5400;X5492;Harpertown;Bensley;3400 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;08/09/2008;2712
-Intel;Xeon 5400;E5405;Harpertown;Bensley;2000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1639
-Intel;Xeon 5400;E5410;Harpertown;Bensley;2330 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1682
-Intel;Xeon 5400;E5420;Harpertown;Bensley;2500 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;594
-Intel;Xeon 5400;E5430;Harpertown;Bensley;2660 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1157
-Intel;Xeon 5400;E5440;Harpertown;Bensley;2830 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;3426
-Intel;Xeon 5400;E5450;Harpertown;Bensley;3000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1077
-Intel;Xeon 5400;E5462;Harpertown;Bensley;2800 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;300
-Intel;Xeon 5400;E5472;Harpertown;Bensley;3000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2373
-Intel;Xeon 5400;L5408;Harpertown;Bensley;2130 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;01/04/2008;3417
-Intel;Xeon 5400;L5410;Harpertown;Bensley;2330 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;26/03/2008;2330
-Intel;Xeon 5400;L5420;Harpertown;Bensley;2500 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;26/03/2008;2760
-Intel;Xeon 5400;L5430;Harpertown;Bensley;2660 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;08/09/2008;1843
-Intel;Xeon 7400;X7460;Dunnington;Caneland;2660 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;871
-Intel;Xeon 7400;E7420;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;2066
-Intel;Xeon 7400;E7430;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;3096
-Intel;Xeon 7400;E7440;Dunnington;Caneland;2400 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;721
-Intel;Xeon 7400;E7450;Dunnington;Caneland;2400 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;2929
-Intel;Xeon 7400;E7458;Dunnington;Caneland;2400 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;1650
-Intel;Xeon 7400;L7445;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;2945
-Intel;Xeon 7400;L7455;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;2579
-Intel;Atom Z500 series;Z500;Silverthorne;;800 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;04/06/2010;2534
-Intel;Atom Z500 series;Z510;Silverthorne;;1100 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;04/06/2010;1075
-Intel;Atom Z500 series;Z510P;Silverthorne;;1100 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;04/06/2010;2158
-Intel;Atom Z500 series;Z510PT;Silverthorne;;1100 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;04/06/2010;1134
-Intel;Atom Z500 series;Z515;Silverthorne;;1200 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;2740
-Intel;Atom Z500 series;Z520;Silverthorne;;1330 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;571
-Intel;Atom Z500 series;Z520PT;Silverthorne;;1330 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;20/05/2011;2726
-Intel;Atom Z500 series;Z530;Silverthorne;;1600 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;837
-Intel;Atom Z500 series;Z530P;Silverthorne;;1600 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;20/05/2011;1062
-Intel;Atom Z500 series;Z540;Silverthorne;;1860 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;781
-Intel;Atom Z500 series;Z550;Silverthorne;;2000 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;673
-Intel;Atom Z500 series;Z560;Silverthorne;;2130 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;2579
-Intel;Atom 330 series;330;Diamondville;Nettop '08;1600 MHz;94,000,000;45 nanometres;64 bit;1,1625 V;BGA437;2;07/05/2010;3192
-Intel;Atom 230 series;230;Diamondville;Nettop '08;1600 MHz;47,000,000;45 nanometres;64 bit;1,1625 V;BGA437;1;07/05/2010;1671
-Intel;Atom N200 series;N270;Diamondville;Netbook '08;1600 MHz;47,000,000;45 nanometres;32 bit;1,1625 V;BGA437;1;07/05/2010;430
-Intel;Atom N200 series;N280;Diamondville;Netbook '08;1660 MHz;47,000,000;45 nanometres;32 bit;1,1625 V;BGA437;1;07/05/2010;2002
-Intel;Atom D400 series;D410;Pineview;Pine Trail-D;1660 MHz;123,000,000;45 nanometres;64 bit;1,175 V;BGA559;1;04/01/2010;3076
-Intel;Atom D400 series;D425;Pineview;Pine Trail-D;1800 MHz;123,000,000;45 nanometres;64 bit;1,175 V;BGA559;1;21/06/2010;1089
-Intel;Atom D500 series;D510;Pineview;Pine Trail-D;1660 MHz;176,000,000;45 nanometres;64 bit;1,175 V;BGA559;2;04/01/2010;2538
-Intel;Atom D500 series;D525;Pineview;Pine Trail-D;1800 MHz;176,000,000;45 nanometres;64 bit;1,175 V;BGA559;2;21/06/2010;2457
-Intel;Core i7 Extreme Edition;965 XE;Bloomfield;X58;3200 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;17/11/2008;263
-Intel;Core i7 Extreme Edition;975 XE;Bloomfield;X58;3330 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;02/06/2009;2210
-Intel;Core i7;920;Bloomfield;X58;2667 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;17/11/2008;2259
-Intel;Core i7;930;Bloomfield;X58;2880 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;01/03/2010;1996
-Intel;Core i7;940;Bloomfield;X58;2930 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;17/11/2008;2913
-Intel;Core i7;950;Bloomfield;X58;3060 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;02/06/2009;3513
-Intel;Core i7;960;Bloomfield;X58;3200 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;20/10/2009;2995
-Intel;Xeon 3500;W3505;Nehalem;Tylersburg;2530 MHz;731,000,000;45 nanometres;64 bit;1,225 V;LGA1366;2;01/01/2009;1882
-Intel;Xeon 3500;W3520;Nehalem;Tylersburg;2670 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;30/03/2009;941
-Intel;Xeon 3500;W3530;Nehalem;Tylersburg;2800 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;16/03/2009;234
-Intel;Xeon 3500;W3540;Nehalem;Tylersburg;2960 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;30/03/2009;2705
-Intel;Xeon 3500;W3550;Nehalem;Tylersburg;3060 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;05/08/2009;530
-Intel;Xeon 3500;W3565;Nehalem;Tylersburg;3200 MHz;731,000,000;45 nanometres;64 bit;1,225 V;LGA1366;4;02/11/2009;2610
-Intel;Xeon 3500;W3570;Nehalem;Tylersburg;3200 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;30/03/2009;810
-Intel;Xeon 3500;W3580;Nehalem;Tylersburg;3330 Mhz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;05/08/2009;858
-Intel;Core i7;860S;Lynnfield;;2530 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;290
-Intel;Core i7;870S;Lynnfield;;2660 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;437
-Intel;Core i7;860;Lynnfield;;2800 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;29/06/2012;504
-Intel;Core i7;870;Lynnfield;;2930 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;29/06/2012;346
-Intel;Core i7;875K;Lynnfield;;2930 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;24/02/2012;3211
-Intel;Core i7;880;Lynnfield;;3060 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;3110
-Intel;Core i5;750S;Lynnfield;;2400 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;2956
-Intel;Core i5;750;Lynnfield;;2660 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;26/08/2011;3185
-Intel;Core i5;760;Lynnfield;;2800 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;24/02/2012;2697
-Intel;Xeon 3400;L3426;Lynnfield;Foxhollow;1870 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;2861
-Intel;Xeon 3400;X3430;Lynnfield;Foxhollow;2400 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;3263
-Intel;Xeon 3400;X3440;Lynnfield;Foxhollow;2530 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;2160
-Intel;Xeon 3400;X3450;Lynnfield;Foxhollow;2670 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;476
-Intel;Xeon 3400;X3460;Lynnfield;Foxhollow;2800 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;1947
-Intel;Xeon 3400;X3470;Lynnfield;Foxhollow;2930 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;520
-Intel;Xeon 3400;X3480;Lynnfield;Foxhollow;3060 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;09/06/2010;3114
-Intel;Xeon 5500;E5502;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;2;30/03/2009;1013
-Intel;Xeon 5500;E5503;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;2;30/03/2009;1896
-Intel;Xeon 5500;E5504;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;3305
-Intel;Xeon 5500;L5506;Gainestown;Tylersburg-EP;2133 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;724
-Intel;Xeon 5500;E5506;Gainestown;Tylersburg-EP;2133 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;1719
-Intel;Xeon 5500;L5508;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;2;30/03/2009;1143
-Intel;Xeon 5500;L5518;Gainestown;Tylersburg-EP;2133 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2630
-Intel;Xeon 5500;L5520;Gainestown;Tylersburg-EP;2270 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;05/08/2009;2761
-Intel;Xeon 5500;E5520;Gainestown;Tylersburg-EP;2270 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;3509
-Intel;Xeon 5500;L5530;Gainestown;Tylersburg-EP;2400 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2226
-Intel;Xeon 5500;E5530;Gainestown;Tylersburg-EP;2400 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;831
-Intel;Xeon 5500;E5540;Gainestown;Tylersburg-EP;2533 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2748
-Intel;Xeon 5500;X5550;Gainestown;Tylersburg-EP;2670 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;3347
-Intel;Xeon 5500;X5560;Gainestown;Tylersburg-EP;2800 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;1573
-Intel;Xeon 5500;X5570;Gainestown;Tylersburg-EP;2933 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2938
-Intel;Xeon 5500;W5580;Gainestown;Tylersburg-EP;3200 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2263
-Intel;Xeon 5500;W5590;Gainestown;Tylersburg-EP;3333 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;05/08/2009;2669
-Intel;Xeon 7500;E7520;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;4;01/01/2010;836
-Intel;Xeon 7500;E7530;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;2508
-Intel;Xeon 7500;E7540;Beckton;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;910
-Intel;Xeon 7500;X7542;Beckton;Boxboro-EX;2670 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;2828
-Intel;Xeon 7500;L7545;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;2370
-Intel;Xeon 7500;X7550;Beckton;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;2046
-Intel;Xeon 7500;L7555;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;1651
-Intel;Xeon 7500;X7560;Beckton;Boxboro-EX;2270 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;563
-Intel;Xeon 6500;E6510;Nehalem-EX;Boxboro-EX;1730 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;4;01/01/2010;3222
-Intel;Xeon 6500;E6540;Nehalem-EX;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;1164
-Intel;Xeon 6500;X6550;Nehalem-EX;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;3196
-Intel;Core i7 Mobile Extreme Edition;920XM;Clarksfield;Calpella;2000 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;2791
-Intel;Core i7 Mobile Extreme Edition;940XM;Clarksfield;Calpella;2130 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;569
-Intel;Core i7 Mobile;720QM;Clarksfield;Calpella;1600 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;1033
-Intel;Core i7 Mobile;740QM;Clarksfield;Calpella;1730 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;1653
-Intel;Core i7 Mobile;820QM;Clarksfield;Calpella;1730 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;2692
-Intel;Core i7 Mobile;840QM;Clarksfield;Calpella;1860 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;1998
-Intel;Core i7 Extreme Edition;980X;Gulftown;2010 HEDT;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;30/09/2011;3232
-Intel;Core i7 Extreme Edition;990X;Gulftown;2010 HEDT;3400 Mhz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;29/06/2012;2991
-Intel;Core i7;970;Gulftown;2011 HEDT;3200 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;27/01/2012;611
-Intel;Core i7;980;Gulftown;2012 HEDT;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,30 V;LGA1366;6;29/06/2012;1675
-Intel;Xeon 5600;L5609;Westmere-EP;Tylersburg-WS;1870 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;3421
-Intel;Xeon 5600;L5618;Westmere-EP;Tylersburg-WS;1870 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;2203
-Intel;Xeon 5600;E5620;Westmere-EP;Tylersburg-WS;2400 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;1087
-Intel;Xeon 5600;L5630;Westmere-EP;Tylersburg-WS;2130 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;1202
-Intel;Xeon 5600;E5630;Westmere-EP;Tylersburg-WS;2533 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;878
-Intel;Xeon 5600;L5638;Westmere-EP;Tylersburg-WS;2000 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;1186
-Intel;Xeon 5600;L5640;Westmere-EP;Tylersburg-WS;2270 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;2793
-Intel;Xeon 5600;E5640;Westmere-EP;Tylersburg-WS;2670 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;441
-Intel;Xeon 5600;E5645;Westmere-EP;Tylersburg-WS;2400 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;1145
-Intel;Xeon 5600;X5650;Westmere-EP;Tylersburg-WS;2670 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;2090
-Intel;Xeon 5600;X5660;Westmere-EP;Tylersburg-WS;2800 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;1387
-Intel;Xeon 5600;X5667;Westmere-EP;Tylersburg-WS;3070 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;2053
-Intel;Xeon 5600;X5670;Westmere-EP;Tylersburg-WS;2933 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;3133
-Intel;Xeon 5600;X5677;Westmere-EP;Tylersburg-WS;3470 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;3476
-Intel;Xeon 5600;X5680;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;3177
-Intel;Xeon 3600;W3670;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;30/08/2010;1989
-Intel;Xeon 3600;W3680;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;16/03/2010;3160
-Intel;Xeon 3600;W3690;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;13/02/2011;1708
-Intel;Core i5 ;650;Clarkdale;;3200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;1067
-Intel;Core i5 ;655K;Clarkdale;;3200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/06/2010;2198
-Intel;Core i5;660;Clarkdale;;3330 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;1561
-Intel;Core i5;661;Clarkdale;;3330 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;581
-Intel;Core i5;670;Clarkdale;;3460 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;1668
-Intel;Core i5;680;Clarkdale;;3600 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;18/04/2010;667
-Intel;Core i3;530;Clarkdale;;2933 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;05/01/2010;291
-Intel;Core i3;540;Clarkdale;;3060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;05/01/2010;1433
-Intel;Core i3;550;Clarkdale;;3200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/04/2010;1252
-Intel;Core i3;560;Clarkdale;;3330 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/07/2010;1689
-Intel;Pentium Dual-Core;G6950;Clarkdale;;2800 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;2513
-Intel;Pentium Dual-Core;G6951;Clarkdale;;2800 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/07/2011;3272
-Intel;Pentium Dual-Core;G6960;Clarkdale;;2933 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/01/2011;1724
-Intel;Core i7 Mobile;620UE;Arrandale;Calpella;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;838
-Intel;Core i7 Mobile;620UM;Arrandale;Calpella;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2010
-Intel;Core i7 Mobile;640UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2245
-Intel;Core i7 Mobile;660UE;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;02/08/2010;607
-Intel;Core i7 Mobile;660UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;24/05/2010;1347
-Intel;Core i7 Mobile;680UM;Arrandale;Calpella;1460 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;2403
-Intel;Core i7 Mobile;620LE;Arrandale;Calpella;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2102
-Intel;Core i7 Mobile;620LM;Arrandale;Calpella;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;1140
-Intel;Core i7 Mobile;640LM;Arrandale;Calpella;2130 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;1711
-Intel;Core i7 Mobile;660LM;Arrandale;Calpella;2260 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;401
-Intel;Core i7 Mobile;610E;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2572
-Intel;Core i7 Mobile;620M;Arrandale;Calpella;2660 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2033
-Intel;Core i7 Mobile;640M;Arrandale;Calpella;2800 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;2305
-Intel;Core i5 Mobile;430UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1919
-Intel;Core i5 Mobile;470UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;3489
-Intel;Core i5 Mobile;520UM;Arrandale;Calpella;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1711
-Intel;Core i5 Mobile;540UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;2559
-Intel;Core i5 Mobile;560UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;2952
-Intel;Core i5 Mobile;430M;Arrandale;Calpella;2260 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1204
-Intel;Core i5 Mobile;450M;Arrandale;Calpella;2400 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;20/06/2010;2610
-Intel;Core i5 Mobile;460M;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;803
-Intel;Core i5 Mobile;480M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;09/01/2011;510
-Intel;Core i5 Mobile;520M;Arrandale;Calpella;2400 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1300
-Intel;Core i5 Mobile;540M;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1828
-Intel;Core i5 Mobile;560M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;3421
-Intel;Core i5 Mobile;580M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;2322
-Intel;Core i3 Mobile;330UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;24/05/2010;2428
-Intel;Core i3 Mobile;380UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/11/2010;1407
-Intel;Core i3 Mobile;330M;Arrandale;Calpella;2133 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2970
-Intel;Core i3 Mobile;350M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;734
-Intel;Core i3 Mobile;370M;Arrandale;Calpella;2400 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/07/2010;400
-Intel;Core i3 Mobile;380M;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/07/2010;1121
-Intel;Core i3 Mobile;390M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/07/2010;3431
-Intel;Pentium Dual-Core Mobile;U5400;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;2645
-Intel;Pentium Dual-Core Mobile;U5600;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;1454
-Intel;Pentium Dual-Core Mobile;P6000;Arrandale;Calpella;1860 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;3348
-Intel;Pentium Dual-Core Mobile;P6100;Arrandale;Calpella;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;2937
-Intel;Pentium Dual-Core Mobile;P6200;Arrandale;Calpella;2133 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;3317
-Intel;Pentium Dual-Core Mobile;P6300;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;1079
-Intel;Mobile Celeron Dual-Core;U3400;Arrandale;;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/05/2010;1267
-Intel;Mobile Celeron Dual-Core;U3600;Arrandale;;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;09/01/2011;493
-Intel;Mobile Celeron Dual-Core;P4500;Arrandale;;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/01/2010;2353
-Intel;Mobile Celeron Dual-Core;P4600;Arrandale;;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/07/2010;788
-Intel;Xeon E7-4800;E7-4807;Eagleton;Boxboro-EX;1860 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;6;03/04/2011;3267
-Intel;Xeon E7-4800;E7-4820;Eagleton;Boxboro-EX;2000 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1482
-Intel;Xeon E7-4800;E7-4830;Eagleton;Boxboro-EX;2133 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1760
-Intel;Xeon E7-4800;E7-4850;Eagleton;Boxboro-EX;2000 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;2467
-Intel;Xeon E7-4800;E7-4860;Eagleton;Boxboro-EX;2667 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;2655
-Intel;Xeon E7-4800;E7-4870;Eagleton;Boxboro-EX;2400 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;3078
-Intel;Xeon E7-8800;E7-8830;Eagleton;Boxboro-EX;2133 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1999
-Intel;Xeon E7-8800;E7-8850;Eagleton;Boxboro-EX;2667 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1641
-Intel;Xeon E7-8800;E7-8850;Eagleton;Boxboro-EX;2000 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;1619
-Intel;Xeon E7-8800;E7-8860;Eagleton;Boxboro-EX;2260 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;3223
-Intel;Xeon E7-8800;E7-8870;Eagleton;Boxboro-EX;2400 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;1703
-Intel;Celeron Dual-Core;G555;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;845
-Intel;Celeron Dual-Core;G550;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;1496
-Intel;Celeron Dual-Core;G540;Sandy Bridge;;2500 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/07/2013;2421
-Intel;Celeron Dual-Core;G530;Sandy Bridge;;2400 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;2417
-Intel;Celeron Dual-Core;G465;Sandy Bridge;;1900 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;1;23/08/2013;1453
-Intel;Celeron Dual-Core;G460;Sandy Bridge;;1800 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;1;23/08/2013;2813
-Intel;Celeron Dual-Core;G440;Sandy Bridge;;1600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;1;01/07/2012;3228
-Intel;Celeron Dual-Core;G550T;Sandy Bridge;;2200 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;2602
-Intel;Celeron Dual-Core;G540T;Sandy Bridge;;2100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;1983
-Intel;Celeron Dual-Core;G530T;Sandy Bridge;;2000 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;2129
-Intel;Pentium Dual-Core;G620T;Sandy Bridge;;2200 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;517
-Intel;Pentium Dual-Core;G630T;Sandy Bridge;;2300 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;1958
-Intel;Pentium Dual-Core;G640T;Sandy Bridge;;2400 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;2838
-Intel;Pentium Dual-Core;G645T;Sandy Bridge;;2500 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;02/09/2012;2920
-Intel;Pentium Dual-Core;G860T;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;3166
-Intel;Pentium Dual-Core;G620;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;2258
-Intel;Pentium Dual-Core;G622;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/04/2011;262
-Intel;Pentium Dual-Core;G630;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2129
-Intel;Pentium Dual-Core;G632;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;576
-Intel;Pentium Dual-Core;G640;Sandy Bridge;;2800 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/04/2012;2340
-Intel;Pentium Dual-Core;G645;Sandy Bridge;;2900 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;1464
-Intel;Pentium Dual-Core;G840;Sandy Bridge;;2800 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;3139
-Intel;Pentium Dual-Core;G850;Sandy Bridge;;2900 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;1013
-Intel;Pentium Dual-Core;G860;Sandy Bridge;;3000 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2550
-Intel;Pentium Dual-Core;G870;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;500
-Intel;Core i3;2100T;Sandy Bridge;;2500 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;778
-Intel;Core i3;2120T;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2579
-Intel;Core i3;2100;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;1004
-Intel;Core i3;2102;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/06/2011;426
-Intel;Core i3;2105;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;253
-Intel;Core i3;2120;Sandy Bridge;;3330 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;3184
-Intel;Core i3;2125;Sandy Bridge;;3330 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;3541
-Intel;Core i3;2130;Sandy Bridge;;3400 Mhz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2760
-Intel;Core i5;2390T;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;2016
-Intel;Core i5;2500T;Sandy Bridge;;2300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;3495
-Intel;Core i5;2400S;Sandy Bridge;;2500 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;2643
-Intel;Core i5;2405S;Sandy Bridge;;2500 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;22/05/2011;1554
-Intel;Core i5;2500S;Sandy Bridge;;2700 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;3320
-Intel;Core i5;2300;Sandy Bridge;;2800 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;3511
-Intel;Core i5;2310;Sandy Bridge;;2900 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;22/05/2011;1029
-Intel;Core i5;2320;Sandy Bridge;;3000 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;04/09/2011;2207
-Intel;Core i5;2380P;Sandy Bridge;;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/01/2012;1438
-Intel;Core i5;2400;Sandy Bridge;;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;1524
-Intel;Core i5;2450P;Sandy Bridge;;3200 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/01/2012;2798
-Intel;Core i5;2500;Sandy Bridge;;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;2156
-Intel;Core i5;2500K;Sandy Bridge;;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;09/01/2011;3058
-Intel;Core i5;2550K;Sandy Bridge;;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/01/2012;2813
-Intel;Core i7;2600S;Sandy Bridge;;2800 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;09/01/2011;1452
-Intel;Core i7;2600;Sandy Bridge;;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;2510
-Intel;Core i7;2600K;Sandy Bridge;;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;09/01/2011;2405
-Intel;Core i7;2700K;Sandy Bridge;;3500 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;23/10/2011;873
-Intel;Core i7;3820;Sandy Bridge;;3600 Mhz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;4;12/02/2012;2370
-Intel;Core i7;3930K;Sandy Bridge;;3200 MHz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;6;14/11/2011;1970
-Intel;Core i7;3960X;Sandy Bridge;;3300 MHz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;6;14/11/2011;1791
-Intel;Core i7;3970X;Sandy Bridge;;3500 Mhz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;6;12/11/2012;273
-Intel;Xeon E3-1200;E3-1220L;Sandy Bridge;Bromolow;2200 MHz;604,000,000;32 nanometres;64 bit;;LGA1155;2;03/04/2011;843
-Intel;Xeon E3-1200;E3-1260L;Sandy Bridge;Bromolow;2400 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;721
-Intel;Xeon E3-1200;E3-1220;Sandy Bridge;Bromolow;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;1399
-Intel;Xeon E3-1200;E3-1225;Sandy Bridge;Bromolow;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;426
-Intel;Xeon E3-1200;E3-1230;Sandy Bridge;Bromolow;3200 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2614
-Intel;Xeon E3-1200;E3-1235;Sandy Bridge;Bromolow;3200 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2121
-Intel;Xeon E3-1200;E3-1240;Sandy Bridge;Bromolow;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;3439
-Intel;Xeon E3-1200;E3-1245;Sandy Bridge;Bromolow;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;604
-Intel;Xeon E3-1200;E3-1270;Sandy Bridge;Bromolow;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2611
-Intel;Xeon E3-1200;E3-1275;Sandy Bridge;Bromolow;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2816
-Intel;Xeon E3-1200;E3-1280;Sandy Bridge;Bromolow;3500 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;1776
-Intel;Xeon E3-1200;E3-1290;Sandy Bridge;Bromolow;3600 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/05/2011;2327
-Intel;Celeron Dual-Core;G1610T;Ivy Bridge;;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;437
-Intel;Celeron Dual-Core;G1610;Ivy Bridge;;2600 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;2384
-Intel;Celeron Dual-Core;G1620;Ivy Bridge;;2700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;1764
-Intel;Pentium Dual-Core;G2020T;Ivy Bridge;;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;436
-Intel;Pentium Dual-Core;G2100T;Ivy Bridge;;2600 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;578
-Intel;Pentium Dual-Core;G2010;Ivy Bridge;;2800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;2288
-Intel;Pentium Dual-Core;G2020;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;723
-Intel;Pentium Dual-Core;G2120;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;3020
-Intel;Pentium Dual-Core;G2130;Ivy Bridge;;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;2868
-Intel;Core i3;3220T;Ivy Bridge;;2800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;3257
-Intel;Core i3;3240T;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;1350
-Intel;Core i3;3220;Ivy Bridge;;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;503
-Intel;Core i3;3225;Ivy Bridge;;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;3239
-Intel;Core i3;3240;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;1954
-Intel;Core i5;3470T;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;2;03/06/2012;523
-Intel;Core i5;3570T;Ivy Bridge;;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;448
-Intel;Core i5;3450S;Ivy Bridge;;2800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1318
-Intel;Core i5;3470S;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;03/06/2012;3154
-Intel;Core i5;3475S;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;03/06/2012;511
-Intel;Core i5;3550S;Ivy Bridge;;3000 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;2852
-Intel;Core i5;3570S;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;3457
-Intel;Core i5;3450;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;940
-Intel;Core i5;3470;Ivy Bridge;;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;03/06/2012;732
-Intel;Core i5;3550;Ivy Bridge;;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;2633
-Intel;Core i5;3570;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;3351
-Intel;Core i5;3570K;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1876
-Intel;Core i7;3770T;Ivy Bridge;;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1690
-Intel;Core i7;3770S;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1968
-Intel;Core i7;3770;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;2209
-Intel;Core i7;3770K;Ivy Bridge;;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;3005
-Intel;Core i7;4820K;Ivy Bridge;;3700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA2011;4;10/09/2013;541
-Intel;Core i7;4930K;Ivy Bridge;;3400 Mhz;1,860,000,000;22 nanometres;64 bit;;LGA2011;6;10/09/2013;609
-Intel;Core i7;4960X;Ivy Bridge;;3600 Mhz;1,860,000,000;22 nanometres;64 bit;;LGA2011;6;10/09/2013;1108
-Intel;Xeon E5-2600 v2;E5-2640 v2;Ivy Bridge-EP;Romley-EP;2000 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;8;10/09/2013;2796
-Intel;Xeon E5-2600 v2;E5-2650 v2;Ivy Bridge-EP;Romley-EP;2600 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;8;10/09/2013;1235
-Intel;Xeon E5-2600 v2;E5-2650L v2;Ivy Bridge-EP;Romley-EP;1700 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;2008
-Intel;Xeon E5-2600 v2;E5-2660 v2;Ivy Bridge-EP;Romley-EP;2200 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;1007
-Intel;Xeon E5-2600 v2;E5-2670 v2;Ivy Bridge-EP;Romley-EP;2500 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;2650
-Intel;Xeon E5-2600 v2;E5-2680 v2;Ivy Bridge-EP;Romley-EP;2800 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;546
-Intel;Xeon E5-2600 v2;E5-2690 v2;Ivy Bridge-EP;Romley-EP;3000 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;489
-Intel;Xeon E5-2600 v2;E5-2687W v2;Ivy Bridge-EP;Romley-EP;3400 Mhz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;1860
-Intel;Xeon E5-2600 v2;E5-2643 v2;Ivy Bridge-EP;Romley-EP;3500 Mhz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;3277
-Intel;Xeon E5-2600 v2;E5-2695 v2;Ivy Bridge-EP;Romley-EP;2400 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;12;10/09/2013;2398
-Intel;Xeon E5-2600 v2;E5-2697 v2;Ivy Bridge-EP;Romley-EP;2700 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;12;10/09/2013;326
-Intel;Core i5;4570TE;Haswell;;2700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;2;02/06/2013;452
-Intel;Core i5;4570T;Haswell;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;2;02/06/2013;694
-Intel;Core i5;4670T;Haswell;;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;494
-Intel;Core i5;4430S;Haswell;;2700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1612
-Intel;Core i5;4570S;Haswell;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;298
-Intel;Core i5;4430;Haswell;;3000 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3525
-Intel;Core i5;4670S;Haswell;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2803
-Intel;Core i5;4570;Haswell;;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1648
-Intel;Core i5;4670;Haswell;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;281
-Intel;Core i5;4670K;Haswell;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1381
-Intel;Core i7;4765T;Haswell;;2000 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2793
-Intel;Core i7;4700EQ;Haswell;;2400 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1570
-Intel;Core i7;4770T;Haswell;;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2042
-Intel;Core i7;4770S;Haswell;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2955
-Intel;Core i7;4770;Haswell;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;830
-Intel;Core i7;4770K;Haswell;;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2745
-Intel;Xeon E3-1200 v3;E3-1220L v3;Haswell;Denlow;1100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;2;04/06/2013;1322
-Intel;Xeon E3-1200 v3;E3-1230L v3;Haswell;Denlow;1800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2711
-Intel;Xeon E3-1200 v3;E3-1268L v3;Haswell;Denlow;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3465
-Intel;Xeon E3-1200 v3;E3-1265L v3;Haswell;Denlow;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3095
-Intel;Xeon E3-1200 v3;E3-1275L v3;Haswell;Denlow;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;11/05/2014;3389
-Intel;Xeon E3-1200 v3;E3-1285L v3;Haswell;Denlow;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2207
-Intel;Xeon E3-1200 v3;E3-1220 v3;Haswell;Denlow;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1864
-Intel;Xeon E3-1200 v3;E3-1225 v3;Haswell;Denlow;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2648
-Intel;Xeon E3-1200 v3;E3-1230 v3;Haswell;Denlow;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2077
-Intel;Xeon E3-1200 v3;E3-1240 v3;Haswell;Denlow;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2669
-Intel;Xeon E3-1200 v3;E3-1245 v3;Haswell;Denlow;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2100
-Intel;Xeon E3-1200 v3;E3-1270 v3;Haswell;Denlow;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1123
-Intel;Xeon E3-1200 v3;E3-1275 v3;Haswell;Denlow;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3071
-Intel;Xeon E3-1200 v3;E3-1280 v3;Haswell;Denlow;3600 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1046
-Intel;Xeon E3-1200 v3;E3-1285 v3;Haswell;Denlow;3600 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2865
+1;Intel;;4004;;;108 kHz;2300;10 micrometres;;15 V;DIP16;;15/11/1971;1571
+2;Intel;;4040;;;500 kHz a 740 kHz;3000;10 micrometres;;15 V;DIP24;;01/11/1974;1688
+3;Intel;;8008;;;500 kHz a 800 kHz;3500;10 micrometres;;12 V;DIP18;;01/04/1972;2842
+4;Intel;;8080;;;2 MHz;6000;6 micrometres;;12 V;DIP40;;01/04/1974;3045
+5;Intel;;8085;;;5 MHz;6500;3 micrometres;;5 V;DIP40;;01/03/1976;1853
+6;Intel;;8086;;;5 MHz;29000;3 micrometres;;5 V;DIP40;;08/06/1978;2806
+7;Intel;;8086;;;8 MHz;29000;3 micrometres;;5 V;DIP40;;08/06/1978;2262
+8;Intel;;8086;;;10 MHz;29000;3 micrometres;;5 V;DIP40;;08/06/1978;2522
+9;Intel;;8088;;;5 MHz;29000;3 micrometres;;5 V;DIP40;;01/06/1979;1265
+10;Intel;;8088;;;10 MHz;29000;3 micrometres;;5 V;DIP40;;01/06/1979;1534
+11;Intel;;80186;;;6 MHz;55000;3 micrometres;;5 V;PGA68;;01/01/1982;2584
+12;Intel;;80186;;;8 MHz;55000;3 micrometres;;5 V;PGA68;;01/01/1982;1407
+13;Intel;;80188;;;6 MHz;55000;3 micrometres;;5 V;PGA68;;01/01/1982;1925
+14;Intel;;80286;;;6 MHz;134000;1,5 micrometres;;5 V;PGA68;;01/02/1982;2865
+15;Intel;;80286;;;8 MHz;134000;1,5 micrometres;;5 V;PGA68;;01/02/1982;1864
+16;Intel;;80286;;;12,5 MHz;134000;1,5 micrometres;;5 V;PGA68;;01/02/1982;960
+17;Intel;;80386DX;;;16 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;17/10/1985;3112
+18;Intel;;80386DX;;;20 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;16/02/1987;1731
+19;Intel;;80386DX;;;25 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;04/04/1988;1178
+20;Intel;;80386DX;;;33 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;10/04/1989;3493
+21;Intel;;80386SX;;;16 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;16/06/1988;3403
+22;Intel;;80386SX;;;20 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;25/01/1989;2041
+23;Intel;;80386SX;;;33 MHz;275000;1 micrometres;32 bits;5 V;PGA132;;26/10/1992;2475
+24;Intel;;80376;;;16 MHz;;;32 bits;5 V;PGA88;;16/01/1989;3113
+25;Intel;;80376;;;20 MHz;;;32 bits;5 V;PGA88;;16/01/1989;1554
+26;Intel;;80386SL;;;20 MHz;855000;1 micrometres;32 bits;5 V;PGA132;;15/10/1990;3304
+27;Intel;;80386SL;;;25 MHz;855000;1 micrometres;32 bits;5 V;PGA132;;30/09/1991;2939
+28;Intel;;386 EX;;;;;;;;;;01/08/1994;3151
+29;Intel;;80486DX;;;25 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;10/04/1989;2975
+30;Intel;;80486DX;;;33 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;07/05/1990;3514
+31;Intel;;80486DX;;;50 MHz;1,200,000;0,8 micrometres;32 bits;5 V;PGA168;;24/06/1991;1337
+32;Intel;;80486SX;;;16 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;22/04/1991;3312
+33;Intel;;80486SX;;;20 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;16/09/1991;2808
+34;Intel;;80486SX;;;25 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;16/09/1991;435
+35;Intel;;80486SX;;;33 MHz;1,200,000;1 micrometres;32 bits;5 V;PGA168;;21/09/1992;1509
+36;Intel;;80486DX2;;;50 MHz;1,200,000;0,8 micrometres;32 bits;5 V;PGA168;;03/03/1992;2109
+37;Intel;;80486DX2;;;66 MHz;1,200,000;0,8 micrometres;32 bits;5 V;PGA168;;10/08/1992;2452
+38;Intel;;80486SL;;;20 MHz;1,400,000;0,8 micrometres;32 bits;3,3 V;QFP196;;15/10/1990;543
+39;Intel;;80486SL;;;25 MHz;1,400,000;0,8 micrometres;32 bits;3,3 V;QFP196;;30/09/1991;261
+40;Intel;;80486SL;;;33 MHz;1,400,000;0,8 micrometres;32 bits;3,3 V;QFP196;;30/09/1991;2465
+41;Intel;;80486DX4;;;75 MHz;1,600,000;0,6 micrometres;32 bits;3,3 V;PGA168;;07/03/1994;2008
+42;Intel;;80486DX4;;;100 MHz;1,600,000;0,6 micrometres;32 bits;3,3 V;PGA168;;07/03/1994;323
+43;Intel;;80486DX4;;;120 MHz;1,600,000;0,6 micrometres;32 bits;3,3 V;PGA168;;07/03/1994;921
+44;Intel;Pentium; P5;;;60 MHz;3,100,000;0,8 micrometres;32 bits;5 V;PGA273;1;22/03/1993;1153
+45;Intel;Pentium; P5;;;66 MHz;3,100,000;0,8 micrometres;32 bits;5 V;PGA273;1;22/03/1993;2171
+46;Intel;Pentium;P54C;;;75 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;10/10/1994;496
+47;Intel;Pentium;P54C;;;90 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;07/03/1994;1849
+48;Intel;Pentium;P54C;;;100 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;07/03/1994;877
+49;Intel;Pentium;P54C;;;120 MHz;3,200,000;0,6 micrometres;32 bits;3,3 V;SPGA296;1;27/03/1995;2056
+50;Intel;Pentium;P54C;;;133 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;01/06/1995;1904
+51;Intel;Pentium;P54C;;;150 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;04/01/1996;2536
+52;Intel;Pentium;P54C;;;166 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;04/01/1996;2887
+53;Intel;Pentium;P54C;;;200 MHz;3,300,000;0,35 micrometres;32 bits;3,3 V;SPGA296;1;10/06/1996;2418
+54;Intel;Pentium;MMX;;;120 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1995;3110
+55;Intel;Pentium;MMX;;;133 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1995;1566
+56;Intel;Pentium;MMX;;;150 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1995;200
+57;Intel;Pentium;MMX;;;166 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1997;1565
+58;Intel;Pentium;MMX;;;200 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1997;3022
+59;Intel;Pentium;MMX;;;233 MHz;4,500,000;0,28 micrometres;32 bits;2,8 V;SPGA296;1;en 1997;1610
+60;Intel;Pentium;MMX;;;200 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1997;3355
+61;Intel;Pentium;MMX;;;233 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1997;325
+62;Intel;Pentium;MMX;;;266 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1998;2193
+63;Intel;Pentium;MMX;;;300 MHz;4,500,000;0,25 micrometres;32 bits;1,8 V;SPGA296;1;en 1999;2665
+64;Intel;Pentium Pro;P6;;;150 MHz;5,500,000;0,6 micrometres;32 bits;3,1 V;SPGA387;1;01/11/1995;3295
+65;Intel;Pentium Pro;P6;;;166 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;2861
+66;Intel;Pentium Pro;P6;;;180 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;691
+67;Intel;Pentium Pro;P6;;;200 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;2627
+68;Intel;Pentium Pro;P6;;;200 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/11/1995;527
+69;Intel;Pentium Pro;P6;;;200 MHz;5,500,000;0,35 micrometres;32 bits;3,3 V;SPGA387;1;01/01/1997;3178
+70;Intel;Pentium II Celeron;;Klamath;;233 MHz;7,500,000;0,35 micrometres;32 bits;2,8 V;Slot 1;1;01/05/1997;1986
+71;Intel;Pentium II Celeron;;Klamath;;266 MHz;7,500,000;0,35 micrometres;32 bits;2,8 V;Slot 1;1;01/05/1997;921
+72;Intel;Pentium II Celeron;;Klamath;;300 MHz;7,500,000;0,35 micrometres;32 bits;2,8 V;Slot 1;1;01/05/1997;1857
+73;Intel;Pentium II Celeron;;Deschutes;;333 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;01/02/1998;3174
+74;Intel;Pentium II Celeron;;;;266 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;15/04/1998;2827
+75;Intel;Pentium II Celeron;;;;300 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;24/08/1998;2551
+76;Intel;Pentium II Celeron;;;;333 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;24/08/1998;1067
+77;Intel;Pentium II Celeron;;;;366 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;04/01/1999;939
+78;Intel;Pentium II Celeron;;;;400 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;04/01/1999;2750
+79;Intel;Pentium II Celeron;;;;433 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;22/03/1999;2898
+80;Intel;Pentium II Celeron;;;;466 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 1;1;26/04/1999;3336
+81;Intel;Pentium II Celeron;;;;500 MHz;7,500,000;0,18 micrometres;32 bits;2,0 V;Slot 1;1;02/08/1999;2896
+82;Intel;Pentium II Celeron;;;;533 MHz;7,500,000;0,18 micrometres;32 bits;2,0 V;Slot 1;1;04/01/2000;1682
+83;Intel;Pentium II Xeon;;;;400 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 2;1;29/06/1998;3123
+84;Intel;Pentium II Xeon;;;;400 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 2;1;29/06/1998;3096
+85;Intel;Pentium II Xeon;;;;450 MHz;7,500,000;0,25 micrometres;32 bits;2,0 V;Slot 2;1;06/10/1998;707
+86;Intel;Pentium III;450;Katmai;;450 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;26/02/1999;3060
+87;Intel;Pentium III;500;Katmai;;500 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;26/02/1999;3147
+88;Intel;Pentium III;533B;Katmai;;533 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;27/09/1999;3388
+89;Intel;Pentium III;550;Katmai;;550 MHz;9,500,000;0,25 micrometres;32 bits;1,93 V;Slot 1;1;17/05/1999;2881
+90;Intel;Pentium III;600;Katmai;;600 MHz;9,500,000;0,25 micrometres;32 bits;1,98 V;Slot 1;1;02/08/1999;1816
+91;Intel;Pentium III;600B;Katmai;;600 MHz;9,500,000;0,25 micrometres;32 bits;1,98 V;Slot 1;1;27/09/1999;1811
+92;Intel;Pentium III;500E;Coppermine;;500 MHz;28000000;0,18 micrometres;32 bits;1,6 V;Socket 370;1;25/10/1999;2946
+93;Intel;Pentium III;533EB;Coppermine;;533 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;3440
+94;Intel;Pentium III;550E;Coppermine;;550 MHz;28,000,000;0,18 micrometres;32 bits;1,6 V;Socket 370;1;25/10/1999;1774
+95;Intel;Pentium III;600E;Coppermine;;600 MHz;28,000,000;0,18 micrometres;32 bits;1,7 V;Socket 370;1;25/10/1999;2339
+96;Intel;Pentium III;600EB;Coppermine;;600 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;721
+97;Intel;Pentium III;650;Coppermine;;650 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;3533
+98;Intel;Pentium III;667;Coppermine;;666 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;2932
+99;Intel;Pentium III;700;Coppermine;;700 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;3373
+100;Intel;Pentium III;733;Coppermine;;733 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;25/10/1999;2613
+101;Intel;Pentium III;750;Coppermine;;750 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/12/1999;489
+102;Intel;Pentium III;800;Coppermine;;800 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/12/1999;2160
+103;Intel;Pentium III;800EB;Coppermine;;800 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/12/1999;1569
+104;Intel;Pentium III;850;Coppermine;;850 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/03/2000;667
+105;Intel;Pentium III;866;Coppermine;;866 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;20/03/2000;2950
+106;Intel;Pentium III;900;Coppermine;;900 MHz;28,000,000;0,18 micrometres;32 bits;1,7 V;Socket 370;1;01/10/2000;1328
+107;Intel;Pentium III;933;Coppermine;;933 MHz;28,000,000;0,18 micrometres;32 bits;1,65 V;Socket 370;1;24/05/2000;1321
+108;Intel;Pentium III;1000;Coppermine;;1000 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;08/03/2000;291
+109;Intel;Pentium III;1000EB;Coppermine;;1000 MHz;28,000,000;0,18 micrometres;32 bits;1,7 V;Socket 370;1;08/03/2000;1027
+110;Intel;Pentium III;1100;Coppermine;;1100 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2000;3555
+111;Intel;Pentium III;1133;Coppermine;;1130 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;31/07/2000;3377
+112;Intel;Pentium III;800;Coppermine T;;800 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;2129
+113;Intel;Pentium III;866;Coppermine T;;866 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;1026
+114;Intel;Pentium III;933;Coppermine T;;933 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;3320
+115;Intel;Pentium III;1000;Coppermine T;;1000 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;3443
+116;Intel;Pentium III;1133;Coppermine T;;1130 MHz;28,000,000;0,18 micrometres;32 bits;1,75 V;Socket 370;1;01/06/2001;3504
+117;Intel;Pentium III;1000;Tualatin;;1000 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/07/2001;3469
+118;Intel;Pentium III;1000S;Tualatin;;1000 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/06/2001;2325
+119;Intel;Pentium III;1133;Tualatin;;1130 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/07/2001;540
+120;Intel;Pentium III;1133S;Tualatin;;1130 MHz;45,000,000;0,13 micrometres;32 bits;1,45 V;Socket 370;1;01/06/2001;532
+121;Intel;Pentium III;1200;Tualatin;;1200 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/07/2001;2312
+122;Intel;Pentium III;1266S;Tualatin;;1260 MHz;45,000,000;0,13 micrometres;32 bits;1,45 V;Socket 370;1;01/07/2001;1797
+123;Intel;Pentium III;1333;Tualatin;;1330 MHz;45,000,000;0,13 micrometres;32 bits;1,475 V;Socket 370;1;01/12/2001;511
+124;Intel;Pentium III;1400;Tualatin;;1400 MHz;45,000,000;0,13 micrometres;32 bits;1,5 V;Socket 370;1;01/12/2001;2301
+125;Intel;Pentium III;1400S;Tualatin;;1400 MHz;45,000,000;0,13 micrometres;32 bits;1,45 V;Socket 370;1;08/01/2002;3321
+126;Intel;Pentium 4;1 3;Willamette;;1300 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;03/01/2001;1195
+127;Intel;Pentium 4;1 4;Willamette;;1400 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;20/11/2000;707
+128;Intel;Pentium 4 ;1 5;Willamette;;1500 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;20/11/2000;686
+129;Intel;Pentium 4;1 6;Willamette;;1600 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;02/07/2001;3503
+130;Intel;Pentium 4;1 7;Willamette;;1700 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;23/04/2001;587
+131;Intel;Pentium 4;1 8;Willamette;;1800 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;02/07/2001;3204
+132;Intel;Pentium 4;1 9;Willamette;;1900 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;27/08/2001;533
+133;Intel;Pentium 4;2 0;Willamette;;2000 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 423;1;27/08/2001;2369
+134;Intel;Pentium 4;1 4;Willamette;;1400 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2038
+135;Intel;Pentium 4;1 5;Willamette;;1500 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2513
+136;Intel;Pentium 4;1 6;Willamette;;1600 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2585
+137;Intel;Pentium 4;1 7;Willamette;;1700 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;481
+138;Intel;Pentium 4;1 8;Willamette;;1800 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2192
+139;Intel;Pentium 4;1 9;Willamette;;1900 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;372
+140;Intel;Pentium 4;2 0;Willamette;;2000 MHz;42,000,000;0,18 micrometres;32 bits;1,75 V;Socket 478;1;27/08/2001;2737
+141;Intel;Pentium 4;1 6A;Northwood;;1600 MHz;55,000,000;0,13 micrometres;32 bits;1,475 V;Socket 478;1;01/01/2002;2667
+142;Intel;Pentium 4;1 8A;Northwood;;1800 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;01/01/2002;2217
+143;Intel;Pentium 4;2 0A;Northwood;;2000 MHz;55,000,000;0,13 micrometres;32 bits;1,435 V;Socket 478;1;07/01/2002;3428
+144;Intel;Pentium 4;2 2;Northwood;;2 2 GHz;55,000,000;0,13 micrometres;32 bits;1,435 V;Socket 478;1;07/01/2002;2685
+145;Intel;Pentium 4;2 4;Northwood;;2400 MHz;55,000,000;0,13 micrometres;32 bits;1,430 V;Socket 478;1;02/04/2002;2943
+146;Intel;Pentium 4;2 5;Northwood;;2500 MHz;55,000,000;0,13 micrometres;32 bits;1,430 V;Socket 478;1;25/08/2002;750
+147;Intel;Pentium 4;2 6;Northwood;;2600 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;25/08/2002;1203
+148;Intel;Pentium 4;2 8;Northwood;;2800 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;01/11/2002;2338
+149;Intel;Pentium 4;3 0;Northwood;;3000 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;06/05/2002;2992
+150;Intel;Pentium 4;2 26;Northwood;;2267 MHz;55,000,000;0,13 micrometres;32 bits;1,435 V;Socket 478;1;06/05/2002;421
+151;Intel;Pentium 4;2 4B;Northwood;;2400 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;06/05/2002;927
+152;Intel;Pentium 4;2 53;Northwood;;2530 MHz;55,000,000;0,13 micrometres;32 bits;1,430 V;Socket 478;1;06/05/2002;2207
+153;Intel;Pentium 4;2 66;Northwood;;2660 MHz;55,000,000;0,13 micrometres;32 bits;1,420 V;Socket 478;1;25/08/2002;812
+154;Intel;Pentium 4;2 8;Northwood;;2800 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;25/08/2002;2353
+155;Intel;Pentium 4;2 40A;Prescott;;2400 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/03/2004;2893
+156;Intel;Pentium 4;2 66A;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,388 V;Socket 478;1;01/03/2004;1344
+157;Intel;Pentium 4;2 80;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/02/2004;1669
+158;Intel;Pentium 4;2 80A;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/02/2004;2754
+159;Intel;Pentium 4;505;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;656
+160;Intel;Pentium 4;505J;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;2613
+161;Intel;Pentium 4;506;Prescott;;2660 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/06/2005;1170
+162;Intel;Pentium 4;511;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;3390
+163;Intel;Pentium 4;515;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;2938
+164;Intel;Pentium 4;515J;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/12/2004;3429
+165;Intel;Pentium 4;516;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/09/2005;3463
+166;Intel;Pentium 4;519J;Prescott;;3067 MHz;125,000,000;90 nanometres;64 bit;1,388 V;LGA 775;1;01/12/2004;646
+167;Intel;Pentium 4;519K;Prescott;;3067 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;;2506
+168;Intel;Pentium 4 HT;2 4C;Northwood;;2400 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;21/05/2003;1457
+169;Intel;Pentium 4 HT;2 6C;Northwood;;2600 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;21/05/2003;2895
+170;Intel;Pentium 4 HT;2 8C;Northwood;;2800 MHz;55,000,000;0,13 micrometres;32 bits;1,525 V;Socket 478;1;21/05/2003;433
+171;Intel;Pentium 4 HT;3 0;Northwood;;3000 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;14/04/2003;2378
+172;Intel;Pentium 4 HT;3 06;Northwood;;3067 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;12/11/2002;1117
+173;Intel;Pentium 4 HT;3 2;Northwood;;3200 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;23/06/2003;3257
+174;Intel;Pentium 4 HT;3 4;Northwood;;3400 MHz;55,000,000;0,13 micrometres;32 bits;1,55 V;Socket 478;1;02/02/2004;1283
+175;Intel;Pentium 4 HT;2 8E;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/02/2004;3459
+176;Intel;Pentium 4 HT;3 0E;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;Socket 478;1;01/02/2004;3066
+177;Intel;Pentium 4 HT - ;3 2E;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;01/04/2004;3387
+178;Intel;Pentium 4 HT;3 2F;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/08/2004;1336
+179;Intel;Pentium 4 HT;3 4;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;Socket 478;1;01/02/2004;1622
+180;Intel;Pentium 4 HT;3 4F;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/08/2004;549
+181;Intel;Pentium 4 HT;3 6F;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;04/08/2004;1675
+182;Intel;Pentium 4 HT;3 8F;Prescott;;3800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/11/2004;1747
+183;Intel;Pentium 4 HT;517;Prescott;;2930 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/09/2005;1568
+184;Intel;Pentium 4 HT;520;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/06/2004;2719
+185;Intel;Pentium 4 HT;520J;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/10/2004;2582
+186;Intel;Pentium 4 HT;521;Prescott;;2800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;2201
+187;Intel;Pentium 4 HT;524;Prescott;;3067 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/09/2005;3357
+188;Intel;Pentium 4 HT;530;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/06/2004;1823
+189;Intel;Pentium 4 HT;530J;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/10/2004;1337
+190;Intel;Pentium 4 HT;531;Prescott;;3000 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;2964
+191;Intel;Pentium 4 HT;540;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;21/06/2004;3338
+192;Intel;Pentium 4 HT;540J;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;01/10/2004;641
+193;Intel;Pentium 4 HT;541;Prescott;;3200 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;1911
+194;Intel;Pentium 4 HT;550;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;21/06/2004;1425
+195;Intel;Pentium 4 HT;550;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,40 V;Socket 478;1;21/06/2004;3534
+196;Intel;Pentium 4 HT;550J;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/10/2004;1113
+197;Intel;Pentium 4 HT;551;Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;259
+198;Intel;Pentium 4 HT;550 (G1);Prescott;;3400 MHz;125,000,000;90 nanometres;64 bit;1,425 V;Socket 478;1;27/01/2006;2886
+199;Intel;Pentium 4 HT;560;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;21/06/2004;2917
+200;Intel;Pentium 4 HT;560J;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;01/10/2004;2677
+201;Intel;Pentium 4 HT;561;Prescott;;3600 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;3186
+202;Intel;Pentium 4 HT;570J;Prescott;;3800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/11/2004;1104
+203;Intel;Pentium 4 HT;571;Prescott;;3800 MHz;125,000,000;90 nanometres;64 bit;1,425 V;LGA 775;1;12/06/2005;1777
+204;Intel;Pentium 4 HT;620;Prescott 2M;;2800 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;1854
+205;Intel;Pentium 4 HT;630;Prescott 2M;;3000 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;345
+206;Intel;Pentium 4 HT;640;Prescott 2M;;3200 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;2084
+207;Intel;Pentium 4 HT;650;Prescott 2M;;3400 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;2713
+208;Intel;Pentium 4 HT;660;Prescott 2M;;3600 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;20/02/2005;3487
+209;Intel;Pentium 4 HT;662;Prescott 2M;;3600 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;14/11/2005;958
+210;Intel;Pentium 4 HT;670;Prescott 2M;;3800 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;26/05/2005;1556
+211;Intel;Pentium 4 HT;672;Prescott 2M;;3800 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;14/11/2005;3364
+212;Intel;Pentium 4 HT;4 00;Prescott 2M;;4000 MHz;169,000,000;90 nanometres;64 bit;1,40 V;LGA 775;1;;1176
+213;Intel;Pentium 4 HT;631;Cedar Mill;;3000 MHz;188,000,000;65 nanometres;64 bit;1,325 V;LGA 775;1;05/06/2006;2490
+214;Intel;Pentium 4 HT;641;Cedar Mill;;3200 MHz;188,000,000;65 nanometres;64 bit;1,40 V;LGA 775;1;05/06/2006;2024
+215;Intel;Pentium 4 HT;651;Cedar Mill;;3400 MHz;188,000,000;65 nanometres;64 bit;1,40 V;LGA 775;1;05/06/2006;311
+216;Intel;Pentium 4 HT;661;Cedar Mill;;3600 MHz;188,000,000;65 nanometres;64 bit;1,40 V;LGA 775;1;05/06/2006;1811
+217;Intel;Pentium 4 Extreme Edition ;3,2;Gallatin;;3200 MHz;169,000,000;130 nanometres;32 bits;1,55 V;Socket 478;1;03/11/2003;3073
+218;Intel;Pentium 4 Extreme Edition ;3,4;Gallatin;;3400 MHz;169,000,000;130 nanometres;32 bits;1,575 V;Socket 478;1;02/02/2004;2637
+219;Intel;Pentium 4 Extreme Edition ;3,4;Gallatin;;3400 MHz;169,000,000;130 nanometres;32 bits;1,4 V;LGA 775;1;21/06/2004;1651
+220;Intel;Pentium 4 Extreme Edition ;3,46;Gallatin;;3460 MHz;169,000,000;130 nanometres;32 bits;1,4 V;LGA 775;1;31/10/2004;3252
+221;Intel;Pentium 4 Extreme Edition ;3,73;Prescott 2M;;3730 MHz;169,000,000;90 nanometres;64 bit;1,4 V;LGA 775;1;21/02/2005;802
+222;Intel;Pentium D;805;Smithfield;;2667 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;01/12/2005;920
+223;Intel;Pentium D;820;Smithfield;;2800 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;26/05/2005;242
+224;Intel;Pentium D;830;Smithfield;;3000 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;26/05/2005;473
+225;Intel;Pentium D;840;Smithfield;;3200 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;26/05/2005;2836
+226;Intel;Pentium D;915;Presler;;2800 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;23/07/2006;930
+227;Intel;Pentium D;920;Presler;;2800 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;3117
+228;Intel;Pentium D;925;Presler;;3000 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;01/10/2006;2169
+229;Intel;Pentium D;930;Presler;;3000 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;2343
+230;Intel;Pentium D;935;Presler;;3200 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;01/01/2007;2587
+231;Intel;Pentium D;940;Presler;;3200 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;421
+232;Intel;Pentium D;945;Presler;;3400 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;23/07/2006;494
+233;Intel;Pentium D;950;Presler;;3400 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;3522
+234;Intel;Pentium D;960;Presler;;3600 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;02/05/2006;2037
+235;Intel;Pentium  Extreme Edition;840;Smithfield;;3200 MHz;230,000,000;90 nanometres;64 bit;1,4 V;LGA 775;2;01/05/2005;2450
+236;Intel;Pentium  Extreme Edition;955;Presler;;3460 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;16/01/2006;2413
+237;Intel;Pentium  Extreme Edition;965;Presler;;3730 MHz;376,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;2;22/03/2006;3202
+238;Intel;Pentium M;715;Dothan;Carmel Refresh;1500 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;23/06/2004;1745
+239;Intel;Pentium M;725;Dothan;Carmel Refresh;1600 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;23/06/2004;598
+240;Intel;Pentium M;735;Dothan;Carmel Refresh;1700 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;3015
+241;Intel;Pentium M;745;Dothan;Carmel Refresh;1800 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;991
+242;Intel;Pentium M;745A;Dothan;Carmel Refresh;1800 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;3001
+243;Intel;Pentium M;755;Dothan;Carmel Refresh;2000 MHz;144,000,000;90 nanometres;32 bit;1,34 V;Socket 479;1;10/05/2004;2742
+244;Intel;Pentium M;765;Dothan;Carmel Refresh;2100 MHz;144,000,000;90 nanometres;32 bit;1,356 V;Socket 479;1;20/10/2004;2743
+245;Intel;Pentium M;LV 738;Dothan;Carmel Refresh;1400 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;20/07/2004;2493
+246;Intel;Pentium M;LV 758;Dothan;Carmel Refresh;1500 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;19/01/2005;3316
+247;Intel;Pentium M;LV 778;Dothan;Carmel Refresh;1600 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;01/07/2005;1950
+248;Intel;Pentium M;ULV 723;Dothan;Carmel Refresh;1000 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;20/07/2004;3314
+249;Intel;Pentium M;ULV 733;Dothan;Carmel Refresh;1100 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;20/07/2004;1131
+250;Intel;Pentium M;ULV 753;Dothan;Carmel Refresh;1200 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;19/01/2005;325
+251;Intel;Pentium M;ULV 773;Dothan;Carmel Refresh;1300 MHz;144,000,000;90 nanometres;32 bit;1,116 V;Socket 479;1;01/01/2006;797
+252;Intel;Core Solo;T1250;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1547
+253;Intel;Core Solo;T1300;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;2581
+254;Intel;Core Solo;T1400;Yonah;Sonoma;1830 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1167
+255;Intel;Core Solo;U1300;Yonah;Sonoma;1060 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;2831
+256;Intel;Core Solo;U1400;Yonah;Sonoma;1200 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1660
+257;Intel;Core Solo;U1500;Yonah;Sonoma;1330 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1615
+258;Intel;Core Duo;T2300E;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2067
+259;Intel;Core Duo;T2050;Yonah;Sonoma;1600 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;987
+260;Intel;Core Duo;T2250;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2386
+261;Intel;Core Duo;T2300;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1732
+262;Intel;Core Duo;T2350;Yonah;Sonoma;1860 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1015
+263;Intel;Core Duo;T2400;Yonah;Sonoma;1830 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1738
+264;Intel;Core Duo;T2450;Yonah;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;345
+265;Intel;Core Duo;T2500;Yonah;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;373
+266;Intel;Core Duo;T2600;Yonah;Sonoma;2160 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;3077
+267;Intel;Core Duo;T2700;Yonah;Sonoma;2330 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;989
+268;Intel;Core Duo;L2300;Yonah;Sonoma;1500 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2930
+269;Intel;Core Duo;L2400;Yonah;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;3152
+270;Intel;Core Duo;L2500;Yonah;Sonoma;1830 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2536
+271;Intel;Core Duo;U2400;Yonah;Sonoma;1060 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2700
+272;Intel;Core Duo;U2500;Yonah;Sonoma;1200 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;3224
+273;Intel;Pentium Dual-Core;T2060;Yonah;Sonoma;1600 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2881
+274;Intel;Pentium Dual-Core;T2080;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;552
+275;Intel;Pentium Dual-Core;T2130;Yonah;Sonoma;1860 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;1352
+276;Intel;Celeron M;410;Yonah;Sonoma;1460 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;873
+277;Intel;Celeron M;420;Yonah;Sonoma;1600 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;3436
+278;Intel;Celeron M;423;Yonah;Sonoma;1060 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1153
+279;Intel;Celeron M;430;Yonah;Sonoma;1730 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1813
+280;Intel;Celeron M;440;Yonah;Sonoma;1860 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;3124
+281;Intel;Celeron M;443;Yonah;Sonoma;1200 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;1243
+282;Intel;Celeron M;450;Yonah;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;1;;849
+283;Intel;Xeon Dual-Core;ULV 1 6 GHz;Sossaman;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;958
+284;Intel;Xeon Dual-Core;LV 1 6 GHz;Sossaman;Sonoma;1667 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;295
+285;Intel;Xeon Dual-Core;LV 2 0 GHz;Sossaman;Sonoma;2000 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;2690
+286;Intel;Xeon Dual-Core;LV 2 16 GHz;Sossaman;Sonoma;2167 MHz;151,000,000;65 nanometres;32 bit;;Socket M;2;;234
+287;Intel;Core 2 Duo Mobile;T7200;Merom;Napa Refresh;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;474
+288;Intel;Core 2 Duo Mobile;T7400;Merom;Napa Refresh;2167 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1383
+289;Intel;Core 2 Duo Mobile;T5470;Merom;Napa Refresh;1600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1078
+290;Intel;Core 2 Duo Mobile;T5550;Merom;Napa Refresh;1830 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1397
+291;Intel;Core 2 Duo Mobile;T7600;Merom;Napa Refresh;2330 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1756
+292;Intel;Core 2 Duo Mobile;T7600G;Merom;Napa Refresh;2330 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;1926
+293;Intel;Core 2 Duo Mobile;T5200;Merom;Napa Refresh;1600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;783
+294;Intel;Core 2 Duo Mobile;T5250;Merom;Napa Refresh;1500 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;1857
+295;Intel;Core 2 Duo Mobile;T5300;Merom;Napa Refresh;1730 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;1531
+296;Intel;Core 2 Duo Mobile;T5450;Merom;Napa Refresh;1667 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;01/01/2007;227
+297;Intel;Core 2 Duo Mobile;T5500;Merom;Napa Refresh;1667 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;474
+298;Intel;Core 2 Duo Mobile;T5600;Merom;Napa Refresh;1830 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;2;28/08/2006;3520
+299;Intel;Core 2 Duo Mobile;L7200;Merom;Napa Refresh;1330 MHz;291,000,000;65 nanometres;64 bit;1,10 V;Socket M;2;01/02/2007;3489
+300;Intel;Core 2 Duo Mobile;L7400;Merom;Napa Refresh;1500 MHz;291,000,000;65 nanometres;64 bit;1,10 V;Socket M;2;01/02/2007;1365
+301;Intel;Core 2 Duo Mobile;U7500;Merom;Napa Refresh;1060 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;01/04/2007;2946
+302;Intel;Core 2 Duo Mobile;U7600;Merom;Napa Refresh;1200 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;01/04/2007;564
+303;Intel;Core 2 Duo Mobile;U7700;Merom;Napa Refresh;1330 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;01/04/2007;766
+304;Intel;Core 2 Solo;U2100;Merom;Napa Refresh;1060 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;02/09/2007;761
+305;Intel;Core 2 Solo;U2200;Merom;Napa Refresh;1200 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket M;2;02/09/2007;379
+306;Intel;Core 2 Extreme Mobile;X7800;Merom;Santa Rosa;2600 MHz;291,000,000;65 nanometres;64 bit;1,375 V;Socket P;2;10/07/2007;1522
+307;Intel;Core 2 Extreme Mobile;X7900;Merom;Santa Rosa;2800 MHz;291,000,000;65 nanometres;64 bit;1,375 V;Socket P;2;10/07/2007;689
+308;Intel;Core 2 Duo Mobile;T7100;Merom;Santa Rosa;1800 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;2686
+309;Intel;Core 2 Duo Mobile;T7250;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;02/09/2007;922
+310;Intel;Core 2 Duo Mobile;T7300;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;3289
+311;Intel;Core 2 Duo Mobile;T7500;Merom;Santa Rosa;2200 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;2766
+312;Intel;Core 2 Duo Mobile;T7700;Merom;Santa Rosa;2400 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;09/05/2007;718
+313;Intel;Core 2 Duo Mobile;T7800;Merom;Santa Rosa;2600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;02/09/2007;2067
+314;Intel;Core 2 Duo Mobile;T5250;Merom;Santa Rosa;1500 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;2369
+315;Intel;Core 2 Duo Mobile;T5270;Merom;Santa Rosa;1400 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;2567
+316;Intel;Core 2 Duo Mobile;T5450;Merom;Santa Rosa;1667 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;2162
+317;Intel;Core 2 Duo Mobile;T5470;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;3124
+318;Intel;Core 2 Duo Mobile;T5550;Merom;Santa Rosa;1830 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;2;;3361
+319;Intel;Core 2 Duo Mobile;T5670;Merom;Santa Rosa;1800 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1893
+320;Intel;Core 2 Duo Mobile;T5750;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;605
+321;Intel;Core 2 Duo Mobile;T5800;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;324
+322;Intel;Core 2 Duo Mobile;T5850;Merom;Santa Rosa;2160 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1675
+323;Intel;Core 2 Duo Mobile;T5870;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1500
+324;Intel;Core 2 Duo Mobile;T5900;Merom;Santa Rosa;2200 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;1395
+325;Intel;Core 2 Duo Mobile;T5950;Merom;Santa Rosa;2330 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;;905
+326;Intel;Core 2 Duo Mobile;T7300;Merom;Santa Rosa;1400 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;09/05/2007;355
+327;Intel;Core 2 Duo Mobile;T7500;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;09/05/2007;432
+328;Intel;Core 2 Duo Mobile;T7700;Merom;Santa Rosa;1800 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;02/09/2007;989
+329;Intel;Core 2 Duo Mobile;T7800;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,20 V;Socket P;2;02/09/2007;324
+330;Intel;Core 2 Solo;U2100;Merom;Santa Rosa;1060 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket P;1;02/09/2007;2229
+331;Intel;Core 2 Solo;U2200;Merom;Santa Rosa;1200 MHz;291,000,000;65 nanometres;64 bit;0,975 V;Socket P;1;02/09/2007;760
+332;Intel;Pentium Dual-Core;T3200;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;3258
+333;Intel;Pentium Dual-Core;T3400;Merom;Santa Rosa;2160 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;3335
+334;Intel;Pentium Dual-Core;T2310;Merom;Santa Rosa;1460 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1106
+335;Intel;Pentium Dual-Core;T2330;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1460
+336;Intel;Pentium Dual-Core;T2370;Merom;Santa Rosa;1730 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1759
+337;Intel;Pentium Dual-Core;T2390;Merom;Santa Rosa;1860 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1009
+338;Intel;Mobile Celeron Dual-Core;T1600;Merom;Santa Rosa;1667 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;1475
+339;Intel;Mobile Celeron Dual-Core;T1700;Merom;Santa Rosa;1830 MHz;291,000,000;65 nanometres;64 bit;1,175 V;Socket P;2;01/12/2008;3166
+340;Intel;Celeron M;520;Merom;Santa Rosa;1600 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;1933
+341;Intel;Celeron M;523;Merom;Santa Rosa;933 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;969
+342;Intel;Celeron M;530;Merom;Santa Rosa;1730 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2059
+343;Intel;Celeron M;540;Merom;Santa Rosa;1860 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2045
+344;Intel;Celeron M;550;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;571
+345;Intel;Celeron M;560;Merom;Santa Rosa;2130 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2366
+346;Intel;Celeron M;570;Merom;Santa Rosa;2260 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;1703
+347;Intel;Celeron M;575;Merom;Santa Rosa;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2113
+348;Intel;Celeron M;585;Merom;Santa Rosa;2160 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket M;1;01/10/2008;2631
+349;Intel;Core 2 Extreme;X6800;Conroe XE;Santa Rosa;2930 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;23/07/2006;3057
+350;Intel;Core 2 Duo;E6300;Conroe;Santa Rosa;1860 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;1514
+351;Intel;Core 2 Duo;E6320;Conroe;Santa Rosa;1860 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/04/2007;2928
+352;Intel;Core 2 Duo;E6400;Conroe;Santa Rosa;2130 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;2824
+353;Intel;Core 2 Duo;E6420;Conroe;Santa Rosa;2130 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/04/2007;3075
+354;Intel;Core 2 Duo;E6540;Conroe;Santa Rosa;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/07/2006;2809
+355;Intel;Core 2 Duo;E6550;Conroe;Santa Rosa;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;16/07/2007;1861
+356;Intel;Core 2 Duo;E6600;Conroe;Santa Rosa;2400 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;2145
+357;Intel;Core 2 Duo;E6700;Conroe;Santa Rosa;2660 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;27/07/2006;1002
+358;Intel;Core 2 Duo;E6750;Conroe;Santa Rosa;2660 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;16/07/2007;691
+359;Intel;Core 2 Duo;E6850;Conroe;Santa Rosa;3000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;16/07/2007;1831
+360;Intel;Core 2 Duo;E4300;Allendale;Santa Rosa;1800 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;21/01/2007;1279
+361;Intel;Core 2 Duo;E4400;Allendale;Santa Rosa;2000 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/04/2007;2349
+362;Intel;Core 2 Duo;E4500;Allendale;Santa Rosa;2200 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/07/2007;3457
+363;Intel;Core 2 Duo;E4600;Allendale;Santa Rosa;2400 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;21/10/2007;3408
+364;Intel;Core 2 Duo;E4700;Allendale;Santa Rosa;2600 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;28/03/2008;1000
+365;Intel;Pentium Dual-Core;E2140;Allendale;Santa Rosa;1600 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;03/06/2007;3364
+366;Intel;Pentium Dual-Core;E2160;Allendale;Santa Rosa;1800 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;03/06/2007;1270
+367;Intel;Pentium Dual-Core;E2180;Allendale;Santa Rosa;2000 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;03/06/2007;1085
+368;Intel;Pentium Dual-Core;E2200;Allendale;Santa Rosa;2200 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;02/12/2007;2528
+369;Intel;Pentium Dual-Core;E2220;Allendale;Santa Rosa;2400 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;02/12/2007;600
+370;Intel;Celeron;420;Conroe L;Santa Rosa;1600 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;22/04/2007;1590
+371;Intel;Celeron;430;Conroe L;Santa Rosa;1800 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;22/04/2007;1993
+372;Intel;Celeron;440;Conroe L;Santa Rosa;2000 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;22/04/2007;1714
+373;Intel;Celeron;220;Conroe L;Santa Rosa;1200 MHz;105,000,000;65 nanometres;64 bit;1,3375 V;LGA 775;1;21/10/2007;2242
+374;Intel;Celeron Dual-Core;E1200;Allendale;Santa Rosa;1600 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;22/01/2008;2461
+375;Intel;Celeron Dual-Core;E1400;Allendale;Santa Rosa;2000 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;11/05/2008;1850
+376;Intel;Celeron Dual-Core;E1500;Allendale;Santa Rosa;2200 MHz;105,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;01/12/2008;2943
+377;Intel;Xeon;3040;Allendale;Garlow;1860 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2006;2590
+378;Intel;Xeon;3050;Allendale;Garlow;2130 MHz;167,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2006;3184
+379;Intel;Xeon;3060;Allendale;Garlow;2400 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2006;1332
+380;Intel;Xeon;3065;Allendale;Garlow;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;2807
+381;Intel;Xeon;3070;Allendale;Garlow;2670 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;2355
+382;Intel;Xeon;3075;Allendale;Garlow;2670 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;1548
+383;Intel;Xeon;3085;Allendale;Garlow;3000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 775;2;en 2007;407
+384;Intel;Core 2 Extreme;QX6700;Kentsfield;Santa Rosa;2660 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;02/11/2006;1539
+385;Intel;Core 2 Extreme;QX6800;Kentsfield;Santa Rosa;2930 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;01/04/2007;3454
+386;Intel;Core 2 Extreme;QX6850;Kentsfield;Santa Rosa;3000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;16/07/2007;2167
+387;Intel;Core 2 Quad;Q6600;Kentsfield;Santa Rosa;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;08/01/2007;1973
+388;Intel;Core 2 Quad;Q6700;Kentsfield;Santa Rosa;2660 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;16/07/2007;2774
+389;Intel;Core 2 Quad;Q6850;Kentsfield;Santa Rosa;3000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;01/10/2008;2371
+390;Intel;Xeon 3200;X3210;Kentsfield;Garlow;2130 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;;2107
+391;Intel;Xeon 3200;X3220;Kentsfield;Garlow;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;;3152
+392;Intel;Xeon 3200;X3230;Kentsfield;Garlow;2600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 775;4;;222
+393;Intel;Xeon 5100;5110;Woodcrest;Bensley;1600 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;2121
+394;Intel;Xeon 5100;5120;Woodcrest;Bensley;1860 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;1222
+395;Intel;Xeon 5100;5128;Woodcrest;Bensley;1860 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;2038
+396;Intel;Xeon 5100;5130;Woodcrest;Bensley;2000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;2125
+397;Intel;Xeon 5100;5138;Woodcrest;Bensley;2000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;1987
+398;Intel;Xeon 5100;5140;Woodcrest;Bensley;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;381
+399;Intel;Xeon 5100;5148;Woodcrest;Bensley;2330 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;1661
+400;Intel;Xeon 5100;5150;Woodcrest;Bensley;2660 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;3393
+401;Intel;Xeon 5100;5160;Woodcrest;Bensley;3000 MHz;291,000,000;65 nanometres;64 bit;1,50 V;LGA 771;2;;3488
+402;Intel;Xeon 5300;L5310;Clovertown;Bensley;1600 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;12/03/2007;3154
+403;Intel;Xeon 5300;L5318;Clovertown;Bensley;1600 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;12/03/2007;1850
+404;Intel;Xeon 5300;E5310;Clovertown;Bensley;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;14/11/2006;1460
+405;Intel;Xeon 5300;L5320;Clovertown;Bensley;1860 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;12/03/2007;3232
+406;Intel;Xeon 5300;E5320;Clovertown;Bensley;1860 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;14/11/2006;1902
+407;Intel;Xeon 5300;L5335;Clovertown;Bensley;2000 MHz;582,000,000;65 nanometres;64 bit;1,25 V;LGA 771;4;13/08/2007;415
+408;Intel;Xeon 5300;E5335;Clovertown;Bensley;2000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;04/04/2007;2901
+409;Intel;Xeon 5300;X5345;Clovertown;Bensley;2330 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;04/04/2007;3359
+410;Intel;Xeon 5300;X5355;Clovertown;Bensley;2660 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;01/09/2007;3379
+411;Intel;Xeon 5300;X5365;Clovertown;Bensley;3000 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;01/09/2007;2451
+412;Intel;Xeon 5300;L5310;Tigerton;Caneland;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;882
+413;Intel;Xeon 5300;L5318;Tigerton;Caneland;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;1140
+414;Intel;Xeon 7300;E7310;Tigerton;Caneland;1600 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;408
+415;Intel;Xeon 7300;E7320;Tigerton;Caneland;2130 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;441
+416;Intel;Xeon 7300;E7330;Tigerton;Caneland;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;3168
+417;Intel;Xeon 7300;E7340;Tigerton;Caneland;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;279
+418;Intel;Xeon 7300;E7345;Tigerton;Caneland;1860 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;1298
+419;Intel;Xeon 7300;X7350;Tigerton;Caneland;2930 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;2848
+420;Intel;Xeon 7200;E7210;Tigerton;Caneland;2400 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;2929
+421;Intel;Xeon 7200;E7220;Tigerton;Caneland;2930 MHz;582,000,000;65 nanometres;64 bit;1,50 V;LGA 771;4;;2080
+422;Intel;Core 2 Duo;E8190;Wolfdale;Santa Rosa;2660 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;806
+423;Intel;Core 2 Duo;E8200;Wolfdale;Santa Rosa;2660 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;1199
+424;Intel;Core 2 Duo;E8300;Wolfdale;Santa Rosa;2830 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;20/04/2008;697
+425;Intel;Core 2 Duo;E8400;Wolfdale;Santa Rosa;3000 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;1445
+426;Intel;Core 2 Duo;E8500;Wolfdale;Santa Rosa;3160 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;2336
+427;Intel;Core 2 Duo;E8600;Wolfdale;Santa Rosa;3330 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;10/08/2008;2384
+428;Intel;Core 2 Duo;E7200;Wolfdale-3M;Santa Rosa;2530 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;20/04/2008;1617
+429;Intel;Core 2 Duo;E7300;Wolfdale-3M;Santa Rosa;2660 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;10/08/2008;991
+430;Intel;Core 2 Duo;E7400;Wolfdale-3M;Santa Rosa;2800 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;19/10/2008;1297
+431;Intel;Core 2 Duo;E7500;Wolfdale-3M;Santa Rosa;2930 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;18/01/2009;488
+432;Intel;Core 2 Duo;E7600;Wolfdale-3M;Santa Rosa;3060 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;31/05/2009;1681
+433;Intel;Pentium Dual-Core;E6300;Wolfdale-3M;Santa Rosa;2800 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;31/05/2009;1593
+434;Intel;Pentium Dual-Core;E5200;Wolfdale-3M;Santa Rosa;2500 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;31/08/2008;1359
+435;Intel;Pentium Dual-Core;E5300;Wolfdale-3M;Santa Rosa;2600 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/12/2008;1562
+436;Intel;Pentium Dual-Core;E5400;Wolfdale-3M;Santa Rosa;2700 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;18/01/2009;1880
+437;Intel;Pentium Dual-Core;E5500;Wolfdale-3M;Santa Rosa;2800 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;18/04/2010;2471
+438;Intel;Pentium Dual-Core;E5700;Wolfdale-3M;Santa Rosa;3000 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;08/08/2010;1754
+439;Intel;Pentium Dual-Core;E5800;Wolfdale-3M;Santa Rosa;3200 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;28/11/2010;3459
+440;Intel;Celeron Dual-Core;E3200;Wolfdale-3M;Santa Rosa;2400 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/09/2009;1448
+441;Intel;Celeron Dual-Core;E3300;Wolfdale-3M;Santa Rosa;2500 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/09/2009;1655
+442;Intel;Celeron Dual-Core;E3400;Wolfdale-3M;Santa Rosa;2600 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/01/2010;3447
+443;Intel;Celeron Dual-Core;E3500;Wolfdale-3M;Santa Rosa;2700 MHz;228,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;01/10/2010;714
+444;Intel;Xeon 5200;X5260;Wolfdale;Bensley;3330 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;11/11/2007;2107
+445;Intel;Xeon 5200;X5272;Wolfdale;Bensley;3400 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;11/11/2007;2483
+446;Intel;Xeon 5200;X5270;Wolfdale;Bensley;3500 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;01/12/2008;3492
+447;Intel;Xeon 5200;E5205;Wolfdale;Bensley;1860 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;11/11/2007;318
+448;Intel;Xeon 5200;E5220;Wolfdale;Bensley;2330 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;01/03/2008;2698
+449;Intel;Xeon 5200;E5240;Wolfdale;Bensley;3000 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;01/03/2008;455
+450;Intel;Xeon 5200;L5238;Wolfdale;Bensley;2660 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 771;2;27/02/2008;2449
+451;Intel;Xeon 3100;E3110;Wolfdale;Garlow;3000 MHz;410,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;2;07/01/2008;1100
+452;Intel;Core 2 Extreme Mobile;X9000;Penryn;Santa Rosa Refresh;2800 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;1834
+453;Intel;Core 2 Duo  Mobile;T8100;Penryn;Santa Rosa Refresh;2100 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;2651
+454;Intel;Core 2 Duo  Mobile;T8300;Penryn;Santa Rosa Refresh;2400 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;1645
+455;Intel;Core 2 Duo  Mobile;T9300;Penryn;Santa Rosa Refresh;2500 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;1143
+456;Intel;Core 2 Duo  Mobile;T9500;Penryn;Santa Rosa Refresh;2600 MHz;410,000,000;45 nanometres;64 bit;1,25 V;Socket P;2;07/01/2008;3528
+457;Intel;Core 2 Extreme Mobile;X9100;Penryn;Montevina;3060 MHz;410,000,000;45 nanometres;64 bit;1,2625 V;Socket P;2;01/10/2008;2697
+458;Intel;Core 2 Extreme Mobile;QX9300;Penryn;Montevina;2530 MHz;820,000,000;45 nanometres;64 bit;1,175 V;Socket P;4;01/10/2008;2755
+459;Intel;Core 2 Quad Mobile;Q9100;Penryn;Montevina;2260 MHz;820,000,000;45 nanometres;64 bit;1,175 V;Socket P;4;01/10/2008;3431
+460;Intel;Core 2 Duo Mobile;SP9300;Penryn;Montevina;2260 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;383
+461;Intel;Core 2 Duo Mobile;SP9400;Penryn;Montevina;2400 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;738
+462;Intel;Core 2 Duo Mobile;P7350;Penryn;Montevina;2000 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;1578
+463;Intel;Core 2 Duo Mobile;P8400;Penryn;Montevina;2260 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;1165
+464;Intel;Core 2 Duo Mobile;P8600;Penryn;Montevina;2400 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;212
+465;Intel;Core 2 Duo Mobile;P9500;Penryn;Montevina;2530 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;2042
+466;Intel;Core 2 Duo Mobile;E8135;Penryn;Montevina;2660 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;2713
+467;Intel;Core 2 Duo Mobile;E8235;Penryn;Montevina;2800 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;731
+468;Intel;Core 2 Duo Mobile;E8335;Penryn;Montevina;2930 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;2818
+469;Intel;Core 2 Duo Mobile;E8435;Penryn;Montevina;3060 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/04/2008;3389
+470;Intel;Core 2 Duo Mobile;T9400;Penryn;Montevina;2530 MHz;410,000,000;45 nanometres;64 bit;1,162 V;Socket P;2;01/07/2008;3271
+471;Intel;Core 2 Duo Mobile;T9600;Penryn;Montevina;2800 MHz;410,000,000;45 nanometres;64 bit;1,2125 V;Socket P;2;01/07/2008;2192
+472;Intel;Core 2 Duo Mobile;SL9300;Penryn;Montevina;1600 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;892
+473;Intel;Core 2 Duo Mobile;SL9400;Penryn;Montevina;1860 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;622
+474;Intel;Core 2 Solo;SU3300;Penryn-3M;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;1;01/07/2008;1725
+475;Intel;Core 2 Duo;SU9300;Penryn-3M;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;515
+476;Intel;Core 2 Duo;SU9400;Penryn-3M;Montevina;1400 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;2;01/07/2008;2463
+477;Intel;Celeron M;575;Merom;Montevina;2000 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;1;01/07/2008;2037
+478;Intel;Celeron M;585;Merom;Montevina;2160 MHz;291,000,000;65 nanometres;64 bit;1,30 V;Socket P;1;01/07/2008;632
+479;Intel;Celeron M;723;Penryn;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;Socket P;1;01/07/2008;3512
+480;Intel;Mobile Celeron Dual-Core;SU2300;Penryn-3M;Montevina;1200 MHz;410,000,000;45 nanometres;64 bit;1,150 V;BGA956;1;02/06/2009;2743
+481;Intel;Mobile Celeron Dual-Core;SU2700;Penryn-3M;Montevina;1300 MHz;410,000,000;45 nanometres;64 bit;1,150 V;BGA956;1;12/06/2009;3456
+482;Intel;Core 2 Extreme;QX9650;Yorkfield;Montevina;3000 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;11/11/2007;2007
+483;Intel;Core 2 Extreme;QX9775;Yorkfield;Montevina;3200 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;11/11/2007;2644
+484;Intel;Core 2 Extreme;QX9770;Yorkfield;Montevina;3200 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/01/2008;1979
+485;Intel;Core 2 Quad;Q8200S;Yorkfield;Montevina;2330 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/08/2008;1703
+486;Intel;Core 2 Quad;Q8200;Yorkfield;Montevina;2330 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/03/2008;2825
+487;Intel;Core 2 Quad;Q8300;Yorkfield;Montevina;2500 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;30/11/2008;1605
+488;Intel;Core 2 Quad;Q9300;Yorkfield;Montevina;2500 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/03/2008;295
+489;Intel;Core 2 Quad;Q9400S;Yorkfield;Montevina;2660 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/07/2008;302
+490;Intel;Core 2 Quad;Q9400;Yorkfield;Montevina;2660 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;10/08/2008;3030
+491;Intel;Core 2 Quad;Q9450;Yorkfield;Montevina;2660 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/03/2008;2403
+492;Intel;Core 2 Quad;Q9550S;Yorkfield;Montevina;2830 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/12/2008;2134
+493;Intel;Core 2 Quad;Q9550;Yorkfield;Montevina;2830 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;01/07/2008;1850
+494;Intel;Core 2 Quad;Q9650;Yorkfield;Montevina;3000 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;10/08/2008;1248
+495;Intel;Xeon 3300;X3320;Yorkfield;Garlow;2500 MHz;456,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;07/01/2008;846
+496;Intel;Xeon 3300;X3350;Yorkfield;Garlow;2660 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;07/01/2008;1922
+497;Intel;Xeon 3300;X3360;Yorkfield;Garlow;2830 MHz;820,000,000;45 nanometres;64 bit;1,3625 V;LGA 775;4;07/01/2008;2910
+498;Intel;Xeon 5400;X5450;Harpertown;Bensley;3000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2393
+499;Intel;Xeon 5400;X5460;Harpertown;Bensley;3160 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2841
+500;Intel;Xeon 5400;X5470;Harpertown;Bensley;3330 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;08/09/2008;2753
+501;Intel;Xeon 5400;X5472;Harpertown;Bensley;3000 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2848
+502;Intel;Xeon 5400;X5482;Harpertown;Bensley;3200 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1381
+503;Intel;Xeon 5400;X5492;Harpertown;Bensley;3400 Mhz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;08/09/2008;2712
+504;Intel;Xeon 5400;E5405;Harpertown;Bensley;2000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1639
+505;Intel;Xeon 5400;E5410;Harpertown;Bensley;2330 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1682
+506;Intel;Xeon 5400;E5420;Harpertown;Bensley;2500 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;594
+507;Intel;Xeon 5400;E5430;Harpertown;Bensley;2660 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1157
+508;Intel;Xeon 5400;E5440;Harpertown;Bensley;2830 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;3426
+509;Intel;Xeon 5400;E5450;Harpertown;Bensley;3000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;1077
+510;Intel;Xeon 5400;E5462;Harpertown;Bensley;2800 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;300
+511;Intel;Xeon 5400;E5472;Harpertown;Bensley;3000 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;12/11/2007;2373
+512;Intel;Xeon 5400;L5408;Harpertown;Bensley;2130 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;01/04/2008;3417
+513;Intel;Xeon 5400;L5410;Harpertown;Bensley;2330 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;26/03/2008;2330
+514;Intel;Xeon 5400;L5420;Harpertown;Bensley;2500 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;26/03/2008;2760
+515;Intel;Xeon 5400;L5430;Harpertown;Bensley;2660 MHz;820,000,000;45 nanometres;64 bit;1,35 V;LGA 771;4;08/09/2008;1843
+516;Intel;Xeon 7400;X7460;Dunnington;Caneland;2660 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;871
+517;Intel;Xeon 7400;E7420;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;2066
+518;Intel;Xeon 7400;E7430;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;3096
+519;Intel;Xeon 7400;E7440;Dunnington;Caneland;2400 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;721
+520;Intel;Xeon 7400;E7450;Dunnington;Caneland;2400 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;2929
+521;Intel;Xeon 7400;E7458;Dunnington;Caneland;2400 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;1650
+522;Intel;Xeon 7400;L7445;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;4;01/07/2008;2945
+523;Intel;Xeon 7400;L7455;Dunnington;Caneland;2130 MHz;1,900,000,000;45 nanometres;64 bit;1,45 V;Socket 604;6;01/07/2008;2579
+524;Intel;Atom Z500 series;Z500;Silverthorne;;800 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;04/06/2010;2534
+525;Intel;Atom Z500 series;Z510;Silverthorne;;1100 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;04/06/2010;1075
+526;Intel;Atom Z500 series;Z510P;Silverthorne;;1100 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;04/06/2010;2158
+527;Intel;Atom Z500 series;Z510PT;Silverthorne;;1100 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;04/06/2010;1134
+528;Intel;Atom Z500 series;Z515;Silverthorne;;1200 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;2740
+529;Intel;Atom Z500 series;Z520;Silverthorne;;1330 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;571
+530;Intel;Atom Z500 series;Z520PT;Silverthorne;;1330 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;20/05/2011;2726
+531;Intel;Atom Z500 series;Z530;Silverthorne;;1600 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;837
+532;Intel;Atom Z500 series;Z530P;Silverthorne;;1600 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA437;1;20/05/2011;1062
+533;Intel;Atom Z500 series;Z540;Silverthorne;;1860 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;781
+534;Intel;Atom Z500 series;Z550;Silverthorne;;2000 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;673
+535;Intel;Atom Z500 series;Z560;Silverthorne;;2130 MHz;47,000,000;45 nanometres;32 bit;1,10 V;BGA441;1;20/05/2011;2579
+536;Intel;Atom 330 series;330;Diamondville;Nettop '08;1600 MHz;94,000,000;45 nanometres;64 bit;1,1625 V;BGA437;2;07/05/2010;3192
+537;Intel;Atom 230 series;230;Diamondville;Nettop '08;1600 MHz;47,000,000;45 nanometres;64 bit;1,1625 V;BGA437;1;07/05/2010;1671
+538;Intel;Atom N200 series;N270;Diamondville;Netbook '08;1600 MHz;47,000,000;45 nanometres;32 bit;1,1625 V;BGA437;1;07/05/2010;430
+539;Intel;Atom N200 series;N280;Diamondville;Netbook '08;1660 MHz;47,000,000;45 nanometres;32 bit;1,1625 V;BGA437;1;07/05/2010;2002
+540;Intel;Atom D400 series;D410;Pineview;Pine Trail-D;1660 MHz;123,000,000;45 nanometres;64 bit;1,175 V;BGA559;1;04/01/2010;3076
+541;Intel;Atom D400 series;D425;Pineview;Pine Trail-D;1800 MHz;123,000,000;45 nanometres;64 bit;1,175 V;BGA559;1;21/06/2010;1089
+542;Intel;Atom D500 series;D510;Pineview;Pine Trail-D;1660 MHz;176,000,000;45 nanometres;64 bit;1,175 V;BGA559;2;04/01/2010;2538
+543;Intel;Atom D500 series;D525;Pineview;Pine Trail-D;1800 MHz;176,000,000;45 nanometres;64 bit;1,175 V;BGA559;2;21/06/2010;2457
+544;Intel;Core i7 Extreme Edition;965 XE;Bloomfield;X58;3200 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;17/11/2008;263
+545;Intel;Core i7 Extreme Edition;975 XE;Bloomfield;X58;3330 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;02/06/2009;2210
+546;Intel;Core i7;920;Bloomfield;X58;2667 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;17/11/2008;2259
+547;Intel;Core i7;930;Bloomfield;X58;2880 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;01/03/2010;1996
+548;Intel;Core i7;940;Bloomfield;X58;2930 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;17/11/2008;2913
+549;Intel;Core i7;950;Bloomfield;X58;3060 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;02/06/2009;3513
+550;Intel;Core i7;960;Bloomfield;X58;3200 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;20/10/2009;2995
+551;Intel;Xeon 3500;W3505;Nehalem;Tylersburg;2530 MHz;731,000,000;45 nanometres;64 bit;1,225 V;LGA1366;2;01/01/2009;1882
+552;Intel;Xeon 3500;W3520;Nehalem;Tylersburg;2670 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;30/03/2009;941
+553;Intel;Xeon 3500;W3530;Nehalem;Tylersburg;2800 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;16/03/2009;234
+554;Intel;Xeon 3500;W3540;Nehalem;Tylersburg;2960 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;30/03/2009;2705
+555;Intel;Xeon 3500;W3550;Nehalem;Tylersburg;3060 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;05/08/2009;530
+556;Intel;Xeon 3500;W3565;Nehalem;Tylersburg;3200 MHz;731,000,000;45 nanometres;64 bit;1,225 V;LGA1366;4;02/11/2009;2610
+557;Intel;Xeon 3500;W3570;Nehalem;Tylersburg;3200 MHz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;30/03/2009;810
+558;Intel;Xeon 3500;W3580;Nehalem;Tylersburg;3330 Mhz;731,000,000;45 nanometres;64 bit;1,375 V;LGA1366;4;05/08/2009;858
+559;Intel;Core i7;860S;Lynnfield;;2530 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;290
+560;Intel;Core i7;870S;Lynnfield;;2660 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;437
+561;Intel;Core i7;860;Lynnfield;;2800 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;29/06/2012;504
+562;Intel;Core i7;870;Lynnfield;;2930 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;29/06/2012;346
+563;Intel;Core i7;875K;Lynnfield;;2930 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;24/02/2012;3211
+564;Intel;Core i7;880;Lynnfield;;3060 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;3110
+565;Intel;Core i5;750S;Lynnfield;;2400 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;30/03/2012;2956
+566;Intel;Core i5;750;Lynnfield;;2660 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;26/08/2011;3185
+567;Intel;Core i5;760;Lynnfield;;2800 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;24/02/2012;2697
+568;Intel;Xeon 3400;L3426;Lynnfield;Foxhollow;1870 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;2861
+569;Intel;Xeon 3400;X3430;Lynnfield;Foxhollow;2400 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;3263
+570;Intel;Xeon 3400;X3440;Lynnfield;Foxhollow;2530 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;2160
+571;Intel;Xeon 3400;X3450;Lynnfield;Foxhollow;2670 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;476
+572;Intel;Xeon 3400;X3460;Lynnfield;Foxhollow;2800 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;1947
+573;Intel;Xeon 3400;X3470;Lynnfield;Foxhollow;2930 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;08/09/2009;520
+574;Intel;Xeon 3400;X3480;Lynnfield;Foxhollow;3060 MHz;774,000,000;45 nanometres;64 bit;1,40 V;LGA1156;4;09/06/2010;3114
+575;Intel;Xeon 5500;E5502;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;2;30/03/2009;1013
+576;Intel;Xeon 5500;E5503;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;2;30/03/2009;1896
+577;Intel;Xeon 5500;E5504;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;3305
+578;Intel;Xeon 5500;L5506;Gainestown;Tylersburg-EP;2133 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;724
+579;Intel;Xeon 5500;E5506;Gainestown;Tylersburg-EP;2133 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;1719
+580;Intel;Xeon 5500;L5508;Gainestown;Tylersburg-EP;2000 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;2;30/03/2009;1143
+581;Intel;Xeon 5500;L5518;Gainestown;Tylersburg-EP;2133 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2630
+582;Intel;Xeon 5500;L5520;Gainestown;Tylersburg-EP;2270 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;05/08/2009;2761
+583;Intel;Xeon 5500;E5520;Gainestown;Tylersburg-EP;2270 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;3509
+584;Intel;Xeon 5500;L5530;Gainestown;Tylersburg-EP;2400 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2226
+585;Intel;Xeon 5500;E5530;Gainestown;Tylersburg-EP;2400 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;831
+586;Intel;Xeon 5500;E5540;Gainestown;Tylersburg-EP;2533 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2748
+587;Intel;Xeon 5500;X5550;Gainestown;Tylersburg-EP;2670 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;3347
+588;Intel;Xeon 5500;X5560;Gainestown;Tylersburg-EP;2800 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;1573
+589;Intel;Xeon 5500;X5570;Gainestown;Tylersburg-EP;2933 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2938
+590;Intel;Xeon 5500;W5580;Gainestown;Tylersburg-EP;3200 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;30/03/2009;2263
+591;Intel;Xeon 5500;W5590;Gainestown;Tylersburg-EP;3333 MHz;731,000,000;45 nanometres;64 bit;1,35 V;LGA1366;4;05/08/2009;2669
+592;Intel;Xeon 7500;E7520;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;4;01/01/2010;836
+593;Intel;Xeon 7500;E7530;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;2508
+594;Intel;Xeon 7500;E7540;Beckton;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;910
+595;Intel;Xeon 7500;X7542;Beckton;Boxboro-EX;2670 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;2828
+596;Intel;Xeon 7500;L7545;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;2370
+597;Intel;Xeon 7500;X7550;Beckton;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;2046
+598;Intel;Xeon 7500;L7555;Beckton;Boxboro-EX;1870 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;1651
+599;Intel;Xeon 7500;X7560;Beckton;Boxboro-EX;2270 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;563
+600;Intel;Xeon 6500;E6510;Nehalem-EX;Boxboro-EX;1730 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;4;01/01/2010;3222
+601;Intel;Xeon 6500;E6540;Nehalem-EX;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;6;01/01/2010;1164
+602;Intel;Xeon 6500;X6550;Nehalem-EX;Boxboro-EX;2000 MHz;2,300,000,000;45 nanometres;64 bit;1,35 V;LGA1567;8;01/01/2010;3196
+603;Intel;Core i7 Mobile Extreme Edition;920XM;Clarksfield;Calpella;2000 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;2791
+604;Intel;Core i7 Mobile Extreme Edition;940XM;Clarksfield;Calpella;2130 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;569
+605;Intel;Core i7 Mobile;720QM;Clarksfield;Calpella;1600 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;1033
+606;Intel;Core i7 Mobile;740QM;Clarksfield;Calpella;1730 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;1653
+607;Intel;Core i7 Mobile;820QM;Clarksfield;Calpella;1730 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;2692
+608;Intel;Core i7 Mobile;840QM;Clarksfield;Calpella;1860 MHz;774,000,000;45 nanometres;64 bit;1,40 V;PGA988;4;30/09/2011;1998
+609;Intel;Core i7 Extreme Edition;980X;Gulftown;2010 HEDT;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;30/09/2011;3232
+610;Intel;Core i7 Extreme Edition;990X;Gulftown;2010 HEDT;3400 Mhz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;29/06/2012;2991
+611;Intel;Core i7;970;Gulftown;2011 HEDT;3200 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;27/01/2012;611
+612;Intel;Core i7;980;Gulftown;2012 HEDT;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,30 V;LGA1366;6;29/06/2012;1675
+613;Intel;Xeon 5600;L5609;Westmere-EP;Tylersburg-WS;1870 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;3421
+614;Intel;Xeon 5600;L5618;Westmere-EP;Tylersburg-WS;1870 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;2203
+615;Intel;Xeon 5600;E5620;Westmere-EP;Tylersburg-WS;2400 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;1087
+616;Intel;Xeon 5600;L5630;Westmere-EP;Tylersburg-WS;2130 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;1202
+617;Intel;Xeon 5600;E5630;Westmere-EP;Tylersburg-WS;2533 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;878
+618;Intel;Xeon 5600;L5638;Westmere-EP;Tylersburg-WS;2000 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;1186
+619;Intel;Xeon 5600;L5640;Westmere-EP;Tylersburg-WS;2270 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;2793
+620;Intel;Xeon 5600;E5640;Westmere-EP;Tylersburg-WS;2670 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;441
+621;Intel;Xeon 5600;E5645;Westmere-EP;Tylersburg-WS;2400 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;1145
+622;Intel;Xeon 5600;X5650;Westmere-EP;Tylersburg-WS;2670 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;2090
+623;Intel;Xeon 5600;X5660;Westmere-EP;Tylersburg-WS;2800 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;1387
+624;Intel;Xeon 5600;X5667;Westmere-EP;Tylersburg-WS;3070 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;2053
+625;Intel;Xeon 5600;X5670;Westmere-EP;Tylersburg-WS;2933 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;3133
+626;Intel;Xeon 5600;X5677;Westmere-EP;Tylersburg-WS;3470 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;4;16/03/2010;3476
+627;Intel;Xeon 5600;X5680;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,35 V;LGA1366;6;16/03/2010;3177
+628;Intel;Xeon 3600;W3670;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;30/08/2010;1989
+629;Intel;Xeon 3600;W3680;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;16/03/2010;3160
+630;Intel;Xeon 3600;W3690;Westmere-EP;Tylersburg-WS;3330 MHz;1,170,000,000;32 nanometres;64 bit;1,375 V;LGA1366;6;13/02/2011;1708
+631;Intel;Core i5 ;650;Clarkdale;;3200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;1067
+632;Intel;Core i5 ;655K;Clarkdale;;3200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/06/2010;2198
+633;Intel;Core i5;660;Clarkdale;;3330 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;1561
+634;Intel;Core i5;661;Clarkdale;;3330 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;581
+635;Intel;Core i5;670;Clarkdale;;3460 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;1668
+636;Intel;Core i5;680;Clarkdale;;3600 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;18/04/2010;667
+637;Intel;Core i3;530;Clarkdale;;2933 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;05/01/2010;291
+638;Intel;Core i3;540;Clarkdale;;3060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;05/01/2010;1433
+639;Intel;Core i3;550;Clarkdale;;3200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/04/2010;1252
+640;Intel;Core i3;560;Clarkdale;;3330 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/07/2010;1689
+641;Intel;Pentium Dual-Core;G6950;Clarkdale;;2800 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;07/01/2010;2513
+642;Intel;Pentium Dual-Core;G6951;Clarkdale;;2800 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/07/2011;3272
+643;Intel;Pentium Dual-Core;G6960;Clarkdale;;2933 MHz;382,000,000;32 nanometres;64 bit;1,40 V;LGA1156;2;01/01/2011;1724
+644;Intel;Core i7 Mobile;620UE;Arrandale;Calpella;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;838
+645;Intel;Core i7 Mobile;620UM;Arrandale;Calpella;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2010
+646;Intel;Core i7 Mobile;640UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2245
+647;Intel;Core i7 Mobile;660UE;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;02/08/2010;607
+648;Intel;Core i7 Mobile;660UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;24/05/2010;1347
+649;Intel;Core i7 Mobile;680UM;Arrandale;Calpella;1460 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;2403
+650;Intel;Core i7 Mobile;620LE;Arrandale;Calpella;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2102
+651;Intel;Core i7 Mobile;620LM;Arrandale;Calpella;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;1140
+652;Intel;Core i7 Mobile;640LM;Arrandale;Calpella;2130 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;1711
+653;Intel;Core i7 Mobile;660LM;Arrandale;Calpella;2260 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;401
+654;Intel;Core i7 Mobile;610E;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2572
+655;Intel;Core i7 Mobile;620M;Arrandale;Calpella;2660 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2033
+656;Intel;Core i7 Mobile;640M;Arrandale;Calpella;2800 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;2305
+657;Intel;Core i5 Mobile;430UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1919
+658;Intel;Core i5 Mobile;470UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;3489
+659;Intel;Core i5 Mobile;520UM;Arrandale;Calpella;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1711
+660;Intel;Core i5 Mobile;540UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;2559
+661;Intel;Core i5 Mobile;560UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;2952
+662;Intel;Core i5 Mobile;430M;Arrandale;Calpella;2260 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1204
+663;Intel;Core i5 Mobile;450M;Arrandale;Calpella;2400 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;20/06/2010;2610
+664;Intel;Core i5 Mobile;460M;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;26/09/2010;803
+665;Intel;Core i5 Mobile;480M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;09/01/2011;510
+666;Intel;Core i5 Mobile;520M;Arrandale;Calpella;2400 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1300
+667;Intel;Core i5 Mobile;540M;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;1828
+668;Intel;Core i5 Mobile;560M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;3421
+669;Intel;Core i5 Mobile;580M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;04/01/2010;2322
+670;Intel;Core i3 Mobile;330UM;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;24/05/2010;2428
+671;Intel;Core i3 Mobile;380UM;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/11/2010;1407
+672;Intel;Core i3 Mobile;330M;Arrandale;Calpella;2133 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;2970
+673;Intel;Core i3 Mobile;350M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;07/01/2010;734
+674;Intel;Core i3 Mobile;370M;Arrandale;Calpella;2400 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/07/2010;400
+675;Intel;Core i3 Mobile;380M;Arrandale;Calpella;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/07/2010;1121
+676;Intel;Core i3 Mobile;390M;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/07/2010;3431
+677;Intel;Pentium Dual-Core Mobile;U5400;Arrandale;Calpella;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;2645
+678;Intel;Pentium Dual-Core Mobile;U5600;Arrandale;Calpella;1333 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;1454
+679;Intel;Pentium Dual-Core Mobile;P6000;Arrandale;Calpella;1860 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;3348
+680;Intel;Pentium Dual-Core Mobile;P6100;Arrandale;Calpella;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;2937
+681;Intel;Pentium Dual-Core Mobile;P6200;Arrandale;Calpella;2133 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;3317
+682;Intel;Pentium Dual-Core Mobile;P6300;Arrandale;Calpella;2667 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/04/2010;1079
+683;Intel;Mobile Celeron Dual-Core;U3400;Arrandale;;1060 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;01/05/2010;1267
+684;Intel;Mobile Celeron Dual-Core;U3600;Arrandale;;1200 MHz;382,000,000;32 nanometres;64 bit;1,40 V;BGA1288;2;09/01/2011;493
+685;Intel;Mobile Celeron Dual-Core;P4500;Arrandale;;2533 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/01/2010;2353
+686;Intel;Mobile Celeron Dual-Core;P4600;Arrandale;;2000 MHz;382,000,000;32 nanometres;64 bit;1,40 V;PGA988;2;01/07/2010;788
+687;Intel;Xeon E7-4800;E7-4807;Eagleton;Boxboro-EX;1860 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;6;03/04/2011;3267
+688;Intel;Xeon E7-4800;E7-4820;Eagleton;Boxboro-EX;2000 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1482
+689;Intel;Xeon E7-4800;E7-4830;Eagleton;Boxboro-EX;2133 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1760
+690;Intel;Xeon E7-4800;E7-4850;Eagleton;Boxboro-EX;2000 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;2467
+691;Intel;Xeon E7-4800;E7-4860;Eagleton;Boxboro-EX;2667 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;2655
+692;Intel;Xeon E7-4800;E7-4870;Eagleton;Boxboro-EX;2400 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;3078
+693;Intel;Xeon E7-8800;E7-8830;Eagleton;Boxboro-EX;2133 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1999
+694;Intel;Xeon E7-8800;E7-8850;Eagleton;Boxboro-EX;2667 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;8;03/04/2011;1641
+695;Intel;Xeon E7-8800;E7-8850;Eagleton;Boxboro-EX;2000 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;1619
+696;Intel;Xeon E7-8800;E7-8860;Eagleton;Boxboro-EX;2260 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;3223
+697;Intel;Xeon E7-8800;E7-8870;Eagleton;Boxboro-EX;2400 MHz;2,600,000,000;32 nanometres;64 bit;1,35 V;LGA1567;10;03/04/2011;1703
+698;Intel;Celeron Dual-Core;G555;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;845
+699;Intel;Celeron Dual-Core;G550;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;1496
+700;Intel;Celeron Dual-Core;G540;Sandy Bridge;;2500 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/07/2013;2421
+701;Intel;Celeron Dual-Core;G530;Sandy Bridge;;2400 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;2417
+702;Intel;Celeron Dual-Core;G465;Sandy Bridge;;1900 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;1;23/08/2013;1453
+703;Intel;Celeron Dual-Core;G460;Sandy Bridge;;1800 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;1;23/08/2013;2813
+704;Intel;Celeron Dual-Core;G440;Sandy Bridge;;1600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;1;01/07/2012;3228
+705;Intel;Celeron Dual-Core;G550T;Sandy Bridge;;2200 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;2602
+706;Intel;Celeron Dual-Core;G540T;Sandy Bridge;;2100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;1983
+707;Intel;Celeron Dual-Core;G530T;Sandy Bridge;;2000 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;23/08/2013;2129
+708;Intel;Pentium Dual-Core;G620T;Sandy Bridge;;2200 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;517
+709;Intel;Pentium Dual-Core;G630T;Sandy Bridge;;2300 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;1958
+710;Intel;Pentium Dual-Core;G640T;Sandy Bridge;;2400 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;2838
+711;Intel;Pentium Dual-Core;G645T;Sandy Bridge;;2500 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;02/09/2012;2920
+712;Intel;Pentium Dual-Core;G860T;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;3166
+713;Intel;Pentium Dual-Core;G620;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;2258
+714;Intel;Pentium Dual-Core;G622;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/04/2011;262
+715;Intel;Pentium Dual-Core;G630;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2129
+716;Intel;Pentium Dual-Core;G632;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;576
+717;Intel;Pentium Dual-Core;G640;Sandy Bridge;;2800 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/04/2012;2340
+718;Intel;Pentium Dual-Core;G645;Sandy Bridge;;2900 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;1464
+719;Intel;Pentium Dual-Core;G840;Sandy Bridge;;2800 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;3139
+720;Intel;Pentium Dual-Core;G850;Sandy Bridge;;2900 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;1013
+721;Intel;Pentium Dual-Core;G860;Sandy Bridge;;3000 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2550
+722;Intel;Pentium Dual-Core;G870;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;03/06/2012;500
+723;Intel;Core i3;2100T;Sandy Bridge;;2500 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;778
+724;Intel;Core i3;2120T;Sandy Bridge;;2600 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2579
+725;Intel;Core i3;2100;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;1004
+726;Intel;Core i3;2102;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;01/06/2011;426
+727;Intel;Core i3;2105;Sandy Bridge;;3100 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;22/05/2011;253
+728;Intel;Core i3;2120;Sandy Bridge;;3330 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;3184
+729;Intel;Core i3;2125;Sandy Bridge;;3330 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;3541
+730;Intel;Core i3;2130;Sandy Bridge;;3400 Mhz;504,000,000;32 nanometres;64 bit;;LGA1155;2;04/09/2011;2760
+731;Intel;Core i5;2390T;Sandy Bridge;;2700 MHz;504,000,000;32 nanometres;64 bit;;LGA1155;2;20/02/2011;2016
+732;Intel;Core i5;2500T;Sandy Bridge;;2300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;3495
+733;Intel;Core i5;2400S;Sandy Bridge;;2500 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;2643
+734;Intel;Core i5;2405S;Sandy Bridge;;2500 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;22/05/2011;1554
+735;Intel;Core i5;2500S;Sandy Bridge;;2700 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;3320
+736;Intel;Core i5;2300;Sandy Bridge;;2800 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;3511
+737;Intel;Core i5;2310;Sandy Bridge;;2900 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;22/05/2011;1029
+738;Intel;Core i5;2320;Sandy Bridge;;3000 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;04/09/2011;2207
+739;Intel;Core i5;2380P;Sandy Bridge;;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/01/2012;1438
+740;Intel;Core i5;2400;Sandy Bridge;;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;1524
+741;Intel;Core i5;2450P;Sandy Bridge;;3200 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/01/2012;2798
+742;Intel;Core i5;2500;Sandy Bridge;;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;2156
+743;Intel;Core i5;2500K;Sandy Bridge;;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;09/01/2011;3058
+744;Intel;Core i5;2550K;Sandy Bridge;;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/01/2012;2813
+745;Intel;Core i7;2600S;Sandy Bridge;;2800 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;09/01/2011;1452
+746;Intel;Core i7;2600;Sandy Bridge;;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;05/01/2011;2510
+747;Intel;Core i7;2600K;Sandy Bridge;;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;09/01/2011;2405
+748;Intel;Core i7;2700K;Sandy Bridge;;3500 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;23/10/2011;873
+749;Intel;Core i7;3820;Sandy Bridge;;3600 Mhz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;4;12/02/2012;2370
+750;Intel;Core i7;3930K;Sandy Bridge;;3200 MHz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;6;14/11/2011;1970
+751;Intel;Core i7;3960X;Sandy Bridge;;3300 MHz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;6;14/11/2011;1791
+752;Intel;Core i7;3970X;Sandy Bridge;;3500 Mhz;1,270,000,000;32 nanometres;64 bit;1,35 V;LGA2011;6;12/11/2012;273
+753;Intel;Xeon E3-1200;E3-1220L;Sandy Bridge;Bromolow;2200 MHz;604,000,000;32 nanometres;64 bit;;LGA1155;2;03/04/2011;843
+754;Intel;Xeon E3-1200;E3-1260L;Sandy Bridge;Bromolow;2400 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;721
+755;Intel;Xeon E3-1200;E3-1220;Sandy Bridge;Bromolow;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;1399
+756;Intel;Xeon E3-1200;E3-1225;Sandy Bridge;Bromolow;3100 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;426
+757;Intel;Xeon E3-1200;E3-1230;Sandy Bridge;Bromolow;3200 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2614
+758;Intel;Xeon E3-1200;E3-1235;Sandy Bridge;Bromolow;3200 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2121
+759;Intel;Xeon E3-1200;E3-1240;Sandy Bridge;Bromolow;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;3439
+760;Intel;Xeon E3-1200;E3-1245;Sandy Bridge;Bromolow;3300 MHz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;604
+761;Intel;Xeon E3-1200;E3-1270;Sandy Bridge;Bromolow;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2611
+762;Intel;Xeon E3-1200;E3-1275;Sandy Bridge;Bromolow;3400 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;2816
+763;Intel;Xeon E3-1200;E3-1280;Sandy Bridge;Bromolow;3500 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;03/04/2011;1776
+764;Intel;Xeon E3-1200;E3-1290;Sandy Bridge;Bromolow;3600 Mhz;1,160,000,000;32 nanometres;64 bit;;LGA1155;4;29/05/2011;2327
+765;Intel;Celeron Dual-Core;G1610T;Ivy Bridge;;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;437
+766;Intel;Celeron Dual-Core;G1610;Ivy Bridge;;2600 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;2384
+767;Intel;Celeron Dual-Core;G1620;Ivy Bridge;;2700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;1764
+768;Intel;Pentium Dual-Core;G2020T;Ivy Bridge;;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;436
+769;Intel;Pentium Dual-Core;G2100T;Ivy Bridge;;2600 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;578
+770;Intel;Pentium Dual-Core;G2010;Ivy Bridge;;2800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;2288
+771;Intel;Pentium Dual-Core;G2020;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;723
+772;Intel;Pentium Dual-Core;G2120;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;3020
+773;Intel;Pentium Dual-Core;G2130;Ivy Bridge;;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;20/01/2013;2868
+774;Intel;Core i3;3220T;Ivy Bridge;;2800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;3257
+775;Intel;Core i3;3240T;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;1350
+776;Intel;Core i3;3220;Ivy Bridge;;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;503
+777;Intel;Core i3;3225;Ivy Bridge;;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;3239
+778;Intel;Core i3;3240;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA1155;2;02/09/2012;1954
+779;Intel;Core i5;3470T;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;2;03/06/2012;523
+780;Intel;Core i5;3570T;Ivy Bridge;;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;448
+781;Intel;Core i5;3450S;Ivy Bridge;;2800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1318
+782;Intel;Core i5;3470S;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;03/06/2012;3154
+783;Intel;Core i5;3475S;Ivy Bridge;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;03/06/2012;511
+784;Intel;Core i5;3550S;Ivy Bridge;;3000 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;2852
+785;Intel;Core i5;3570S;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;3457
+786;Intel;Core i5;3450;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;940
+787;Intel;Core i5;3470;Ivy Bridge;;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;03/06/2012;732
+788;Intel;Core i5;3550;Ivy Bridge;;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;2633
+789;Intel;Core i5;3570;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;3351
+790;Intel;Core i5;3570K;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1876
+791;Intel;Core i7;3770T;Ivy Bridge;;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1690
+792;Intel;Core i7;3770S;Ivy Bridge;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;1968
+793;Intel;Core i7;3770;Ivy Bridge;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;2209
+794;Intel;Core i7;3770K;Ivy Bridge;;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1155;4;29/04/2012;3005
+795;Intel;Core i7;4820K;Ivy Bridge;;3700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA2011;4;10/09/2013;541
+796;Intel;Core i7;4930K;Ivy Bridge;;3400 Mhz;1,860,000,000;22 nanometres;64 bit;;LGA2011;6;10/09/2013;609
+797;Intel;Core i7;4960X;Ivy Bridge;;3600 Mhz;1,860,000,000;22 nanometres;64 bit;;LGA2011;6;10/09/2013;1108
+798;Intel;Xeon E5-2600 v2;E5-2640 v2;Ivy Bridge-EP;Romley-EP;2000 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;8;10/09/2013;2796
+799;Intel;Xeon E5-2600 v2;E5-2650 v2;Ivy Bridge-EP;Romley-EP;2600 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;8;10/09/2013;1235
+800;Intel;Xeon E5-2600 v2;E5-2650L v2;Ivy Bridge-EP;Romley-EP;1700 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;2008
+801;Intel;Xeon E5-2600 v2;E5-2660 v2;Ivy Bridge-EP;Romley-EP;2200 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;1007
+802;Intel;Xeon E5-2600 v2;E5-2670 v2;Ivy Bridge-EP;Romley-EP;2500 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;2650
+803;Intel;Xeon E5-2600 v2;E5-2680 v2;Ivy Bridge-EP;Romley-EP;2800 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;546
+804;Intel;Xeon E5-2600 v2;E5-2690 v2;Ivy Bridge-EP;Romley-EP;3000 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;489
+805;Intel;Xeon E5-2600 v2;E5-2687W v2;Ivy Bridge-EP;Romley-EP;3400 Mhz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;1860
+806;Intel;Xeon E5-2600 v2;E5-2643 v2;Ivy Bridge-EP;Romley-EP;3500 Mhz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;10;10/09/2013;3277
+807;Intel;Xeon E5-2600 v2;E5-2695 v2;Ivy Bridge-EP;Romley-EP;2400 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;12;10/09/2013;2398
+808;Intel;Xeon E5-2600 v2;E5-2697 v2;Ivy Bridge-EP;Romley-EP;2700 MHz;1,400,000,000;22 nanometres;64 bit;1,3 V;LGA 2011;12;10/09/2013;326
+809;Intel;Core i5;4570TE;Haswell;;2700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;2;02/06/2013;452
+810;Intel;Core i5;4570T;Haswell;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;2;02/06/2013;694
+811;Intel;Core i5;4670T;Haswell;;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;494
+812;Intel;Core i5;4430S;Haswell;;2700 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1612
+813;Intel;Core i5;4570S;Haswell;;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;298
+814;Intel;Core i5;4430;Haswell;;3000 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3525
+815;Intel;Core i5;4670S;Haswell;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2803
+816;Intel;Core i5;4570;Haswell;;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1648
+817;Intel;Core i5;4670;Haswell;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;281
+818;Intel;Core i5;4670K;Haswell;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1381
+819;Intel;Core i7;4765T;Haswell;;2000 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2793
+820;Intel;Core i7;4700EQ;Haswell;;2400 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1570
+821;Intel;Core i7;4770T;Haswell;;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2042
+822;Intel;Core i7;4770S;Haswell;;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2955
+823;Intel;Core i7;4770;Haswell;;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;830
+824;Intel;Core i7;4770K;Haswell;;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2745
+825;Intel;Xeon E3-1200 v3;E3-1220L v3;Haswell;Denlow;1100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;2;04/06/2013;1322
+826;Intel;Xeon E3-1200 v3;E3-1230L v3;Haswell;Denlow;1800 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2711
+827;Intel;Xeon E3-1200 v3;E3-1268L v3;Haswell;Denlow;2300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3465
+828;Intel;Xeon E3-1200 v3;E3-1265L v3;Haswell;Denlow;2500 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3095
+829;Intel;Xeon E3-1200 v3;E3-1275L v3;Haswell;Denlow;2900 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;11/05/2014;3389
+830;Intel;Xeon E3-1200 v3;E3-1285L v3;Haswell;Denlow;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2207
+831;Intel;Xeon E3-1200 v3;E3-1220 v3;Haswell;Denlow;3100 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1864
+832;Intel;Xeon E3-1200 v3;E3-1225 v3;Haswell;Denlow;3200 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2648
+833;Intel;Xeon E3-1200 v3;E3-1230 v3;Haswell;Denlow;3300 MHz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2077
+834;Intel;Xeon E3-1200 v3;E3-1240 v3;Haswell;Denlow;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2669
+835;Intel;Xeon E3-1200 v3;E3-1245 v3;Haswell;Denlow;3400 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2100
+836;Intel;Xeon E3-1200 v3;E3-1270 v3;Haswell;Denlow;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1123
+837;Intel;Xeon E3-1200 v3;E3-1275 v3;Haswell;Denlow;3500 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;3071
+838;Intel;Xeon E3-1200 v3;E3-1280 v3;Haswell;Denlow;3600 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;1046
+839;Intel;Xeon E3-1200 v3;E3-1285 v3;Haswell;Denlow;3600 Mhz;1,400,000,000;22 nanometres;64 bit;;LGA 1150;4;02/06/2013;2865
