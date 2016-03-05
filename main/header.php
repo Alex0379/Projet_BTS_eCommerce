@@ -116,7 +116,8 @@
               <li><a href="histo_commande.php"><i class="fa fa-history"></i> Historique Commande</a></li>
               <li><a href="panier.php"><i class="fa fa-shopping-cart"></i> Panier <span class="badge">4</span></a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#"><i class="fa fa-sign-out"></i> Se Déconnecter</a></li>
+              <form action="" method="post">
+              <li><a href="#" id="deconnexion" name="deconnexion" type="submit"><i class="fa fa-sign-out"></i> Se Déconnecter</a></li>
             </ul>
           </li>
           <li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target=".modal-connex">Connexion</button></li>
@@ -144,8 +145,8 @@
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
-                                  <label for="password" class="control-label">Mot de passe</label>
-                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Merci de rentrer votre mot de passe">
+                                  <label for="motdepasse" class="control-label">Mot de passe</label>
+                                  <input type="password" class="form-control" id="motdepasse" name="motdepasse" value="" required="" title="Merci de rentrer votre mot de passe">
                                   <span class="help-block"></span>
                               </div>
                               <div id="loginErrorMsg" class="alert alert-error hide">Identifiant ou mot de passe incorrect...</div>
@@ -176,3 +177,34 @@
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<?php
+require('../src/php/fonctions.php');
+
+if(isset($_POST['identifiant'])){
+        // Récupération des valeurs
+        $id_utilisateur=$_POST['identifiant'];
+        $motdepasse=$_POST['motdepasse'];
+        
+        // supprimer toutes les anciennes variables 
+        session_unset();
+        if(IdentifieUtilisateur($id_utilisateur, $motdepasse)){
+            
+            global $HTTP_HOST, $DOCROOT;
+            
+            $_SESSION['motdepasse'] = $motdepasse;
+            $_SESSION['utilisateur'] = $id_utilisateur;
+            $_SESSION['nbr_articles'] = 0;
+            exit();
+        }
+        else{
+            echo('Erreur interne');
+            exit();
+        }
+    }
+
+// Récupération des valeurs boutons/déco
+if(isset($_POST["deconnexion"])){
+  SupprimeSession();
+}
+?>
