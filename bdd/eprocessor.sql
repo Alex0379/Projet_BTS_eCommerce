@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mer 02 Mars 2016 à 13:06
+-- Généré le :  Mer 09 Mars 2016 à 13:38
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -910,9 +910,6 @@ CREATE TABLE IF NOT EXISTS `client` (
   `pays` varchar(25) DEFAULT NULL,
   `telephone` varchar(25) NOT NULL,
   `sexe` varchar(25) NOT NULL,
-  `type_carte` varchar(25) NOT NULL,
-  `num_carte` varchar(25) NOT NULL,
-  `date_exp` varchar(25) NOT NULL,
   `identifiant` varchar(25) NOT NULL,
   `mot_de_passe` varchar(25) NOT NULL,
   PRIMARY KEY (`id_client`)
@@ -922,8 +919,8 @@ CREATE TABLE IF NOT EXISTS `client` (
 -- Contenu de la table `client`
 --
 
-INSERT INTO `client` (`id_client`, `prenom`, `nom`, `date_naissance`, `adresse_ligne1`, `adresse_ligne2`, `code_postale`, `ville`, `pays`, `telephone`, `sexe`, `type_carte`, `num_carte`, `date_exp`, `identifiant`, `mot_de_passe`) VALUES
-(1, 'Jean-Claude', 'Dusse', '15/05/1977', '56, Route de la vallée verte', 'Appartement 65', 65879, 'Tardes', 'France', '0687958697', 'Homme', 'MasterCard', '79858476513478956423', '11/2017', 'jcdu65', 'azerty');
+INSERT INTO `client` (`id_client`, `prenom`, `nom`, `date_naissance`, `adresse_ligne1`, `adresse_ligne2`, `code_postale`, `ville`, `pays`, `telephone`, `sexe`, `identifiant`, `mot_de_passe`) VALUES
+(1, 'Jean-Claude', 'Dusse', '15/05/1977', '56, Route de la vallée verte', 'Appartement 65', 65879, 'Tardes', 'France', '0687958697', 'Homme', 'jcdu65', 'azerty');
 
 -- --------------------------------------------------------
 
