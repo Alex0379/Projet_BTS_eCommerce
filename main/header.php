@@ -183,8 +183,13 @@ require('../src/php/fonctions.php');
 
 if(isset($_POST['identifiantHeader'])){
         // Récupération des valeurs
+<<<<<<< HEAD
         $id_utilisateur=$_POST['identifiantConnex'];
         $motdepasse=$_POST['motdepasse'];
+=======
+        $id_utilisateur=$_POST['identifiant'];
+        $motdepasse=$_POST['mot_de_passe'];
+>>>>>>> origin/master
         
         // supprimer toutes les anciennes variables 
         session_unset();
@@ -192,8 +197,8 @@ if(isset($_POST['identifiantHeader'])){
             
             global $HTTP_HOST, $DOCROOT;
             
-            $_SESSION['motdepasse'] = $motdepasse;
-            $_SESSION['utilisateur'] = $id_utilisateur;
+            $_SESSION['mot_de_passe'] = $motdepasse;
+            $_SESSION['identifiant'] = $id_utilisateur;
             $_SESSION['nbr_articles'] = 0;
             exit();
         }
