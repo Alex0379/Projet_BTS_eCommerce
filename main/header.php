@@ -140,8 +140,8 @@
                       <div class="well">
                           <form id="connexForm" method="POST" action="" novalidate="novalidate">
                               <div class="form-group">
-                                  <label for="identifiant" class="control-label">Identifiant</label>
-                                  <input type="text" class="form-control" id="identifiant" name="identifiant" value="" required="" title="Merci de rentrer votre identifiant" placeholder="example@gmail.com">
+                                  <label for="identifiantHeader" class="control-label">Identifiant</label>
+                                  <input type="text" class="form-control" id="identifiantHeader" name="identifiantHeader" value="" required="" title="Merci de rentrer votre identifiant" placeholder="example@gmail.com">
                                   <span class="help-block"></span>
                               </div>
                               <div class="form-group">
@@ -181,7 +181,7 @@
 <?php
 require('../src/php/fonctions.php');
 
-if(isset($_POST['identifiant'])){
+if(isset($_POST['identifiantHeader'])){
         // Récupération des valeurs
         $id_utilisateur=$_POST['identifiant'];
         $motdepasse=$_POST['motdepasse'];
