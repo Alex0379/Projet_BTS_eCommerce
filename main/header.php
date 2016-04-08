@@ -183,7 +183,7 @@ require('../src/php/fonctions.php');
 
 if(isset($_POST['identifiantHeader'])){
         // Récupération des valeurs
-        $id_utilisateur=$_POST['identifiant'];
+        $id_utilisateur=$_POST['identifiantConnex'];
         $motdepasse=$_POST['motdepasse'];
         
         // supprimer toutes les anciennes variables 
