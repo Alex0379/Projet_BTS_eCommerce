@@ -5,7 +5,9 @@
   $idcom = connex($DB);
   
   // Requête sql
-  $sql = "SELECT * FROM `articles`";
+  $sql = "SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
+            FROM `article` AS a, `famille` AS f, `marque` AS m
+            WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille`";
 ?>
 
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap-multiselect.css" rel="stylesheet">
@@ -109,21 +111,34 @@
                 <div class="row">
                   
                   <?php
-					// Définir le recherche comme négative si aucun article n'a pu être identifié.
+					// Définir la recherche comme négative si aucun article n'a pu être identifié.
 					$succesRecherche="NO";
 							
 					$resultat = $idcom->query($sql) or die("Erreur requête");
 					while($donnees = $resultat->fetch()){
-					  $succesRecherche="YES";						
+					  $succesRecherche="YES";
+                      
+                      // Création des variables de données
+                      $idArticle = $donnees["id_article"];
+                      $prix = $donnees['prix'];
+                      $famille = $donnees['nom_famille'];
+                      $modele = $donnees['modele'];
+                      $marque = $donnees['nom_marque'];
+                      $dateCommercialisation = $donnees['date_commercialisation'];
+                      
 				  ?>
                   <form method="post" action="">
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
                             <img src="http://placehold.it/320x150" alt="">
                             <div class="caption">
-                                <h4 class="pull-right"><?php echo $donnees['prix'] ?>€</h4>
-                                <h4><a href="description_Article.php"><?php echo $donnees['famille'] . "<br>" . $donnees['modele'] ?></a></h4>
-                                <p>Produit de la marque <?php echo $donnees['marque'] ?> et commercialisé le <?php echo $donnees['date_commercialisation'] ?>.</p>
+                                <h4 class="pull-right"><?php echo $prix; ?>€</h4>
+                                <h4><a href="description_Article.php"><?php if($famille == "anonyme"){ // Condition pour ne pas afficher anonyme lorque la famille est inconnu
+                                                                              echo $modele;
+                                                                            }else{
+                                                                              echo $famille . "<br>" . $modele;
+                                                                            } ?></a></h4>
+                                <p>Produit de la marque <?php echo $marque; ?> et commercialisé le <?php echo $dateCommercialisation; ?>.</p>
                             </div>
                             <div class="info">
                                 <div class="separator clear-left">
@@ -135,7 +150,7 @@
                                     </p>
                                 </div>
                                 <div class="clearfix"></div>
-                                <input type="hidden" name="id_article_choisi" value="<?php echo $donnees["id_article"]; ?>">
+                                <input type="hidden" name="id_article_choisi" value="<?php echo $idArticle; ?>">
                             </div>
                         </div>
                     </div>

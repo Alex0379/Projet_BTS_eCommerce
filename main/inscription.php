@@ -113,8 +113,8 @@
                                     <div class="row">
                                         <div class="col-xs-6 col-sm-6 col-md-6">
                                             <div class="form-group">
-                                                <label for="codePostale">Code postale</label>
-                                                <input type="text" name="codePostale" id="codePostale" class="form-control" placeholder="Code postale">
+                                                <label for="codePostal">Code postal</label>
+                                                <input type="text" name="codePostal" id="codePostal" class="form-control" placeholder="Code postal">
                                             </div>
                                         </div>
                                         <div class="col-xs-6 col-sm-6 col-md-6">
@@ -136,36 +136,6 @@
                                             <div class="form-group">
                                                 <label for="tel">Téléphone</label>
                                                 <input type="text" name="tel" id="tel" class="form-control" placeholder="Tél: 06.00.00.00.00">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="form-group">
-                                        <label>Type de carte</label>
-                                        <div class="btn-group btn-width100" data-toggle="buttons">
-                                            <label class="btn btn-primary width33">
-                                              <input type="radio" name="typeCarte" id="masterCard" autocomplete="off"> MasterCard
-                                            </label>
-                                            <label class="btn btn-primary width33">
-                                              <input type="radio" name="typeCarte" id="visa" autocomplete="off"> Visa
-                                            </label>
-                                            <label class="btn btn-primary width33">
-                                              <input type="radio" name="typeCarte" id="carteBleu" autocomplete="off"> CarteBleu
-                                            </label>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="row">
-                                        <div class="col-xs-8 col-sm-8 col-md-8">
-                                            <div class="form-group">
-                                                <label for="numCarte">Numéro de Carte</label>
-                                                <input type="text" name="numCarte" id="numCarte" class="form-control" placeholder="Numéro de Carte">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-4 col-sm-4 col-md-4">
-                                            <div class="form-group">
-                                                <label for="dateExp">Date d'expiration</label>
-                                                <input type="date" name="dateExp" id="dateExp" class="form-control" placeholder="mm/aaaa">
                                             </div>
                                         </div>
                                     </div>
