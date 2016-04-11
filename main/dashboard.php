@@ -1,7 +1,20 @@
-<?php include('header.php')?>
+<?php
+include('header.php');
+
+// Connexion à la base de données
+  $idcom = connex($DB);
+  
+  $id_client = $_SESSION['identifiant'];
+  
+// Requête sql
+  $sql = "SELECT prenom, nom FROM client WHERE identifiant='$id_client'";
+
+?>
+
+
 
 <!-- Intégration du css -->
-    <link href="../src/css/dashboard.css" rel="stylesheet">
+<link href="../src/css/dashboard.css" rel="stylesheet">
 
 <!-- Corps -->
 <main class="container">
@@ -31,7 +44,7 @@
                         </div>
                         <div class="details">
                             <div class="number">
-                                <span data-counter="counterup" data-value="4">4</span>
+                                <span data-counter="counterup" data-value="<?php echo $_SESSION['nbr_articles']; ?>"><?php echo $_SESSION['nbr_articles']; ?></span>
                             </div>
                             <div class="desc"> Article Panier </div>
                         </div>
@@ -47,7 +60,13 @@
                         </div>
                         <div class="details">
                             <div class="number">
-                                <span data-counter="counterup" data-value="89"> $nomClient </span></div>
+                                <span data-counter="counterup"> <?php
+                                
+                                $resultat = $idcom->query($sql) or die("Erreur requête");
+                                while($donnees = $resultat->fetch()){
+                                        echo $donnees["prenom"] . " " . $donnees["nom"];
+                                }?> </span></div>
+                            
                             <div class="desc"> Profil </div>
                         </div>
                         <a class="more" href="profil.php"> Voir détails
@@ -93,7 +112,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">
@@ -126,7 +145,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">
@@ -158,7 +177,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">
@@ -192,7 +211,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">
@@ -230,7 +249,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">
@@ -262,7 +281,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">
@@ -296,7 +315,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">
@@ -330,7 +349,7 @@
                                                     </div>
                     
                                                     <div class="photo">
-                                                        <img src="http://placehold.it/250x200" class="img-responsive" alt="a" />
+                                                        <img src="../images/250x200.png" class="img-responsive" alt="a" />
                                                     </div>
                                                     <div class="info">
                                                         <div class="separator clear-left">

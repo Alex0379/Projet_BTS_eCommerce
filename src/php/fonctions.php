@@ -24,13 +24,13 @@
         }
         
         // Effectuer l'identification utilisateur / mot de passe 
-        $requete="select * from client where id_client='$utilisateur'";
+        $requete="select * from client where identifiant='$utilisateur'";
             if(!($resultat = $idcom->query($requete))){
                 AfficheMessErr(sprintf("Erreur interne %d:%s\n"));
                 return 0;
             }
             
-            if(($ligne = $resultat->fetch()) && ($motdepasse == $ligne["motdepasse"] && $motdepasse != ""))
+            if(($ligne = $resultat->fetch()) && ($motdepasse == $ligne["mot_de_passe"] && $motdepasse != ""))
                 return 1;
             else
                 return 0;
@@ -38,6 +38,8 @@
     
     // fonction SupprimeSession()
     function SupprimeSession(){
+		global $HTTP_HOST, $DOCROOT;
+		
         // Supprimer toutes les variable de session 
         session_unset();
         
