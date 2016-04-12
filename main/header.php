@@ -70,6 +70,7 @@ if(isset($_POST["deconnexion"])){
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../src/css/header_footer.css" rel="stylesheet">
     <link href="../src/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../src/css/bootstrapValidator.min.css" rel="stylesheet">
   </head>
   <body>
     
@@ -201,18 +202,58 @@ if(isset($_POST["deconnexion"])){
               <div class="row">
                   <div class="col-xs-6">
                       <div class="well">
-                          <form id="connexForm" method="POST" action="" novalidate="novalidate">
+                        <script>
+                            $('#connexHeaderForm').bootstrapValidator({
+                                message: "Cette valeur n'est pas valide.",
+                                feedbackIcons: {
+                                    valid: 'glyphicon glyphicon-ok',
+                                    invalid: 'glyphicon glyphicon-remove',
+                                    validating: 'glyphicon glyphicon-refresh'
+                                },
+                                fields: {
+                                    identifiantHeader: {
+                                        validators: {
+                                            notEmpty: {
+                                                message: 'Veuillez renseigner un identifiant.'
+                                            },
+                                            stringLength: {
+                                                min: 3,
+                                                max: 30,
+                                                message: 'Veuillez renseigner un identifiant compris entre 3 et 30 caractères'
+                                            },
+                                            regexp: {
+                                                regexp: /^[a-zA-Z0-9_]+$/,
+                                                message: 'Votre identifiant peut contenir seulement des lettres, chiffres et/ou underscore.'
+                                            },
+                                            different: {
+                                                field: 'mot_de_passeHeader',
+                                                message: 'Votre identifiant doit être différent du mot de passe.'
+                                            }
+                                        }
+                                    },
+                                    mot_de_passeHeader: {
+                                        validators: {
+                                            notEmpty: {
+                                                message: 'Veuillez renseigner un mot de passe.'
+                                            },
+                                            different: {
+                                                field: 'identifiantHeader',
+                                                message: 'Votre mot de passe doit être différent de votre identifiant.'
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        </script>
+                          <form id="connexHeaderForm" method="POST">
                               <div class="form-group">
                                   <label for="identifiantHeader" class="control-label">Identifiant</label>
-                                  <input type="text" class="form-control" id="identifiantHeader" name="identifiantHeader" value="" required="" title="Merci de rentrer votre identifiant" placeholder="example@gmail.com">
-                                  <span class="help-block"></span>
+                                  <input type="text" class="form-control" id="identifiantHeader" name="identifiantHeader" placeholder="example@gmail.com">
                               </div>
                               <div class="form-group">
                                   <label for="mot_de_passeHeader" class="control-label">Mot de passe</label>
-                                  <input type="password" class="form-control" id="mot_de_passeHeader" name="mot_de_passeHeader" value="" required="" title="Merci de rentrer votre mot de passe">
-                                  <span class="help-block"></span>
+                                  <input type="password" class="form-control" id="mot_de_passeHeader" name="mot_de_passeHeader">
                               </div>
-                              <div id="loginErrorMsg" class="alert alert-error hide">Identifiant ou mot de passe incorrect...</div>
                               <div class="checkbox">
                                   <label>
                                       <input type="checkbox" name="remember" id="remember"> Se souvenir de moi
@@ -240,3 +281,4 @@ if(isset($_POST["deconnexion"])){
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
