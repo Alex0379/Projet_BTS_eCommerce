@@ -26,17 +26,17 @@
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
                 <?php
-                $connect = mysql_connect("localhost", "root", "");
-                mysql_select_db("eprocessor");
-                
-                  echo '<form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">';
-                  echo '<div class="form-group">';
-                  echo '<label class="control-label"><i class="fa fa-users"></i> Famille</label>';
-                  echo '<div class="selectContainer">';
-                          
-                    $select = mysql_query("SELECT id_famille, nom_famille FROM `famille` ORDER BY `famille`.`nom_famille` ASC");
-                      echo '<select id="triFamille" multiple="multiple" name="famille_processeur">';
-                        while($fetch = mysql_fetch_array($select)){
+                  $connect = mysql_connect("localhost", "root", "");
+                  mysql_select_db("eprocessor");
+                  
+                    echo '<form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">';
+                    echo '<div class="form-group">';
+                    echo '<label class="control-label"><i class="fa fa-users"></i> Famille</label>';
+                    echo '<div class="selectContainer">';
+                            
+                      $select = mysql_query("SELECT id_famille, nom_famille FROM `famille` ORDER BY `famille`.`nom_famille` ASC");
+                        echo '<select id="triFamille" multiple="multiple" name="famille_processeur">';
+                          while($fetch = mysql_fetch_array($select)){
                 ?>
                     <option value="<?php echo $fetch['id_famille']; ?>"><?php echo $fetch['nom_famille']; ?></option>
                       <?php
@@ -46,15 +46,20 @@
                         </div>
                       </div>
                       
-                      <div class="form-group">
-                        <label class="control-label"><i class="fa fa-cogs"></i> Socket</label>
-                        <div class="selectContainer">
-                            <select id="triSocket" multiple="multiple">
-                                <option value="intel1150">Intel 1150</option>
-                                <option value="intel1151">Intel 1151</option>
-                                <option value="intel1155">Intel 1155</option>
-                                <option value="intel2011-V3">Intel 2011-V3</option>
-                            </select>
+                      <?php
+                      
+                      echo '<div class="form-group">';
+                      echo '<label class="control-label"><i class="fa fa-cogs"></i> Socket</label>';
+                      echo '<div class="selectContainer">';
+                      $select = mysql_query("SELECT DISTINCT socket FROM `article` ORDER BY `article`.`socket` ASC");
+                            echo '<select id="triSocket" multiple="multiple">';
+                            while($fetch = mysql_fetch_array($select)){
+                      ?>
+                                <option value="<?php echo $fetch['socket']; ?>"><?php echo $fetch['socket']; ?></option>
+                      <?php
+                            }
+                            echo '</select>';
+                      ?>
                         </div>
                       </div>
                         
