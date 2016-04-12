@@ -13,16 +13,16 @@
                     <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="http://placehold.it/350x250/e8117f/fff&amp;text=Product+Main">
+                                <img src="../images/350x250.png">
                             </div>
                             <div class="item">
-                                <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+2">
+                                <img src="../images/350x250.png">
                             </div>
                             <div class="item">
-                                <img src="http://placehold.it/350x250/ff00ff/fff&amp;text=Product+Image+3">
+                                <img src="../images/350x250.png">
                             </div>
                             <div class="item">
-                                <img src="http://placehold.it/350x250/ffff00/000&amp;text=Product+Image+4">
+                                <img src="../images/350x250.png">
                             </div>
                         </div>
                     </div> 
@@ -30,10 +30,10 @@
                     <div id="thumbcarousel" class="carousel slide" data-interval="false">
                         <div class="carousel-inner">
                             <div class="item active">
-                                <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
-                                <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2"></div>
-                                <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3"></div>
-                                <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4"></div>
+                                <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="../images/350x250.png"></div>
+                                <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="../images/350x250.png"></div>
+                                <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="../images/350x250.png"></div>
+                                <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="../images/350x250.png"></div>
                             </div><!-- /item -->
                         </div><!-- /carousel-inner -->
                     </div> <!-- /thumbcarousel -->
