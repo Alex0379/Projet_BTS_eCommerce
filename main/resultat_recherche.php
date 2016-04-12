@@ -22,7 +22,7 @@
 
         <div class="row">
 
-            <div class="col-md-9">
+            <div class="col-md-12">
 
                 <div class="row">
                   
@@ -41,8 +41,28 @@
                       
                     switch ($famille_processeur) {
 					case "intelCeleron":
-						$requete1 = "SELECT article.id_article, article.modele FROM article, famille
+						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
                         WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Celeron%' ";
+						break;
+                                        
+                    case "intelCorei3":
+						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
+                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Core i3%' ";
+						break;
+                    
+                    case "intelCorei5":
+						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
+                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Core i5%' ";
+						break;
+                    
+                    case "intelCorei7":
+						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
+                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Core i7%' ";
+						break;
+                    
+                    case "intelPentium":
+						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
+                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Pentium%' ";
 						break;
                     }
 				  ?>
@@ -64,21 +84,53 @@
 					?>
                     
                     <form method="post" action="">
-                        <div>
-                            <div>
-                                <p><?php echo $donnees["id_article"];?> <?php echo $donnees["modele"];
-                                            }
-                                            }?>
-                                </p>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src="../images/320x150.png" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right"><?php echo $donnees['prix']; ?>€</h4>
+                                    <h4><a href="description_Article.php"><?php if($donnees['nom_famille'] == "anonyme"){ // Condition pour ne pas afficher anonyme lorque la famille est inconnu
+                                                                                  echo $donnees['modele'];
+                                                                                }else{
+                                                                                  echo $donnees['nom_famille'] . "<br>" . $donnees['modele'];
+                                                                                } ?></a></h4>
+                                    <p>Produit de la marque <?php echo $donnees['nom_marque']; ?> et commercialisé le <?php echo $donnees['date_commercialisation']; ?>.</p>
+                                </div>
+                                <div class="info">
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                          <i class="fa fa-shopping-cart"></i><a href="#" name="ajout_article" type="submit" class="hidden-sm">Ajouter</a>
+                                        </p>
+                                        <p class="btn-details">
+                                          <i class="fa fa-list"></i><a href="description_Article.php" class="hidden-sm">Détails</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <input type="hidden" name="id_article_choisi" value="<?php echo $donnees['id_article']; ?>">
+                                </div>
                             </div>
-                            
+                        
                         </div>
+                        
 					</form>
-                  
+                    
+                    <?php
+								} // Fin de la boucle while
+							} // Fin de la boucle for
+							
+							if($succesRecherche=="NO")
+							{
+								echo "<h4> Aucun article identifié.</h4>";
+							}
+							
+							if(isset($_POST["ajoutArticle"]))
+							{
+								ajoutPanier();
+							}
+							?>
                   
                 </div>
           
-            
           </div>
           
         </div>
