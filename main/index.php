@@ -25,17 +25,24 @@
             <div class="col-md-3">
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
-                <form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">
-                    <div class="form-group">
-                        <label class="control-label"><i class="fa fa-users"></i> Famille</label>
-                        <div class="selectContainer">
-                            <select id="triFamille" multiple="multiple" name="famille_processeur">
-                                <option value="intelCeleron">Intel Celeron</option>
-                                <option value="intelCorei3">Intel Core i3</option>
-                                <option value="intelCorei5">Intel Core i5</option>
-                                <option value="intelCorei7">Intel Core i7</option>
-                                <option value="intelPentium">Intel Pentium</option>
-                            </select>
+                <?php
+                $connect = mysql_connect("localhost", "root", "");
+                mysql_select_db("eprocessor");
+                
+                  echo '<form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">';
+                  echo '<div class="form-group">';
+                  echo '<label class="control-label"><i class="fa fa-users"></i> Famille</label>';
+                  echo '<div class="selectContainer">';
+                          
+                    $select = mysql_query("SELECT id_famille, nom_famille FROM `famille` ORDER BY `famille`.`nom_famille` ASC");
+                      echo '<select id="triFamille" multiple="multiple" name="famille_processeur">';
+                        while($fetch = mysql_fetch_array($select)){
+                ?>
+                    <option value="<?php echo $fetch['id_famille']; ?>"><?php echo $fetch['nom_famille']; ?></option>
+                      <?php
+                        } // Fin du while
+                          echo '</select>';
+                      ?>
                         </div>
                       </div>
                       
