@@ -2,6 +2,8 @@
 
 <!-- Intégration du css -->
     <link href="../src/css/sign_in.css" rel="stylesheet">
+	<link href="../src/css/bootstrap-datepicker3.standalone.min.css" rel="stylesheet">
+	<link href="../src/css/pnotify.css" rel="stylesheet">
 
 <!-- Corps -->
 <main class="container">
@@ -62,21 +64,8 @@
 	                    </div>
 	                </div>
                     <div class="form-bottom">
-                        <form method="post">
-                            <div class="form-group <?php
-									if (isset($_POST['identifiantConnex'])){
-										$_POST['identifiantConnex'] = htmlspecialchars($_POST['identifiantConnex']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#\w#", $_POST['identifiantConnex']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
+                        <form class="connexionForm" method="post">
+                            <div class="form-group">
                                 <label for="identifiantConnex">Identifiant</label>
                                 <input type="text" name="identifiantConnex" class="form-control" id="identifiantConnex" placeholder="Identifiant" required="required"/>
                             </div>
@@ -104,21 +93,8 @@
                                 </div>
                             </div>
                             <div class="form-bottom">
-                                <form role="form" method="post">
-                                    <div class="form-group <?php
-									if (isset($_POST['identifiant'])){
-										$_POST['identifiant'] = htmlspecialchars($_POST['identifiant']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#\w#", $_POST['identifiant']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
+                                <form id="inscriptionForm" method="post" role="form">
+                                    <div class="form-group">
                                         <label for="identifiant">Identifiant</label>
                                         <input type="text" name="identifiant" id="identifiant" class="form-control" placeholder="Identifiant">
                                     </div>
@@ -126,84 +102,32 @@
                                     <div class="row">
                                         <div class="col-xs-6 col-sm-6 col-md-6">
                                             <div class="form-group">
-                                                <label for="mdp">Mot de passe</label>
-                                                <input type="password" name="mdp" id="mdp" class="form-control" placeholder="Mot de passe">
+                                                <label for="mot_de_passe">Mot de passe</label>
+                                                <input type="password" name="mot_de_passe" id="mot_de_passe" class="form-control" placeholder="Mot de passe">
                                             </div>
                                         </div>
                                         <div class="col-xs-6 col-sm-6 col-md-6">
-                                            <div class="form-group <?php
-									if (isset($_POST['confirmMdp'])){
-										$_POST['confirmMdp'] = htmlspecialchars($_POST['confirmMdp']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if ($_POST['confirmMdp'] == $_POST['mdp'])
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
+                                            <div class="form-group">
                                                 <label for="confirmMdp">Confirmation mot de passe</label>
                                                 <input type="password" name="confirmMdp" id="confirmMdp" class="form-control" placeholder="Confirmation mot de passe">
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    <div class="form-group <?php
-									if (isset($_POST['email'])){
-										$_POST['email'] = htmlspecialchars($_POST['email']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#", $_POST['email']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
+                                    <div class="form-group">
                                         <label for="email">Adresse mail</label>
                                         <input type="email" name="email" id="email" class="form-control" placeholder="Adresse mail">
                                     </div>
         
                                     <div class="row">
                                         <div class="col-xs-6 col-sm-6 col-md-6">
-                                            <div class="form-group <?php
-									if (isset($_POST['prenom'])){
-										$_POST['prenom'] = htmlspecialchars($_POST['prenom']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#[a-zA-z]#", $_POST['prenom']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
+                                            <div class="form-group">
                                                 <label for="prenom">Prénom</label>
                                                 <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Prénom">
                                             </div>
                                         </div>
                                         <div class="col-xs-6 col-sm-6 col-md-6">
-                                            <div class="form-group <?php
-									if (isset($_POST['nom'])){
-										$_POST['nom'] = htmlspecialchars($_POST['nom']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("[a-zA-z]", $_POST['nom']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?> ">
+                                            <div class="form-group">
                                                 <label for="nom">Nom</label>
                                                 <input type="text" name="nom" id="nom" class="form-control" placeholder="Nom">
                                             </div>
@@ -214,131 +138,59 @@
                                         <label>Sexe</label>
                                         <div class="btn-group btn-width100" data-toggle="buttons">
                                             <label class="btn btn-primary width50">
-                                              <input type="radio" name="sexe" id="homme" autocomplete="off"> Homme
+                                              <input type="radio" name="sexe" id="homme" value="Homme"> Homme
                                             </label>
                                             <label class="btn btn-primary width50">
-                                              <input type="radio" name="sexe" id="femme" autocomplete="off"> Femme
+                                              <input type="radio" name="sexe" id="femme" value="Femme"> Femme
                                             </label>
                                         </div>
                                     </div>
                                     
-                                    <div class="form-group <?php
-									if (isset($_POST['adresse1'])){
-										$_POST['adresse1'] = htmlspecialchars($_POST['adresse1']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#^([0-9a-z'àâéèêôùûçÀÂÉÈÔÙÛÇ\s-]{1,50})$#", $_POST['adresse1']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
+                                    <div class="form-group">
                                         <label for="adresse1">Adresse</label>
                                         <input type="text" name="adresse1" id="adresse1" class="form-control" placeholder="Adresse (ligne 1)">
                                     </div>
-                                    <div class="form-group <?php
-									if (isset($_POST['adresse2'])){
-										$_POST['adresse2'] = htmlspecialchars($_POST['adresse2']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#[a-zA-z]#", $_POST['adresse2']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?> ">
+                                    <div class="form-group">
                                         <input type="text" name="adresse2" id="adresse2" class="form-control" placeholder="Adresse (ligne 2)">
                                     </div>
                                     
                                     <div class="row">
-                                        <div class="col-xs-6 col-sm-6 col-md-6">
-                                            <div class="form-group <?php
-									if (isset($_POST['codePostal'])){
-										$_POST['codePostal'] = htmlspecialchars($_POST['codePostal']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#^[0-9]{5}$#", $_POST['codePostal']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
-                                                <label for="codePostal">Code postal</label>
-                                                <input type="text" name="codePostal" id="codePostal" class="form-control" placeholder="Code postal">
+										<div class="col-xs-4 col-sm-4 col-md-4">
+                                            <div class="form-group">
+                                                <label for="pays">Pays</label>
+                                                <input type="text" name="pays" id="pays" class="form-control" placeholder="Ville">
                                             </div>
                                         </div>
-                                        <div class="col-xs-6 col-sm-6 col-md-6">
-                                            <div class="form-group<?php
-									if (isset($_POST['ville'])){
-										$_POST['ville'] = htmlspecialchars($_POST['ville']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#[a-zA-Z]#", $_POST['ville']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
+                                        <div class="col-xs-4 col-sm-4 col-md-4">
+                                            <div class="form-group">
                                                 <label for="ville">Ville</label>
                                                 <input type="text" name="ville" id="ville" class="form-control" placeholder="Ville">
+                                            </div>
+                                        </div>
+										<div class="col-xs-4 col-sm-4 col-md-4">
+                                            <div class="form-group">
+                                                <label for="code_postal">Code postal</label>
+                                                <input type="text" name="code_postal" id="code_postal" class="form-control" placeholder="Code postal">
                                             </div>
                                         </div>
                                     </div>
                                     
                                     <div class="row">
                                         <div class="col-xs-6 col-sm-6 col-md-6">
-                                            <div class="form-group <?php
-									if (isset($_POST['dateNaissance'])){
-										$_POST['dateNaissance'] = htmlspecialchars($_POST['dateNaissance']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$#", $_POST['dateNaissance']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
-                                                <label for="dateNaissance">Date de naissance</label>
-                                                <input type="date" name="dateNaissance" id="dateNaissance" class="form-control" placeholder="Date de naissance">
+                                            <div class="form-group">
+                                                <label for="date_naissance">Date de naissance</label>
+                                                <input name="date_naissance" id="date_naissance" type="text" class="form-control" placeholder="YYYY-MM-DD">
                                             </div>
                                         </div>
                                         <div class="col-xs-6 col-sm-6 col-md-6">
-                                            <div class="form-group<?php
-									if (isset($_POST['tel'])){
-										$_POST['tel'] = htmlspecialchars($_POST['tel']);
-										// On rend inoffensives les balises HTML que le visiteur a pu entrer
-									
-										if (preg_match("#^0[1-68]([-. ]?[0-9]{2}){4}$#", $_POST['tel']))
-										{
-											echo 'has-success';
-										}
-										else
-										{
-											echo 'has-error';
-										}
-									}; ?>">
-                                                <label for="tel">Téléphone</label>
-                                                <input type="text" name="tel" id="tel" class="form-control" placeholder="Tél: 06.00.00.00.00">
+                                            <div class="form-group">
+                                                <label for="telephone">Téléphone</label>
+                                                <input type="text" name="telephone" id="telephone" class="form-control" placeholder="Tél: 06.00.00.00.00">
                                             </div>
                                         </div>
                                     </div>
         
-                                    <input type="submit" value="Register" class="btn btn-info btn-block">
+                                    <input type="submit" value="S'inscrire" class="btn btn-info btn-block">
                                 </form>
                             </div>
                         </div>
@@ -362,5 +214,93 @@
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<script src="../src/javascript/bootstrap-datepicker.min.js"></script>
+	<script src="../src/javascript/pnotify.js"></script>
+	<script src="../src/javascript/inscription.js"></script>
+	<script>
+		$('#date_naissance').datepicker({
+			format: "yyyy-mm-dd"
+		});
+	</script>
+	
 
-<?php include('footer.php') ?>
+<?php
+if( isset($_POST['identifiant'])){
+	// Récupérer les valeurs
+	$identifiant = $_POST['identifiant'];
+	$motdepasse = $_POST['mot_de_passe'];
+	$confirmationMdp = $_POST['confirmMdp'];
+	$email = $_POST['email'];
+	$prenom = $_POST['prenom'];
+	$nom = $_POST['nom'];
+	$sexe = $_POST['sexe'];
+	$adresse1 = $_POST['adresse1'];
+	$adresse2= $_POST['adresse2'];
+	$pays = $_POST['pays'];
+	$ville = $_POST['ville'];
+	$code_postal = $_POST['code_postal'];
+	$date_naissance = $_POST['date_naissance'];
+	$telephone = $_POST['telephone'];
+
+	// Vérifier si tous les champs ont été renseignés. S’il manque une valeur, 
+	// renvoyer un message d’erreur.
+	
+	if ( (trim($identifiant)=="") || (trim($motdepasse)=="") || 
+		 (trim($confirmationMdp)=="") || (trim($email)=="") || 
+		 (trim($prenom)=="") || (trim($nom)=="") || 
+		 (trim($adresse1)=="") || (trim($pays)=="") ||
+		 (trim($ville)=="") || (trim($code_postal)==")" ||
+		 (trim($date_naissance)=="") || (trim($telephone)==""))){
+			echo "<script>
+				$(function(){
+					PNotify.prototype.options.styling = 'bootstrap3';
+					new PNotify({
+						title: 'Erreur de saisie',
+						text: 'Recommencez.',
+						type: 'error'
+					});
+				});
+			</script>";
+			exit();
+	   }else if ($motdepasse != $confirmationMdp) { 
+		  // Si les deux mots de passe ne sont pas identiques générer un message d’erreur
+		   echo "<script>
+				$(function(){
+					PNotify.prototype.options.styling = 'bootstrap3';
+					new PNotify({
+						title: 'Erreur',
+						text: 'Les mots de passe ne sont pas identique. Recommencez.',
+						type: 'error'
+					});
+				});
+			</script>"; 
+		  exit();
+	   }
+	   
+	// ouvrir une connexion avec la base de données
+	$idcom = connex($DB);
+	
+	// Créer enregistrement de l’utilisateur
+   // Si enregistrement est un succès, afficher, sinon envoyer un message d’erreur.
+   $requete = "INSERT INTO `eprocessor`.`client`
+   (`id_client`, `prenom`, `nom`, `date_naissance`, `adresse_ligne1`, `adresse_ligne2`,
+   `code_postal`, `ville`, `pays`, `telephone`, `sexe`, `identifiant`, `mot_de_passe`)
+		VALUES
+		(NULL, '$prenom', '$nom', '$date_naissance', '$adresse1', '$adresse2', '$code_postal',
+		'$ville', '$pays', '$telephone', '$sexe', '$identifiant', '$motdepasse');";
+	$idcom->exec($requete) or die("ERREUR D'INSERTION ".$nom);
+	echo "<script>
+		$(function(){
+			PNotify.prototype.options.styling = 'bootstrap3';
+			new PNotify({
+				title: 'Bravo',
+				text: 'Enregistrement effectué correctemment',
+				type: 'success'
+			});
+		});
+	</script>";
+    exit();
+}
+
+include('footer.php');
+?>

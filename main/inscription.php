@@ -2,6 +2,8 @@
 
 <!-- Intégration du css -->
     <link href="../src/css/sign_in.css" rel="stylesheet">
+	<link href="../src/css/bootstrap-datepicker3.standalone.min.css" rel="stylesheet">
+	<link href="../src/css/pnotify.css" rel="stylesheet">
 
 <!-- Corps -->
 <main class="container">
@@ -21,7 +23,7 @@
                                 </div>
                             </div>
                             <div class="form-bottom">
-                                <form role="form">
+                                <form id="inscriptionForm" method="post" role="form">
                                     <div class="form-group">
                                         <label for="identifiant">Identifiant</label>
                                         <input type="text" name="identifiant" id="identifiant" class="form-control" placeholder="Identifiant">
@@ -66,10 +68,10 @@
                                         <label>Sexe</label>
                                         <div class="btn-group btn-width100" data-toggle="buttons">
                                             <label class="btn btn-primary width50">
-                                              <input type="radio" name="sexe" id="homme" autocomplete="off"> Homme
+                                              <input type="radio" name="sexe" id="homme" value="Homme"> Homme
                                             </label>
                                             <label class="btn btn-primary width50">
-                                              <input type="radio" name="sexe" id="femme" autocomplete="off"> Femme
+                                              <input type="radio" name="sexe" id="femme" value="Femme"> Femme
                                             </label>
                                         </div>
                                     </div>
@@ -107,7 +109,7 @@
                                         <div class="col-xs-6 col-sm-6 col-md-6">
                                             <div class="form-group">
                                                 <label for="date_naissance">Date de naissance</label>
-                                                <input type="date" name="date_naissance" id="date_naissance" data-fv-date-format="YYYY-MM-DD" class="form-control" placeholder="Date de naissance">
+                                                <input name="date_naissance" id="date_naissance" type="text" class="form-control" placeholder="YYYY-MM-DD">
                                             </div>
                                         </div>
                                         <div class="col-xs-6 col-sm-6 col-md-6">
@@ -130,10 +132,17 @@
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+	<script src="../src/javascript/bootstrap-datepicker.min.js"></script>
+	<script src="../src/javascript/pnotify.js"></script>
+	<script src="../src/javascript/inscription.js"></script>
+	<script>
+		$('#date_naissance').datepicker({
+			format: "yyyy-mm-dd"
+		});
+	</script>
+	
 
 <?php
-include('footer.php');
-
 if( isset($_POST['identifiant'])){
 	// Récupérer les valeurs
 	$identifiant = $_POST['identifiant'];
@@ -160,11 +169,29 @@ if( isset($_POST['identifiant'])){
 		 (trim($adresse1)=="") || (trim($pays)=="") ||
 		 (trim($ville)=="") || (trim($code_postal)==")" ||
 		 (trim($date_naissance)=="") || (trim($telephone)==""))){
-			echo("Erreur de saisie. Recommencez."); 
+			echo "<script>
+				$(function(){
+					PNotify.prototype.options.styling = 'bootstrap3';
+					new PNotify({
+						title: 'Erreur de saisie',
+						text: 'Recommencez.',
+						type: 'error'
+					});
+				});
+			</script>";
 			exit();
 	   }else if ($motdepasse != $confirmationMdp) { 
 		  // Si les deux mots de passe ne sont pas identiques générer un message d’erreur
-		   echo("Les deux mots de passe ne sont pas identiques. Recommencez."); 
+		   echo "<script>
+				$(function(){
+					PNotify.prototype.options.styling = 'bootstrap3';
+					new PNotify({
+						title: 'Erreur',
+						text: 'Les mots de passe ne sont pas identique. Recommencez.',
+						type: 'error'
+					});
+				});
+			</script>"; 
 		  exit();
 	   }
 	   
@@ -180,8 +207,18 @@ if( isset($_POST['identifiant'])){
 		(NULL, '$prenom', '$nom', '$date_naissance', '$adresse1', '$adresse2', '$code_postal',
 		'$ville', '$pays', '$telephone', '$sexe', '$identifiant', '$motdepasse');";
 	$idcom->exec($requete) or die("ERREUR D'INSERTION ".$nom);
-	echo ("Enregistrement effectué correctement.");
+	echo "<script>
+		$(function(){
+			PNotify.prototype.options.styling = 'bootstrap3';
+			new PNotify({
+				title: 'Bravo',
+				text: 'Enregistrement effectué correctemment',
+				type: 'success'
+			});
+		});
+	</script>";
     exit();
 }
 
+include('footer.php');
 ?>
