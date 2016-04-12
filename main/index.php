@@ -25,11 +25,11 @@
             <div class="col-md-3">
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
-                <form id="bootstrapSelectForm" method="post" class="form-horizontal">
+                <form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">
                     <div class="form-group">
                         <label class="control-label"><i class="fa fa-users"></i> Famille</label>
                         <div class="selectContainer">
-                            <select id="triFamille" multiple="multiple">
+                            <select id="triFamille" multiple="multiple" name="famille_processeur">
                                 <option value="intelCeleron">Intel Celeron</option>
                                 <option value="intelCorei3">Intel Core i3</option>
                                 <option value="intelCorei5">Intel Core i5</option>
