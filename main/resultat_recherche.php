@@ -35,17 +35,24 @@
                     // Connexion à la base de données
                     $idcom = connex($DB);
                     
-                    // Déclaration des requêtes
-                    $requete1="SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
-                                FROM `article` AS a, `famille` AS f, `marque` AS m
-                                WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille` AND a.`id_famille` = $idFamille";
-                                
-                    $requete2="SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
-                                FROM `article` AS a, `famille` AS f, `marque` AS m
-                                WHERE a.`nom_famille` LIKE '%$idMotCle%'";
-                    $requete3="";
-                    
-                    
+                    // Déclaration des requête                    
+                    if(isset($_POST['trifamille'])){
+					  $sql += "AND id_famille = $idFamille";
+					  $optionSelect = count($_POST['triFamille']);
+					  for($i=1;$i<$optionSelect;$i++){
+						$sql += "OR id_famille = $idFamille";
+					  }
+					}
+					
+					if(isset($_POST['socket'])){
+					  $sql += "AND socket = $socket";
+					  $optionSelect = count($_POST['socket']);
+					  for($i=1;$i<$optionSelect;$i++){
+						$sql += "OR socket = $socket";
+					  }
+					}
+					
+					
                     
 				  ?>
                   
