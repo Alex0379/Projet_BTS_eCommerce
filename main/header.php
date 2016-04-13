@@ -8,16 +8,15 @@ if(isset($_POST['identifiantHeader'])){
         $utilisateur=$_POST['identifiantHeader'];
         $motdepasse=$_POST['mot_de_passeHeader'];
 
-        
-        // supprimer toutes les anciennes variables 
-        session_unset();
         if(IdentifieUtilisateur($utilisateur, $motdepasse)){
             
             global $HTTP_HOST, $DOCROOT;
             
             $_SESSION['mot_de_passe'] = $motdepasse;
             $_SESSION['identifiant'] = $utilisateur;
-            $_SESSION['nbr_articles'] = 0;
+			if(!isset($_SESSION['nbr_articles'])){
+				$_SESSION['nbr_articles'] = 0;
+			}
             header("Location: http://$HTTP_HOST/$DOCROOT/dashboard.php"); 
             exit();
         }
@@ -33,16 +32,15 @@ if(isset($_POST['identifiantConnex'])){
         $utilisateur=$_POST['identifiantConnex'];
         $motdepasse=$_POST['mdpConnex'];
 
-        
-        // supprimer toutes les anciennes variables 
-        session_unset();
         if(IdentifieUtilisateur($utilisateur, $motdepasse)){
             
             global $HTTP_HOST, $DOCROOT;
             
             $_SESSION['mot_de_passe'] = $motdepasse;
             $_SESSION['identifiant'] = $utilisateur;
-            $_SESSION['nbr_articles'] = 0;
+            if(!isset($_SESSION['nbr_articles'])){
+				$_SESSION['nbr_articles'] = 0;
+			}
             header("Location: http://$HTTP_HOST/$DOCROOT/paiement.php"); 
             exit();
         }
@@ -51,6 +49,24 @@ if(isset($_POST['identifiantConnex'])){
             exit();
         }
     }
+	
+if (isset($_POST['bouton'])) {
+	switch ($_POST['bouton']) {
+		case "Modifier":
+			$_SESSION['quantite'][$_POST['no_ligne']] = $_POST['quantite'];
+			header("Location:http://$HTTP_HOST/$DOCROOT/panier.php"); 
+			break;
+		case "Refresh":
+			header("Location:http://$HTTP_HOST/$DOCROOT/panier.php"); 
+			break;
+		case "Supprimer":
+			$_SESSION['quantite'][$_POST['no_ligne']] = 0;
+			header("Location:http://$HTTP_HOST/$DOCROOT/panier.php"); 
+			break;
+		default:
+			break;
+	}
+}
 
 // Récupération des valeurs boutons/déco
 if(isset($_POST["deconnexion"])){
@@ -71,6 +87,8 @@ if(isset($_POST["deconnexion"])){
     <link href="../src/css/header_footer.css" rel="stylesheet">
     <link href="../src/css/font-awesome.min.css" rel="stylesheet">
 	<link href="../src/css/bootstrapValidator.min.css" rel="stylesheet">
+	<link href="../src/css/pnotify.css" rel="stylesheet">
+	<script src="../src/javascript/jquery.js"></script>
   </head>
   <body>
     
@@ -106,73 +124,53 @@ if(isset($_POST["deconnexion"])){
             </span>
           </div>
         </form>
+
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-              <i class="fa fa-shopping-cart"></i> Panier <span class="badge">4</span><span class="caret"></span>
+              <i class="fa fa-shopping-cart"></i> Panier <span class="badge">
+				<?php
+					if(!isset($_SESSION['nbr_articles'])){
+					  $_SESSION['nbr_articles'] = 0;
+					  echo $_SESSION['nbr_articles'];
+					}else{
+						echo $_SESSION['nbr_articles'];
+					}
+				?>
+			</span><span class="caret"></span>
             </a>
             <ul class="dropdown-menu dropdown-cart" role="menu">
+				<?php
+					//Affichage du panier à l'aide des variables de session
+					$total=0;
+					for($i=0;$i<$_SESSION['nbr_articles'];$i++){
+					// pas d'affichage pour les lignes pour lesquelles la quantité est 0	
+					if ($_SESSION['quantite'][$i]>0) {
+				?>
               <li>
                   <span class="item">
                     <span class="item-left">
-                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_1.jpg" alt="" />
+                        <img src="../images/50x50.png" alt="" />
                         <span class="item-info">
-                            <span>Nom article</span>
-                            <span>prix: 27$</span>
+                            <span><h4><?php echo $_SESSION['nom_famille'][$i]; ?></h4></span>
+							<span><h4><?php echo $_SESSION['modele'][$i]; ?></h4></span>
+                            <span>Prix: <?php echo $_SESSION['prix'][$i] . "€"; ?></span>
                         </span>
-                    </span>
-                    <span class="item-right">
-                        <button class="btn btn-danger  fa fa-close"></button>
                     </span>
                 </span>
               </li>
-<li>
-                  <span class="item">
-                    <span class="item-left">
-                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_2.jpg" alt="" />
-                        <span class="item-info">
-                            <span>Nom article</span>
-                            <span>prix: 3$</span>
-                        </span>
-                    </span>
-                    <span class="item-right">
-                        <button class="btn btn-danger  fa fa-close"></button>
-                    </span>
-                </span>
-              </li>
-                            <li>
-                  <span class="item">
-                    <span class="item-left">
-                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_3.jpeg" alt="" />
-                        <span class="item-info">
-                            <span>Nom article</span>
-                            <span>prix: 12$</span>
-                        </span>
-                    </span>
-                    <span class="item-right">
-                        <button class="btn btn-danger  fa fa-close"></button>
-                    </span>
-                </span>
-              </li>
-<li>
-                  <span class="item">
-                    <span class="item-left">
-                        <img src="http://www.prepbootstrap.com/Content/images/template/menucartdropdown/item_4.jpg" alt="" />
-                        <span class="item-info">
-                            <span>Nom article</span>
-                            <span>prix: 7$</span>
-                        </span>
-                    </span>
-                    <span class="item-right">
-                        <button class="btn btn-danger  fa fa-close"></button>
-                    </span>
-                </span>
-              </li>
+			  <?php
+			  	} // Fin du if
+			} // Fin du for
+			  ?>
               <li role="separator" class="divider"></li>
               <li><a href="panier.php" class="text-center"><i class="fa fa-sign-out"></i> Voir Panier</a></li>
             </ul>
           </li>
-          <li class="dropdown">
+          <?php if(!isset($_SESSION['identifiant'])){
+            echo '<li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target=".modal-connex">Connexion</button></li>';
+          }else{
+            echo '<li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Mon Compte <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="dashboard.php"><i class="fa fa-tachometer"></i> Tableau de bord</a></li>
@@ -183,8 +181,8 @@ if(isset($_POST["deconnexion"])){
                 <li><button id="deconnexion" class="btn btn-default navbar-btn" name="deconnexion" type="submit"><i class="fa fa-sign-out"></i> Se Déconnecter</button></li>
               </form>
             </ul>
-          </li>
-          <li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target=".modal-connex">Connexion</button></li>
+          </li>';
+          }; ?>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -202,49 +200,6 @@ if(isset($_POST["deconnexion"])){
               <div class="row">
                   <div class="col-xs-6">
                       <div class="well">
-                        <script>
-                            $('#connexHeaderForm').bootstrapValidator({
-                                message: "Cette valeur n'est pas valide.",
-                                feedbackIcons: {
-                                    valid: 'glyphicon glyphicon-ok',
-                                    invalid: 'glyphicon glyphicon-remove',
-                                    validating: 'glyphicon glyphicon-refresh'
-                                },
-                                fields: {
-                                    identifiantHeader: {
-                                        validators: {
-                                            notEmpty: {
-                                                message: 'Veuillez renseigner un identifiant.'
-                                            },
-                                            stringLength: {
-                                                min: 3,
-                                                max: 30,
-                                                message: 'Veuillez renseigner un identifiant compris entre 3 et 30 caractères'
-                                            },
-                                            regexp: {
-                                                regexp: /^[a-zA-Z0-9_]+$/,
-                                                message: 'Votre identifiant peut contenir seulement des lettres, chiffres et/ou underscore.'
-                                            },
-                                            different: {
-                                                field: 'mot_de_passeHeader',
-                                                message: 'Votre identifiant doit être différent du mot de passe.'
-                                            }
-                                        }
-                                    },
-                                    mot_de_passeHeader: {
-                                        validators: {
-                                            notEmpty: {
-                                                message: 'Veuillez renseigner un mot de passe.'
-                                            },
-                                            different: {
-                                                field: 'identifiantHeader',
-                                                message: 'Votre mot de passe doit être différent de votre identifiant.'
-                                            }
-                                        }
-                                    }
-                                }
-                            });
-                        </script>
                           <form id="connexHeaderForm" method="POST">
                               <div class="form-group">
                                   <label for="identifiantHeader" class="control-label">Identifiant</label>

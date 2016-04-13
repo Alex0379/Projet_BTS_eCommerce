@@ -15,5 +15,6 @@
     <!-- /.container -->
     <script src="../src/javascript/header.js"></script>
     <script src="../src/javascript/bootstrapValidator.min.js"></script>
+    <script src="../src/javascript/pnotify.js"></script>
   </body>
 </html>

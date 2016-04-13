@@ -50,6 +50,7 @@
 			
 				<div class="row"><!-- Tableau Panier -->
                     <div class="col-md-12">
+						<form method="post">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -62,101 +63,52 @@
                                 </tr>
                             </thead>
                             <tbody>
+								<?php
+									//Affichage du panier à l'aide des variables de session
+									for($i=0;$i<$_SESSION['nbr_articles'];$i++){
+									// pas d'affichage pour les lignes pour lesquelles la quantité est 0	
+									if ($_SESSION['quantite'][$i]>0) {
+										echo "<input type='hidden' name='no_ligne' value='" .$i ."'>";
+
+								?>
                                 <tr>
                                     <td>
-                                        <a href="#"><img class="img-thumbnail" src="http://placehold.it/92x92" alt=""></a>
+                                        <a href="description_Article.php?id_article=<?php echo $_SESSION['id_article'][$i]; ?>"><img class="img-thumbnail" src="../images/90x90.png" alt=""></a>
                                     </td>
                                     <td class="desc">
-                                        <h4><a href="#">
-                                            $nomArticle
+                                        <h4><a href="description_Article.php?id_article=<?php echo $_SESSION['id_article'][$i]; ?>">
+                                            <?php echo $_SESSION['nom_famille'][$i] . " " . $_SESSION['modele'][$i]; ?>
                                         </a></h4>
                                         <ul class="unstyled">
-                                            <li>$idArticle</li>
-                                            <li>$typeArticle</li>
+                                            <li><?php echo "REF" . $_SESSION['id_article'][$i] . "PI" . $_SESSION['id_famille'][$i]; ?></li>
+                                            <li><?php echo $_SESSION['jeux_instruction'][$i] . "bits"; ?></li>
                                         </ul>
                                     </td>
                                     <td class="quantity">
 										<div class="spinner-group">
-											<input id="demo1" class="spinner" type="text" value="1" name="demo1">
+											<input id="spinner1" class="spinner" type="text" value="<?php echo $_SESSION['quantite'][$i]; ?>" name="quantite">
 										</div>
                                     </td>
                                     <td class="sub-price">
-                                        <h3>150.00€</h3>
+                                        <h3><?php echo $_SESSION['prix'][$i]; ?>€</h3>
                                     </td>
                                     <td class="total-price">
-                                        <h3>150.00€</h3>
-                                        <small class="ecoPart">Eco-part: 8.00€</small>
+                                        <h3><?php echo $_SESSION['prix'][$i]*$_SESSION['quantite'][$i] . "€"; ?></h3>
+                                        <small class="ecoPart">Eco-part: <?php echo $_SESSION['prix'][$i]*0.01; ?>€</small>
                                     </td>
                                     <td>
-                                        <button class="btn btn-small" data-title="Refresh" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-refresh"></i></button>
-                                        <button class="btn btn-small btn-success" data-title="Edit" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-pencil"></i></button>
-                                        <button class="btn btn-small btn-danger" data-title="Remove" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-trash"></i></button>
+                                        <button type="submit" class="btn btn-small" name="bouton" data-title="Refresh" data-placement="top" data-toggle="tooltip" value="Refresh"><i class="fa fa-refresh"></i></button>
+                                        <button type="submit" class="btn btn-small btn-success" name="bouton" data-title="Edit" data-placement="top" data-toggle="tooltip" value="Modifier"><i class="fa fa-pencil"></i></button>
+                                        <button type="submit" class="btn btn-small btn-danger" name="bouton" data-title="Remove" data-placement="top" data-toggle="tooltip" value="Supprimer"><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#"><img class="img-thumbnail" src="http://placehold.it/92x92" alt=""></a>
-                                    </td>
-                                    <td class="desc">
-                                        <h4><a href="#">
-                                            $nomArticle
-                                        </a></h4>
-                                        <ul class="unstyled">
-                                            <li>$idArticle</li>
-                                            <li>$typeArticle</li>
-                                        </ul>
-                                    </td>
-                                    <td class="quantity">
-                                        <div class="spinner-group">
-											<input id="demo2" class="spinner" type="text" value="1" name="demo2">
-										</div>
-                                    </td>
-                                    <td class="sub-price">
-                                        <h3>150.00€</h3>
-                                    </td>
-                                    <td class="total-price">
-                                        <h3>150.00€</h3>
-                                        <small class="ecoPart">Eco-part: 8.00€</small>
-                                    </td>
-                                    <td>
-                                        <button class="btn btn-small" data-title="Refresh" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-refresh"></i></button>
-                                        <button class="btn btn-small btn-success" data-title="Edit" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-pencil"></i></button>
-                                        <button class="btn btn-small btn-danger" data-title="Remove" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a href="#"><img class="img-thumbnail" src="http://placehold.it/92x92" alt=""></a>
-                                    </td>
-                                    <td class="desc">
-                                        <h4><a href="#">
-                                            $nomArticle
-                                        </a></h4>
-                                        <ul class="unstyled">
-                                            <li>$idArticle</li>
-                                            <li>$typeArticle</li>
-                                        </ul>
-                                    </td>
-                                    <td class="quantity">
-                                        <div class="spinner-group">
-											<input id="demo3" class="spinner" type="text" value="1" name="demo3">
-										</div>
-                                    </td>
-                                    <td class="sub-price">
-                                        <h3>150.00€</h3>
-                                    </td>
-                                    <td class="total-price">
-                                        <h3>150.00€</h3>
-                                        <small class="ecoPart">Eco-part: 8.00€</small>
-                                    </td>
-                                    <td>
-                                        <button class="btn btn-small" data-title="Refresh" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-refresh"></i></button>
-                                        <button class="btn btn-small btn-success" data-title="Edit" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-pencil"></i></button>
-                                        <button class="btn btn-small btn-danger" data-title="Remove" data-placement="top" data-toggle="tooltip" data-original-title="" title=""><i class="fa fa-trash"></i></button>
-                                    </td>
-                                </tr>
+								<?php
+										} // Fin du if
+									} // Fin du for
+								?>
                             </tbody>
                         </table>
+						</form>
                     </div>
 				</div><!-- Fin du Tableau -->
 

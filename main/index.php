@@ -155,10 +155,10 @@
                             <div class="info">
                                 <div class="separator clear-left">
                                     <p class="btn-add">
-                                      <i class="fa fa-shopping-cart"></i><a href="#" name="ajout_article" type="submit" class="hidden-sm">Ajouter</a>
+                                      <button name="ajout_article" type="submit" class="btn btn-default"><i class="fa fa-shopping-cart"></i>Ajouter</button>
                                     </p>
                                     <p class="btn-details">
-                                      <i class="fa fa-list"></i><a href="description_Article.php" class="hidden-sm">Détails</a>
+                                      <a href="description_Article.php?id_article=<?php echo $idArticle; ?>" class="btn btn-default"><i class="fa fa-list"></i>Détails</a>
                                     </p>
                                 </div>
                                 <div class="clearfix"></div>

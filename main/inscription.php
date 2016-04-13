@@ -3,7 +3,7 @@
 <!-- Intégration du css -->
     <link href="../src/css/sign_in.css" rel="stylesheet">
 	<link href="../src/css/bootstrap-datepicker3.standalone.min.css" rel="stylesheet">
-	<link href="../src/css/pnotify.css" rel="stylesheet">
+	
 
 <!-- Corps -->
 <main class="container">
@@ -133,7 +133,6 @@
     <script src="../src/javascript/jquery.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 	<script src="../src/javascript/bootstrap-datepicker.min.js"></script>
-	<script src="../src/javascript/pnotify.js"></script>
 	<script src="../src/javascript/inscription.js"></script>
 	<script>
 		$('#date_naissance').datepicker({
