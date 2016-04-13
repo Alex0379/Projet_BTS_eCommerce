@@ -38,21 +38,20 @@
                         echo '<select id="triFamille" multiple="multiple" name="famille_processeur">';
                           while($fetch = mysql_fetch_array($select)){
                 ?>
-                    <option value="<?php echo $fetch['id_famille']; ?>"><?php echo $fetch['nom_famille']; ?></option>
-                      <?php
-                        } // Fin du while
-                          echo '</select>';
-                      ?>
+                      <option value="<?php echo $fetch['id_famille']; ?>"><?php echo $fetch['nom_famille']; ?></option>
+                        <?php
+                          } // Fin du while
+                            echo '</select>';
+                        ?>
                         </div>
                       </div>
                       
                       <?php
-                      
                       echo '<div class="form-group">';
                       echo '<label class="control-label"><i class="fa fa-cogs"></i> Socket</label>';
                       echo '<div class="selectContainer">';
                       $select = mysql_query("SELECT DISTINCT socket FROM `article` ORDER BY `article`.`socket` ASC");
-                            echo '<select id="triSocket" multiple="multiple">';
+                            echo '<select id="triSocket" multiple="multiple" name="tri_socket">';
                             while($fetch = mysql_fetch_array($select)){
                       ?>
                                 <option value="<?php echo $fetch['socket']; ?>"><?php echo $fetch['socket']; ?></option>

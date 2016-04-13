@@ -28,43 +28,18 @@
                   
                   <?php
 					// Récupération des saisies
-                    /*$motcle= $_POST['motcle'];        */           // $motcle contient le texte à rechercher
-                    $famille_processeur= $_POST['famille_processeur'];    // $categorie contient le domaine de la recherche
+                    $idFamille = $_POST['famille_processeur'];
                     
                     // Connexion à la base de données
                     $idcom = connex($DB);
-				
+                    
                     // Déclaration des requêtes                    
-                    $requete1="";
+                    $requete1="SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
+                                FROM `article` AS a, `famille` AS f, `marque` AS m
+                                WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille` AND a.`id_famille` = $idFamille ";
                     $requete2="";
                     $requete3="";
                       
-                    switch ($famille_processeur) {
-					case "intelCeleron":
-						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
-                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Celeron%' ";
-						break;
-                                        
-                    case "intelCorei3":
-						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
-                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Core i3%' ";
-						break;
-                    
-                    case "intelCorei5":
-						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
-                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Core i5%' ";
-						break;
-                    
-                    case "intelCorei7":
-						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
-                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Core i7%' ";
-						break;
-                    
-                    case "intelPentium":
-						$requete1 = "SELECT article.id_article, article.modele, article.prix, article.date_commercialisation, famille.nom_famille, marque.nom_marque FROM article, famille, marque
-                        WHERE famille.id_famille=article.id_famille AND famille.nom_famille LIKE '%Pentium%' ";
-						break;
-                    }
 				  ?>
                   
                   <?php
