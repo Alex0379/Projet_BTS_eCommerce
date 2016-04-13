@@ -29,17 +29,24 @@
                   <?php
 					// Récupération des saisies
                     $idFamille = $_POST['famille_processeur'];
+                    $idSockets = $_POST['tri_socket'];
+                    $idMotCle = $_POST['motCle'];
                     
                     // Connexion à la base de données
                     $idcom = connex($DB);
                     
-                    // Déclaration des requêtes                    
+                    // Déclaration des requêtes
                     $requete1="SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
                                 FROM `article` AS a, `famille` AS f, `marque` AS m
-                                WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille` AND a.`id_famille` = $idFamille ";
-                    $requete2="";
+                                WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille` AND a.`id_famille` = $idFamille";
+                                
+                    $requete2="SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
+                                FROM `article` AS a, `famille` AS f, `marque` AS m
+                                WHERE a.`nom_famille` LIKE '%$idMotCle%'";
                     $requete3="";
-                      
+                    
+                    
+                    
 				  ?>
                   
                   <?php

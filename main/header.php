@@ -98,11 +98,11 @@ if(isset($_POST["deconnexion"])){
           <li><a href="a_propos.php">A propos</a></li>
           <li><a href="contact.php">Nous Contacter</a></li>
         </ul>
-        <form class="navbar-form navbar-left" role="search">
+        <form class="navbar-form navbar-left" role="search" method="post" action="resultat_recherche.php">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Recherche...">
+            <input type="text" class="form-control" placeholder="Recherche..." name="motCle">
             <span class="input-group-btn">
-              <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+              <button class="btn btn-default" type="button"><i class="fa fa-search" name="boutonRecherche"></i></button>
             </span>
           </div>
         </form>
