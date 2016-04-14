@@ -35,9 +35,14 @@
 					$idFamille = $_POST['famille_processeur'];
 					if(isset($_POST['famille_processeur'])) {
 					  /*echo"Variable déclarée ! <br />";*/
-					  $sql .= "AND f.id_famille = $idFamille ";
+					  $sql .= "OR f.id_famille = $idFamille ";
 					  $req = mysql_query($sql) or die ('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());
+					  $optionSelect = count($_POST['famille_processeur']);
+					  for($i=1;$i<$optionSelect;$i++){
+						$sql .= "AND id_famille = $idFamille";
+					  }
 					}
+					
 					else{
 					  echo"Variable déclarée ! <br />";
 					}
