@@ -48,18 +48,22 @@
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
                 <?php
+<<<<<<< HEAD
                   
                   
+=======
+>>>>>>> origin/master
                     echo '<form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">';
                     echo '<div class="form-group">';
                     echo '<label class="control-label"><i class="fa fa-users"></i> Famille</label>';
                     echo '<div class="selectContainer">';
                             
-                      $select = mysql_query("SELECT id_famille, nom_famille FROM `famille` ORDER BY `famille`.`nom_famille` ASC");
+                      $requete = "SELECT id_famille, nom_famille FROM `famille` ORDER BY `famille`.`nom_famille` ASC";
                         echo '<select id="triFamille" multiple="multiple" name="famille_processeur">';
-                          while($fetch = mysql_fetch_array($select)){
+                          $resultat = $idcom->query($requete) or die("Erreur requête");
+                          while($donnees = $resultat->fetch()){
                 ?>
-                      <option value="<?php echo $fetch['id_famille']; ?>"><?php echo $fetch['nom_famille']; ?></option>
+                      <option value="<?php echo $donnees['id_famille']; ?>"><?php echo $donnees['nom_famille']; ?></option>
                         <?php
                           } // Fin du while
                             echo '</select>';
@@ -71,13 +75,14 @@
                       echo '<div class="form-group">';
                       echo '<label class="control-label"><i class="fa fa-cogs"></i> Socket</label>';
                       echo '<div class="selectContainer">';
-                      $select = mysql_query("SELECT DISTINCT socket FROM `article` ORDER BY `article`.`socket` ASC");
+                      $requete = "SELECT DISTINCT socket FROM `article` ORDER BY `article`.`socket` ASC";
                             echo '<select id="triSocket" multiple="multiple" name="tri_socket">';
-                            while($fetch = mysql_fetch_array($select)){
+                            $resultat = $idcom->query($requete) or die("Erreur requête");
+                            while($donnees = $resultat->fetch()){
                       ?>
-                                <option value="<?php echo $fetch['socket']; ?>"><?php echo $fetch['socket']; ?></option>
+                                <option value="<?php echo $donnees['socket']; ?>"><?php echo $donnees['socket']; ?></option>
                       <?php
-                            }
+                            } // Fin du while
                             echo '</select>';
                       ?>
                         </div>
