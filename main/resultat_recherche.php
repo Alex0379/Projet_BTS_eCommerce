@@ -27,33 +27,21 @@
                 <div class="row">
                   
                   <?php
-					// Récupération des saisies
-                    $idFamille = $_POST['famille_processeur'];
-                    $idSockets = $_POST['tri_socket'];
-                    $idMotCle = $_POST['motCle'];
-                    
+					
                     // Connexion à la base de données
-                    $idcom = connex($DB);
-                    
-                    // Déclaration des requête                    
-                    if(isset($_POST['trifamille'])){
-					  $sql += "AND id_famille = $idFamille";
-					  $optionSelect = count($_POST['triFamille']);
-					  for($i=1;$i<$optionSelect;$i++){
-						$sql += "OR id_famille = $idFamille";
-					  }
+                    $base = mysql_connect ('localhost', 'root', '');
+					mysql_select_db ('eprocessor', $base) ;
+                  
+					$idFamille = $_POST['famille_processeur'];
+					if(isset($_POST['famille_processeur'])) {
+					  /*echo"Variable déclarée ! <br />";*/
+					  $sql .= "AND f.id_famille = $idFamille ";
+					  $req = mysql_query($sql) or die ('Erreur SQL !<br />'.$sql.'<br />'.mysql_error());
+					}
+					else{
+					  echo"Variable déclarée ! <br />";
 					}
 					
-					if(isset($_POST['socket'])){
-					  $sql += "AND socket = $socket";
-					  $optionSelect = count($_POST['socket']);
-					  for($i=1;$i<$optionSelect;$i++){
-						$sql += "OR socket = $socket";
-					  }
-					}
-					
-					
-                    
 				  ?>
                   
                   <?php
@@ -61,12 +49,8 @@
 							$succesRecherche="NO";
 							
 							// Exécuter la recherche non NULL.
-							for($i=1; $i<=3; $i++) {
-								$requete="requete"."$i";
-								if($$requete == "") {
-									continue;	// Sauter les requêtes NULL
-								}
-								$resultat = $idcom->query($$requete) or die("Erreur requête");
+							
+								$resultat = $idcom->query($sql) or die("Erreur requête");
 								while($donnees = $resultat->fetch())
 								{
 									$succesRecherche="YES";								
@@ -105,7 +89,6 @@
                     
                     <?php
 								} // Fin de la boucle while
-							} // Fin de la boucle for
 							
 							if($succesRecherche=="NO")
 							{
