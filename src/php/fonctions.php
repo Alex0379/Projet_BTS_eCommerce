@@ -50,7 +50,7 @@
     // Fonction ajoutPanier()
 	function ajoutPanier()
 	{
-		global $DB;
+		global $DB, $HTTP_HOST, $DOCROOT;
 		// Récupération des articles (valeurs renvoyées par les boutons).
 		$id_article = $_POST["id_article_choisi"];
 		
@@ -125,6 +125,7 @@
 				$_SESSION["prix"][]=$prix;
 				$_SESSION["quantite"][]=1; // Quantité toujours fixée à 1 par défaut pour l'article sélectionné.
 				$_SESSION["nbr_articles"]++; // Incrémentation de la quantité d'articles.
+				header("Location:http://$HTTP_HOST/$DOCROOT/panier.php");
 				echo "<script>
 				$(document).ready(function() {
 					$(function(){

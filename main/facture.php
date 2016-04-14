@@ -1,5 +1,11 @@
-<?php include('header.php')?>
-
+<?php
+include('header.php'); 
+  // Connexion à la base de données
+  $idcom = connex($DB);
+  
+  // Requête sql
+  $sql = "SELECT * FROM `client`";
+?>
 <!-- Intégration du css -->
     <link href="../src/css/facture.css" rel="stylesheet">
 
@@ -62,13 +68,24 @@
             <div class="row">
                 <div class="col-xs-12 col-md-3 col-lg-3 pull-left">
                     <div class="panel panel-default height">
+						<?php
+							$resultat = $idcom->query($sql) or die("Erreur requête");
+							while($donnees = $resultat->fetch()){
+								$prenom=$donnees['prenom'];
+								$nom=$donnees['nom'];
+								$adresse1=$donnees['adresse_ligne1'];
+								$adresse2=$donnees['adresse_ligne2'];
+								$code_postal=$donnees['code_postal'];
+								$ville=$donnees['ville'];
+								$telephone=$donnees['telephone'];
+						?>
                         <div class="panel-heading">Informations personnelles</div>
                         <div class="panel-body">
                             <address>
-                                <strong>David Marchand</strong><br>
-                                13, Allée des abysses<br>
-                                79230, Vouillé<br>
-                                <abbr title="Téléphone">Tél:</abbr> 05.56.98.47.52
+                                <strong><?php echo $prenom . " " . $nom; ?></strong><br>
+                                <?php echo $adresse1 . " " . $adresse2; ?><br>
+                                <?php echo $code_postal . ", " . $ville; ?><br>
+                                <abbr title="Téléphone">Tél:</abbr> <?php echo $telephone; ?>
                             </address>
                         </div>
                     </div>
@@ -97,10 +114,12 @@
                         <div class="panel-heading">Adresse de livraison</div>
                         <div class="panel-body">
                             <address>
-                                <strong>David Marchand</strong><br>
-                                13, Allée des abysses<br>
-                                79230, Vouillé<br>
-                                <abbr title="Téléphone">Tél:</abbr> 05.56.98.47.52
+                                <strong><?php echo $prenom . " " . $nom; ?></strong><br>
+                                <?php echo $adresse1 . " " . $adresse2; ?><br>
+                                <?php echo $code_postal . ", " . $ville; ?><br>
+                                <abbr title="Téléphone">Tél:</abbr> <?php echo $telephone;
+							} // Fin while
+								?>
                             </address>
                         </div>
                     </div>
@@ -126,29 +145,27 @@
                                 </tr>
                             </thead>
                             <tbody>
+								<?php
+									//Affichage du panier à l'aide des variables de session
+									for($i=0;$i<$_SESSION['nbr_articles'];$i++){
+									// pas d'affichage pour les lignes pour lesquelles la quantité est 0	
+									if ($_SESSION['quantite'][$i]>0){
+								?>
                                 <tr>
-                                    <td>$nomArticle</td>
-                                    <td class="text-center">150.00€</td>
-                                    <td class="text-center">1</td>
-                                    <td class="text-right">150.00€</td>
+                                    <td><?php echo $_SESSION['nom_famille'][$i] . " " . $_SESSION['modele'][$i] . " - " . "REF" . $_SESSION['id_article'][$i] . "PI" . $_SESSION['id_famille'][$i]; ?></td>
+                                    <td class="text-center"><?php echo $_SESSION['prix'][$i]; ?>€</td>
+                                    <td class="text-center"><?php echo $_SESSION['quantite'][$i]; ?></td>
+                                    <td class="text-right"><?php echo $prixArticle=$_SESSION['prix'][$i]*$_SESSION['quantite'][$i] ; ?>€</td>
                                 </tr>
-                                <tr>
-                                    <td>$nomArticle</td>
-                                    <td class="text-center">150.00€</td>
-                                    <td class="text-center">1</td>
-                                    <td class="text-right">150.00€</td>
-                                </tr>
-                                <tr>
-                                    <td>$nomArticle</td>
-                                    <td class="text-center">150.00€</td>
-                                    <td class="text-center">1</td>
-                                    <td class="text-right">150.00€</td>
-                                </tr>
+                               <?php
+									} // Fin if
+									} // Fin for
+							   ?>
                                 <tr>
                                     <td class="highrow"></td>
                                     <td class="highrow"></td>
                                     <td class="highrow text-center"><strong>Sous-total</strong></td>
-                                    <td class="highrow text-right">950.00€</td>
+                                    <td class="highrow text-right"><?php $prixTotal = 0; echo $prixTotal = $prixTotal + $prixArticle; ?>€</td>
                                 </tr>
                                 <tr>
                                     <td class="emptyrow"></td>
@@ -160,13 +177,13 @@
                                     <td class="emptyrow"></td>
                                     <td class="emptyrow"></td>
                                     <td class="emptyrow text-center"><strong>TVA (20%)</strong></td>
-                                    <td class="emptyrow text-right">20€</td>
+                                    <td class="emptyrow text-right"><?php $TVA = 0; echo $TVA = $prixTotal * 0.2; ?>€</td>
                                 </tr>
                                 <tr>
                                     <td class="emptyrow"><i class="fa fa-barcode iconbig"></i></td>
                                     <td class="emptyrow"></td>
                                     <td class="emptyrow text-center"><strong>Total</strong></td>
-                                    <td class="emptyrow text-right">995.00€</td>
+                                    <td class="emptyrow text-right"><?php $prixTTC = 0; echo $prixTTC = $prixTotal + $TVA + 15; ?>€</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -175,19 +192,10 @@
             </div>
         </div>
     </div>
-    <div class="col-md-12">
-        <hr>
-		<nav>
-		    <ul class="pager">
-		        <li class="previous"><a href="paiement.php"><span aria-hidden="true">&larr;</span> Précédent</a></li>
-				<li class="next"><a href="dashboard.php">Suivant <span aria-hidden="true">&rarr;</span></a></li>
-		    </ul>
-		</nav>
-	</div>
 </main>
 
 <!-- Intégration du js -->
     <script src="../src/javascript/jquery.js"></script>
     <script src="../src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 
-<?php include('footer.php') ?>
+<?php include('footer.php'); ?>

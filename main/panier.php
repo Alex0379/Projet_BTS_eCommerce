@@ -51,6 +51,7 @@
 				<div class="row"><!-- Tableau Panier -->
                     <div class="col-md-12">
 						<form method="post">
+								<input type='hidden' id='num_ligne' name='no_ligne'>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -67,9 +68,7 @@
 									//Affichage du panier à l'aide des variables de session
 									for($i=0;$i<$_SESSION['nbr_articles'];$i++){
 									// pas d'affichage pour les lignes pour lesquelles la quantité est 0	
-									if ($_SESSION['quantite'][$i]>0) {
-										echo "<input type='hidden' name='no_ligne' value='" .$i ."'>";
-
+									if ($_SESSION['quantite'][$i]>0){
 								?>
                                 <tr>
                                     <td>
@@ -86,20 +85,20 @@
                                     </td>
                                     <td class="quantity">
 										<div class="spinner-group">
-											<input id="spinner1" class="spinner" type="text" value="<?php echo $_SESSION['quantite'][$i]; ?>" name="quantite">
+											<input id="spinner<?php echo $i ?>" class="spinner" type="text" value="<?php echo $_SESSION['quantite'][$i]; ?>" name="quantite<?php echo $i; ?>">
 										</div>
                                     </td>
                                     <td class="sub-price">
                                         <h3><?php echo $_SESSION['prix'][$i]; ?>€</h3>
                                     </td>
                                     <td class="total-price">
-                                        <h3><?php echo $_SESSION['prix'][$i]*$_SESSION['quantite'][$i] . "€"; ?></h3>
+                                        <h3><?php echo $prixArticle=$_SESSION['prix'][$i]*$_SESSION['quantite'][$i] . "€"; ?></h3>
                                         <small class="ecoPart">Eco-part: <?php echo $_SESSION['prix'][$i]*0.01; ?>€</small>
                                     </td>
                                     <td>
-                                        <button type="submit" class="btn btn-small" name="bouton" data-title="Refresh" data-placement="top" data-toggle="tooltip" value="Refresh"><i class="fa fa-refresh"></i></button>
-                                        <button type="submit" class="btn btn-small btn-success" name="bouton" data-title="Edit" data-placement="top" data-toggle="tooltip" value="Modifier"><i class="fa fa-pencil"></i></button>
-                                        <button type="submit" class="btn btn-small btn-danger" name="bouton" data-title="Remove" data-placement="top" data-toggle="tooltip" value="Supprimer"><i class="fa fa-trash"></i></button>
+                                        <button type="submit" class="recup-ligne btn btn-small" data-num-ligne="<?php echo $i; ?>" name="bouton" value="Refresh"><i class="fa fa-refresh"></i></button>
+                                        <button type="submit" class="recup-ligne btn btn-small btn-success" data-num-ligne="<?php echo $i; ?>" name="bouton" value="Modifier"><i class="fa fa-pencil"></i></button>
+                                        <button type="submit" class="recup-ligne btn btn-small btn-danger" data-num-ligne="<?php echo $i; ?>" name="bouton" value="Supprimer"><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>
 								<?php
@@ -164,7 +163,7 @@
                             <table class="table table-receipt">
                                 <tbody><tr>
                                     <td class="alignRight">Sous Total</td>
-                                    <td class="alignLeft">600.00€</td>
+                                    <td class="alignLeft"><?php $prixTotal = 0; echo $prixTotal = $prixTotal + $prixArticle; ?>€</td>
                                 </tr>
                                 <tr>
                                     <td class="alignRight">Frais de port</td>
@@ -176,33 +175,21 @@
                                 </tr>
                                 <tr>
                                     <td class="alignRight">TVA (20%)</td>
-                                    <td class="alignLeft">12.00€</td>
+                                    <td class="alignLeft"><?php $TVA = 0; echo $TVA = $prixTotal * 0.2; ?>€</td>
                                 </tr>
                                 <tr>
                                     <td class="alignRight"><h2>Total</h2></td>
-                                    <td class="alignLeft"><h2>825.00€</h2></td>
+                                    <td class="alignLeft"><h2><?php $_SESSION['prixTTC'] = 0; echo $_SESSION['prixTTC'] = $prixTotal + $TVA + 15; ?>€</h2></td>
                                 </tr>
                                 <tr>
-                                    <td class="alignRight"><button class="btn">Continuer Shopping</button></td>
-                                    <td class="alignLeft"><button class="btn btn-primary">Commander</button></td>
+                                    <td class="alignRight"><a href="index.php" class="btn">Continuer Shopping</a></td>
+                                    <td class="alignLeft"><a href="sign_in.php" class="btn btn-primary">Commander</a h></td>
                                 </tr>
                             </tbody></table>
                         </div>
                     </div>
 				</div><!--end span5-->
 			</div>
-		
-		    <div class="col-md-12">
-				<hr>
-				<nav>
-				    <ul class="pager">
-				        <li class="previous"><a href="index.php"><span aria-hidden="true">&larr;</span> Précédent</a></li>
-				        <li class="next"><a href="sign_in.php">Suivant <span aria-hidden="true">&rarr;</span></a></li>
-				    </ul>
-			    </nav>
-			</div>
-		
-		</div>
 </main>
 
 <!-- Intégration du js -->

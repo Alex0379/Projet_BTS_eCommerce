@@ -4,10 +4,32 @@
   // Connexion à la base de données
   $idcom = connex($DB);
   
+  $articlesParPages=21; //Nous allons afficher 5 messages par page.
+ 
+  //Une connexion SQL doit être ouverte avant cette ligne...
+  $retour_total=$idcom->query('SELECT COUNT(*) AS total FROM article'); //Nous récupérons le contenu de la requête dans $retour_total
+  $donnees_total=$retour_total->fetch(PDO::FETCH_ASSOC); //On range retour sous la forme d'un tableau.
+  $total=$donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
+   
+  //Nous allons maintenant compter le nombre de pages.
+  $nombreDePages=ceil($total/$articlesParPages);
+   
+  if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
+  {
+       $pageActuelle=intval($_GET['page']);
+   
+       if($pageActuelle>$nombreDePages) // Si la valeur de $pageActuelle (le numéro de la page) est plus grande que $nombreDePages...
+       {
+            $pageActuelle=$nombreDePages;
+       }
+  }
+  else // Sinon
+  {
+       $pageActuelle=1; // La page actuelle est la n°1    
+  }
+    
   // Requête sql
-  $sql = "SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
-            FROM `article` AS a, `famille` AS f, `marque` AS m
-            WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille`";
+  $sql = "";
 ?>
 
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap-multiselect.css" rel="stylesheet">
@@ -26,8 +48,7 @@
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
                 <?php
-                  $connect = mysql_connect("localhost", "root", "");
-                  mysql_select_db("eprocessor");
+                  
                   
                     echo '<form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">';
                     echo '<div class="form-group">';
@@ -122,12 +143,16 @@
                 <div class="row">
                   
                   <?php
-					// Définir la recherche comme négative si aucun article n'a pu être identifié.
-					$succesRecherche="NO";
-							
-					$resultat = $idcom->query($sql) or die("Erreur requête");
-					while($donnees = $resultat->fetch()){
-					  $succesRecherche="YES";
+					$premiereEntree=($pageActuelle-1)*$articlesParPages; // On calcul la première entrée à lire
+ 
+                    // La requête sql pour récupérer les messages de la page actuelle.
+                    $retour_articles=$idcom->query(
+                    'SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
+                      FROM `article` AS a, `famille` AS f, `marque` AS m
+                      WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille`
+                      LIMIT '.$premiereEntree.', '.$articlesParPages.'');
+                     
+                    while($donnees=$retour_articles->fetch()){ // On lit les entrées une à une grâce à une boucle
                       
                       // Création des variables de données
                       $idArticle = $donnees["id_article"];
@@ -170,11 +195,6 @@
                     <?php
 								} // Fin de la boucle while
 							
-							if($succesRecherche=="NO")
-							{
-								echo "<h4> Aucun article identifié.</h4>";
-							}
-							
 							if(isset($_POST["ajout_article"]))
 							{
 								ajoutPanier();
@@ -190,13 +210,24 @@
                     <li class="disabled">
                       <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
                     </li>
-                    <li class="active">
-                      <a href="#">1 <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
+                    
+                      <?php
+                        for($i=1; $i<=$nombreDePages; $i++){
+                          //On va faire notre condition
+                          if($i==$pageActuelle){
+                      ?>
+                      <li class="active">
+                        <a href="#"><?php echo $i; ?> <span class="sr-only">(current)</span></a>
+                      </li>
+                      <?php
+                          }	// Fin if
+                          else{
+                      ?>
+                        <li><a href="index.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+                      <?php
+                          } // Fin else
+                     } // Fin For
+                      ?>
                     <li>
                       <a href="#" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>

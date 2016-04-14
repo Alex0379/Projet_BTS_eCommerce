@@ -82,13 +82,13 @@
                         Montant
                     </dt>
                     <dd>
-                        850€
+                        <?php echo $_SESSION['prixTTC']; ?>€
                     </dd>
                     <dt>
                         Frais d'expédition et de livraison
                     </dt>
                     <dd>
-                        8.50€
+                        15.00€
                     </dd>                    
                 </dl>
             </div>
@@ -101,29 +101,21 @@
             
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label for="email">Identifiant</label>
-                        <input type="email" class="form-control" id="email" placeholder="Identifiant" required="required"/>
+                    <div class="form-bottom">
+                        <form class="connexionForm" method="post">
+                            <div class="form-group">
+                                <label for="identifiantPaiement">Identifiant</label>
+                                <input type="text" name="identifiantPaiement" class="form-control" id="identifiantPaiement" placeholder="Identifiant" required="required"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="mdpPaiement">Mot de passe</label>
+                                <input type="password" name="mdpPaiement" class="form-control" id="mdpPaiement" placeholder="Mot de passe" required="required"/>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block">Connexion</button>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label for="pwd">Mot de passe</label>
-                        <input type="password" class="form-control" id="pwd" placeholder="Mot de passe" required="required"/>
-                    </div>
-                    <button type="submit" class="btn btn-success btn-block">Valider</button>
-                </form>
             </div>
             <div class="col-md-3"></div>
-			
-			<div class="col-md-12">
-			<hr>
-				<nav>
-				    <ul class="pager">
-				        <li class="previous"><a href="sign_in.php"><span aria-hidden="true">&larr;</span> Précédent</a></li>
-				        <li class="next"><a href="facture.php">Suivant <span aria-hidden="true">&rarr;</span></a></li>
-				    </ul>
-			    </nav>
-			</div>
 			
 </main>
 

@@ -195,18 +195,7 @@
                             </div>
                         </div>
             
-        </div>
-		
-		<div class="col-md-12">
-			<hr>
-			<nav>
-			    <ul class="pager">
-				    <li class="previous"><a href="panier.php"><span aria-hidden="true">&larr;</span> Précédent</a></li>
-				    <li class="next"><a href="paiement.php">Suivant <span aria-hidden="true">&rarr;</span></a></li>
-			    </ul>
-		    </nav>
-		</div>
-		
+        </div>		
     </div>
 </main>
 

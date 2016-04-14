@@ -50,18 +50,103 @@ if(isset($_POST['identifiantConnex'])){
         }
     }
 	
+if(isset($_POST['identifiantPaiement'])){
+        // Récupération des valeurs
+
+        $utilisateur=$_POST['identifiantPaiement'];
+        $motdepasse=$_POST['mdpPaiement'];
+
+        if(IdentifieUtilisateur($utilisateur, $motdepasse)){
+            global $HTTP_HOST, $DOCROOT;
+            header("Location: http://$HTTP_HOST/$DOCROOT/facture.php"); 
+            exit();
+        }
+        else{
+            echo('Erreur interne');
+            exit();
+        }
+    }
+	
 if (isset($_POST['bouton'])) {
 	switch ($_POST['bouton']) {
 		case "Modifier":
-			$_SESSION['quantite'][$_POST['no_ligne']] = $_POST['quantite'];
-			header("Location:http://$HTTP_HOST/$DOCROOT/panier.php"); 
+			for($i=0; $i<$_SESSION["nbr_articles"];$i++){
+                $quantite = 'quantite' . $i;
+				$_SESSION["quantite"][$i] = $_POST[$quantite];
+				if($_POST[$quantite]==0){
+					for($i=0; $i<$_SESSION["nbr_articles"]-1;$i++){
+						$_SESSION["id_article"][$i]=$_SESSION["id_article"][$i+1];
+						$_SESSION["id_famille"][$i]=$_SESSION["id_famille"][$i+1];
+						$_SESSION["nom_famille"][$i]=$_SESSION["nom_famille"][$i+1];
+						$_SESSION["marque"][$i]=$_SESSION["marque"][$i+1];
+						$_SESSION["modele"][$i]=$_SESSION["modele"][$i+1];
+						$_SESSION["frequence"][$i]=$_SESSION["frequence"][$i+1];
+						$_SESSION["jeux_instruction"][$i]=$_SESSION["jeux_instruction"][$i+1];
+						$_SESSION["tension"][$i]=$_SESSION["tension"][$i+1];
+						$_SESSION["nb_coeur"][$i]=$_SESSION["nb_coeur"][$i+1];
+						$_SESSION["socket"][$i]=$_SESSION["socket"][$i+1];
+						$_SESSION["prix"][$i]=$_SESSION["prix"][$i+1];
+						$_SESSION["quantite"][$i]=$_SESSION["quantite"][$i+1];
+					}
+					
+					for($i=$_SESSION["nbr_articles"]-1; $i<=$_SESSION["nbr_articles"];$i++){
+						unset($_SESSION["id_article"][$i],
+							$_SESSION["id_famille"][$i],
+							$_SESSION["nom_famille"][$i],
+							$_SESSION["marque"][$i],
+							$_SESSION["modele"][$i],
+							$_SESSION["frequence"][$i],
+							$_SESSION["jeux_instruction"][$i],
+							$_SESSION["tension"][$i],
+							$_SESSION["nb_coeur"][$i],
+							$_SESSION["socket"][$i],
+							$_SESSION["prix"][$i],
+							$_SESSION["quantite"][$i]);
+					}
+					
+					$_SESSION["nbr_articles"] = $_SESSION["nbr_articles"] - 1;
+				}
+				header("Location:http://$HTTP_HOST/$DOCROOT/panier.php");
+			}
 			break;
 		case "Refresh":
 			header("Location:http://$HTTP_HOST/$DOCROOT/panier.php"); 
 			break;
 		case "Supprimer":
-			$_SESSION['quantite'][$_POST['no_ligne']] = 0;
-			header("Location:http://$HTTP_HOST/$DOCROOT/panier.php"); 
+			
+			for($i=0; $i<$_SESSION["nbr_articles"]-1;$i++){
+				$_SESSION["id_article"][$i]=$_SESSION["id_article"][$i+1];
+				$_SESSION["id_famille"][$i]=$_SESSION["id_famille"][$i+1];
+				$_SESSION["nom_famille"][$i]=$_SESSION["nom_famille"][$i+1];
+				$_SESSION["marque"][$i]=$_SESSION["marque"][$i+1];
+				$_SESSION["modele"][$i]=$_SESSION["modele"][$i+1];
+				$_SESSION["frequence"][$i]=$_SESSION["frequence"][$i+1];
+				$_SESSION["jeux_instruction"][$i]=$_SESSION["jeux_instruction"][$i+1];
+				$_SESSION["tension"][$i]=$_SESSION["tension"][$i+1];
+				$_SESSION["nb_coeur"][$i]=$_SESSION["nb_coeur"][$i+1];
+                $_SESSION["socket"][$i]=$_SESSION["socket"][$i+1];
+				$_SESSION["prix"][$i]=$_SESSION["prix"][$i+1];
+				$_SESSION["quantite"][$i]=$_SESSION["quantite"][$i+1];
+			}
+			
+			for($i=$_SESSION["nbr_articles"]-1; $i<=$_SESSION["nbr_articles"];$i++){
+				unset($_SESSION["id_article"][$i],
+					$_SESSION["id_famille"][$i],
+					$_SESSION["nom_famille"][$i],
+					$_SESSION["marque"][$i],
+					$_SESSION["modele"][$i],
+					$_SESSION["frequence"][$i],
+					$_SESSION["jeux_instruction"][$i],
+					$_SESSION["tension"][$i],
+					$_SESSION["nb_coeur"][$i],
+					$_SESSION["socket"][$i],
+					$_SESSION["prix"][$i],
+					$_SESSION["quantite"][$i]);
+			}
+			
+			$_SESSION["nbr_articles"] = $_SESSION["nbr_articles"] - 1;
+			
+			header("Location:http://$HTTP_HOST/$DOCROOT/panier.php");
 			break;
 		default:
 			break;
