@@ -48,11 +48,7 @@
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
                 <?php
-<<<<<<< HEAD
-                  
-                  
-=======
->>>>>>> origin/master
+
                     echo '<form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">';
                     echo '<div class="form-group">';
                     echo '<label class="control-label"><i class="fa fa-users"></i> Famille</label>';
