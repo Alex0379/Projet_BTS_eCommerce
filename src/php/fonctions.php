@@ -125,9 +125,10 @@
 				$_SESSION["prix"][]=$prix;
 				$_SESSION["quantite"][]=1; // Quantité toujours fixée à 1 par défaut pour l'article sélectionné.
 				$_SESSION["nbr_articles"]++; // Incrémentation de la quantité d'articles.
-				header("Location:http://$HTTP_HOST/$DOCROOT/panier.php");
+				//header("Location:http://$HTTP_HOST/$DOCROOT/index.php");
 				echo "<script>
 				$(document).ready(function() {
+					setTimeout('location=(\"index.php\")' ,1000);
 					$(function(){
 						PNotify.prototype.options.styling = 'bootstrap3';
 						new PNotify({

@@ -201,14 +201,20 @@ if(isset($_POST["deconnexion"])){
           <li><a href="a_propos.php">A propos</a></li>
           <li><a href="contact.php">Nous Contacter</a></li>
         </ul>
-        <form class="navbar-form navbar-left" role="search" method="post" action="resultat_recherche.php">
+        <form class="navbar-form navbar-left" role="search" method="post" action="index.php">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Recherche..." name="motCle">
             <span class="input-group-btn">
-              <button class="btn btn-default" type="button"><i class="fa fa-search" name="boutonRecherche"></i></button>
+              <button class="btn btn-default" type="submit"><i class="fa fa-search" name="boutonRecherche"></i></button>
             </span>
           </div>
         </form>
+
+		<?php
+			if(isset($_POST['motCle'])){
+				$motcle = ' modele LIKE "%'.$_POST['motCle'].'%"';
+			}
+		?>
 
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">

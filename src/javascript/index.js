@@ -30,8 +30,8 @@ $(document).ready(function() {
         
     /* Sliders */
         $("#sliderNbCoeur").rangeSlider(
-            {bounds:{min: 2, max: 8}},
-            {defaultValues:{min: 2, max: 8}},
+            {bounds:{min: 0, max: 8}},
+            {defaultValues:{min: 0, max: 8}},
             {step: 1},
             {arrows: false}
         );
@@ -49,8 +49,8 @@ $(document).ready(function() {
         );
         
         $("#sliderPrix").rangeSlider(
-            {bounds:{min: 100, max: 1000}},
-            {defaultValues:{min: 100, max: 1000}},
+            {bounds:{min: 100, max: 4000}},
+            {defaultValues:{min: 100, max: 4000}},
             {step: 5},
             {arrows: false}
         );
@@ -62,5 +62,23 @@ $(document).ready(function() {
         console.log("Nb Coeur " + valeurSliderNbCoeur.min + " " + valeurSliderNbCoeur.max);
         console.log("Freq. " + valeurSliderFreq.min + " " + valeurSliderFreq.max);
         console.log("Prix " + valeurSliderPrix.min + " " + valeurSliderPrix.max);
+        
+        $("#sliderNbCoeur").bind("valuesChanged", function(e, data){
+                console.log("Values just changed. min: " + data.values.min + " max: " + data.values.max);
+                $('#NbCoeurMin').val(data.values.min);
+                $('#NbCoeurMax').val(data.values.max);
+        });
+        
+        $("#sliderFreq").bind("valuesChanged", function(e, data){
+                console.log("Values just changed. min: " + data.values.min + " max: " + data.values.max);
+                //$('#FreqMin').val(data.values.min);
+                //$('#FreqMax').val(data.values.max);
+        });
+        
+        $("#sliderPrix").bind("valuesChanged", function(e, data){
+                console.log("Values just changed. min: " + data.values.min + " max: " + data.values.max);
+                $('#PrixMin').val(data.values.min);
+                $('#PrixMax').val(data.values.max);
+        });
     });
 
