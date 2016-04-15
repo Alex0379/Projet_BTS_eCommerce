@@ -59,6 +59,7 @@
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
                 <?php
+
                     echo '<form id="bootstrapSelectForm" method="post" action="" class="form-horizontal">';
                     echo '<div class="form-group">';
                     echo '<label class="control-label"><i class="fa fa-users"></i> Famille</label>';
@@ -262,15 +263,25 @@
               <div class="col-md-12 text-center">
                 <nav>
                   <ul class="pagination">
+                    <?php
+                    if($pageActuelle == 1){
+                      ?>
                     <li class="disabled">
                       <a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
                     </li>
-                    
-                      <?php
+                    <?php
+                            } // Fin if
+                            else{
+                    ?>
+                      <li>
+                        <a href="index.php?page=<?php echo $pageActuelle - 1; ?>" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+                      </li>
+                    <?php
+                            } // Fin else
                         for($i=1; $i<=$nombreDePages; $i++){
                           // Condition pour le nombre de page à renvoyer
                           if($i==$pageActuelle){
-                      ?>
+                    ?>
                       <li class="active">
                         <a href="#"><?php echo $i; ?> <span class="sr-only">(current)</span></a>
                       </li>
@@ -282,12 +293,25 @@
                       <?php
                           } // Fin else
                      } // Fin For
+                      if($pageActuelle == $nombreDePages){
                       ?>
-                    <li>
-                      <a href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                      </a>
-                    </li>
+                      <li class="disabled">
+                        <a href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    <?php
+                            } // Fin if
+                            else{
+                    ?>
+                      <li>
+                        <a href="index.php?page=<?php echo $pageActuelle + 1; ?>" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    <?php
+                            } // Fin else
+                    ?>
                   </ul>
                 </nav>
               </div>
