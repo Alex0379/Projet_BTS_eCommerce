@@ -3,33 +3,6 @@
   
   // Connexion à la base de données
   $idcom = connex($DB);
-  
-  $articlesParPages=21; //Nous allons afficher 5 messages par page.
- 
-  //Une connexion SQL doit être ouverte avant cette ligne...
-  $retour_total=$idcom->query('SELECT COUNT(*) AS total FROM article'); //Nous récupérons le contenu de la requête dans $retour_total
-  $donnees_total=$retour_total->fetch(PDO::FETCH_ASSOC); //On range retour sous la forme d'un tableau.
-  $total=$donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
-   
-  //Nous allons maintenant compter le nombre de pages.
-  $nombreDePages=ceil($total/$articlesParPages);
-   
-  if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
-  {
-       $pageActuelle=intval($_GET['page']);
-   
-       if($pageActuelle>$nombreDePages) // Si la valeur de $pageActuelle (le numéro de la page) est plus grande que $nombreDePages...
-       {
-            $pageActuelle=$nombreDePages;
-       }
-  }
-  else // Sinon
-  {
-       $pageActuelle=1; // La page actuelle est la n°1    
-  }
-    
-  // Requête sql
-  $sql = "";
 ?>
 
     <link href="../src/bootstrap-3.3.6-dist/css/bootstrap-multiselect.css" rel="stylesheet">
@@ -43,23 +16,56 @@
     <main class="container">
 
         <div class="row">
-
+              <?php
+  if(!empty($_POST)){ // Si au moins un filtre n'est pas vide...
+    $req = 'SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `id_famille`, `id_marque`, `nb_coeur`
+              FROM `article`
+              WHERE ('; // initialisation de notre requête avec le SELECT
+    foreach($_POST as $keyliste=>$liste){ // récupération des filtres
+	  if(is_array($liste) && count($liste)>0) // si les filtres sont renseignés...
+		foreach($liste as $val){ // récupération de chaque valeur de chaque filtre
+		  $verif=trim($val); 
+		  if(!empty($verif)){
+			$req.= ' '.$keyliste.'="'.$verif.'" OR' ; // si les valeurs ne sont pas vide, on ajoute les conditions à notre requête
+		  }
+		}
+		$req = rtrim($req,' OR'); // supression du dernier OR
+		$req.=') AND (' ; // Ajout du AND pour la prochaine condition
+    }
+	$req = rtrim($req,'AND ( AND ()'); // suppression des AND
+	$req .=')'; // On ferme notre dernière condition
+	
+	if(!empty($_POST['NbCoeurMin']) AND !empty($_POST['NbCoeurMax'])){ // Récupération des valeurs des RangeSliders si ils sont renseigné.
+	  $req .=' AND ('.$_POST['NbCoeurMin'].' <= nb_coeur <= '.$_POST['NbCoeurMax'].')'; // Ajout des valeurs à notre requête
+	}
+	if(!empty($_POST['PrixMin']) AND !empty($_POST['PrixMax'])){
+	  $req .=' AND ('.$_POST['PrixMin'].' <= prix <= '.$_POST['PrixMax'].')';
+	}
+    if(!empty($motcle)){ // Récupération du mot clé dans le header si la variable n'est pas vide
+      $req = rtrim($req,')');
+      $req .= $motcle; // Ajout à notre requête
+    }
+    if(isset($_POST["ajout_article"])){
+      $req = rtrim($req,')');
+      $req .= ' 1';
+	  ajoutPanier();
+	}
+  }else{
+	$req = 'SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `id_famille`, `id_marque`, `nb_coeur`
+              FROM `article`'; // Si aucun filtre selectionner on envoie tous les articles
+  }
+?>
             <div class="col-md-3">
               <div class="formConteneur">
                 <p class="lead">Filtres</p>
                 <?php
-<<<<<<< HEAD
-                  
-                  
-=======
->>>>>>> origin/master
-                    echo '<form id="bootstrapSelectForm" method="post" action="resultat_recherche.php" class="form-horizontal">';
+                    echo '<form id="bootstrapSelectForm" method="post" action="" class="form-horizontal">';
                     echo '<div class="form-group">';
                     echo '<label class="control-label"><i class="fa fa-users"></i> Famille</label>';
                     echo '<div class="selectContainer">';
                             
                       $requete = "SELECT id_famille, nom_famille FROM `famille` ORDER BY `famille`.`nom_famille` ASC";
-                        echo '<select id="triFamille" multiple="multiple" name="famille_processeur">';
+                        echo '<select id="triFamille" multiple="multiple" name="id_famille[]">';
                           $resultat = $idcom->query($requete) or die("Erreur requête");
                           while($donnees = $resultat->fetch()){
                 ?>
@@ -76,7 +82,7 @@
                       echo '<label class="control-label"><i class="fa fa-cogs"></i> Socket</label>';
                       echo '<div class="selectContainer">';
                       $requete = "SELECT DISTINCT socket FROM `article` ORDER BY `article`.`socket` ASC";
-                            echo '<select id="triSocket" multiple="multiple" name="tri_socket">';
+                            echo '<select id="triSocket" multiple="multiple" name="socket[]">';
                             $resultat = $idcom->query($requete) or die("Erreur requête");
                             while($donnees = $resultat->fetch()){
                       ?>
@@ -148,64 +154,108 @@
                 <div class="row">
                   
                   <?php
+                  $articlesParPages=30; // Nous allons afficher 30 articles par page.
+                  $retourReq = ""; // initialisation de la variable
+                  $retourReq = $req; // récupération de la requête
+                  $retourReq = ltrim($retourReq,'SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `id_famille`, `id_marque`, `nb_coeur` '); // supression du SELECT
+                  $retourReqTotal = 'SELECT COUNT(*) AS total '; // Ajout d'un SELECT COUNT afin de récupérer le nombre de résultat de la requête
+                  $retourReqTotal .= $retourReq; // Ajout de la requête
+                  // echo $retourReqTotal;
+                  $retour_total=$idcom->query($retourReqTotal) or die("erreur requête"); //Nous récupérons le contenu de la requête dans $retour_total
+                  $donnees_total=$retour_total->fetch(PDO::FETCH_ASSOC); //On range retour sous la forme d'un tableau.
+                  $total=$donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
+                   
+                  //Nous allons maintenant compter le nombre de pages.
+                  $nombreDePages=ceil($total/$articlesParPages);
+                   
+                  if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
+                  {
+                       $pageActuelle=intval($_GET['page']);
+                   
+                       if($pageActuelle>$nombreDePages) // Si la valeur de $pageActuelle (le numéro de la page) est plus grande que $nombreDePages...
+                       {
+                            $pageActuelle=$nombreDePages;
+                       }
+                  }
+                  else // Sinon
+                  {
+                       $pageActuelle=1; // La page actuelle est la n°1    
+                  }
+                  
 					$premiereEntree=($pageActuelle-1)*$articlesParPages; // On calcul la première entrée à lire
  
                     // La requête sql pour récupérer les messages de la page actuelle.
-                    $retour_articles=$idcom->query(
-                    'SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `nom_marque`, `nom_famille`
-                      FROM `article` AS a, `famille` AS f, `marque` AS m
-                      WHERE a.`id_marque` = m.`id_marque` AND a.`id_famille` = f.`id_famille`
-                      LIMIT '.$premiereEntree.', '.$articlesParPages.'');
-                     
-                    while($donnees=$retour_articles->fetch()){ // On lit les entrées une à une grâce à une boucle
-                      
-                      // Création des variables de données
-                      $idArticle = $donnees["id_article"];
-                      $prix = $donnees['prix'];
-                      $famille = $donnees['nom_famille'];
-                      $modele = $donnees['modele'];
-                      $marque = $donnees['nom_marque'];
-                      $dateCommercialisation = $donnees['date_commercialisation'];
-                      
-				  ?>
-                  
-                  <form method="post" action="">
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <div class="thumbnail">
-                            <img src="../images/320x150.png" alt="">
-                            <div class="caption">
-                                <h4 class="pull-right"><?php echo $prix; ?>€</h4>
-                                <h4><a href="description_Article.php"><?php if($famille == "anonyme"){ // Condition pour ne pas afficher anonyme lorque la famille est inconnu
-                                                                              echo $modele;
-                                                                            }else{
-                                                                              echo $famille . "<br>" . $modele;
-                                                                            } ?></a></h4>
-                                <p>Produit de la marque <?php echo $marque; ?> et commercialisé le <?php echo $dateCommercialisation; ?>.</p>
-                            </div>
-                            <div class="info">
-                                <div class="separator clear-left">
-                                    <p class="btn-add">
-                                      <button name="ajout_article" type="submit" class="btn btn-default"><i class="fa fa-shopping-cart"></i>Ajouter</button>
-                                    </p>
-                                    <p class="btn-details">
-                                      <a href="description_Article.php?id_article=<?php echo $idArticle; ?>" class="btn btn-default"><i class="fa fa-list"></i>Détails</a>
-                                    </p>
+                    $retour_articles=$idcom->query($req .=' LIMIT '.$premiereEntree.', '.$articlesParPages.'') or die("erreur requête");
+                    
+                   $succesRecherche="NO"; // initialisation de la variable
+								while($donnees = $retour_articles->fetch()){ // récupération des données de la requête
+								  $id_famille = $donnees['id_famille'];
+								  $id_article = $donnees['id_article'];
+								  $modele = $donnees['modele'];
+								  $id_marque = $donnees['id_marque'];
+								  $prix = $donnees['prix'];
+								  $dateCommercialisation = $donnees['date_commercialisation'];
+								  $succesRecherche="YES"; // Si il y a des articles on passe la variable à YES	
+					?>
+                    
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <div class="thumbnail">
+                                <img src="../images/320x150.png" alt="">
+                                <div class="caption">
+                                    <h4 class="pull-right"><?php echo $prix; ?>€</h4>
+                                    <h4><a href="description_Article.php"><?php
+                                    // Sous requête pour récupérer le nom_famille
+									$resultatFamille = $idcom->query('SELECT `nom_famille`
+																FROM  `famille`
+																WHERE `id_famille` = '.$id_famille) or die("Erreur requête");
+									while($donneesFamille = $resultatFamille->fetch()){
+									  $famille = $donneesFamille['nom_famille'];
+									  if($famille == "anonyme"){ // Condition pour ne pas afficher anonyme lorque la famille est inconnu
+                                                                                  echo $modele;
+                                                                                }else{
+                                                                                  echo $famille . "<br>" . $modele;
+                                                                                }
+																				
+									}?></a></h4>
+                                    <p>Produit de la marque <?php
+                                    // Sous requête pour récupérer le nom_marque
+									$resultatMarque = $idcom->query('SELECT `nom_marque`
+																FROM  `marque`
+																WHERE `id_marque` = '.$id_marque) or die("Erreur requête");
+									while($donneesMarque = $resultatMarque->fetch()){
+									  $marque = $donneesMarque['nom_marque'];
+									  echo $marque; ?> et commercialisé le <?php echo $dateCommercialisation;
+									}?>.</p>
                                 </div>
-                                <div class="clearfix"></div>
-                                <input type="hidden" name="id_article_choisi" value="<?php echo $idArticle; ?>">
-                            </div>
+                                <form method="post" action="index.php">
+                                  <div class="info">
+                                    <div class="separator clear-left">
+                                        <p class="btn-add">
+                                          <button name="ajout_article" type="submit" class="btn btn-default"><i class="fa fa-shopping-cart"></i>Ajouter</button>
+                                        </p>
+                                        <p class="btn-details">
+                                          <a href="description_Article.php?id_article=<?php echo $id_article; ?>" class="btn btn-default"><i class="fa fa-list"></i>Détails</a>
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <input type="hidden" name="id_article_choisi" value="<?php echo $id_article; ?>">
+                                  </div>
+                                </form>
+                              </div>
+                               
                         </div>
-                    </div>
-                  </form>
+                        
+					
+                    
                     <?php
 								} // Fin de la boucle while
 							
-							if(isset($_POST["ajout_article"]))
+							if($succesRecherche=="NO") // Si aucun retour d'article...
 							{
-								ajoutPanier();
-							}
+								echo "<h1 class='text-center'> Aucun article identifié.</h1>";
+                            }
 							?>
-
+                  
                 </div>
           
             <div class="row">
@@ -218,7 +268,7 @@
                     
                       <?php
                         for($i=1; $i<=$nombreDePages; $i++){
-                          //On va faire notre condition
+                          // Condition pour le nombre de page à renvoyer
                           if($i==$pageActuelle){
                       ?>
                       <li class="active">
