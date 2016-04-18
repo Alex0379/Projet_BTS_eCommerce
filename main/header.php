@@ -266,7 +266,14 @@ if(isset($_POST["deconnexion"])){
             <ul class="dropdown-menu">
               <li><a href="dashboard.php"><i class="fa fa-tachometer"></i> Tableau de bord</a></li>
               <li><a href="histo_commande.php"><i class="fa fa-history"></i> Historique Commande</a></li>
-              <li><a href="panier.php"><i class="fa fa-shopping-cart"></i> Panier <span class="badge">4</span></a></li>
+              <li><a href="panier.php"><i class="fa fa-shopping-cart"></i> Panier <span class="badge">';
+					if(!isset($_SESSION['nbr_articles'])){
+					  $_SESSION['nbr_articles'] = 0;
+					  echo $_SESSION['nbr_articles'];
+					}else{
+						echo $_SESSION['nbr_articles'];
+					}
+			  echo '</span></a></li>
               <li role="separator" class="divider"></li>
               <form class="text-center" action="" method="post">
                 <li><button id="deconnexion" class="btn btn-default navbar-btn" name="deconnexion" type="submit"><i class="fa fa-sign-out"></i> Se Déconnecter</button></li>

@@ -1,4 +1,10 @@
-<?php include('header.php')?>
+<?php include('header.php');
+
+if($_SESSION['nbr_articles']==0){
+		echo '<h1>Aucun article dans le panier';
+		include('footer.php');
+}else{
+?>
 
 <!-- Intégration du css -->
     <link href="../src/css/panier.css" rel="stylesheet">
@@ -198,4 +204,5 @@
 	<script src="../src/bootstrap-3.3.6-dist/js/jquery.bootstrap-touchspin.min.js"></script>
 	<script src="../src/javascript/panier.js"></script>
 
-<?php include('footer.php') ?>
+<?php include('footer.php');
+} ?>

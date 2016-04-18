@@ -26,16 +26,16 @@ include('header.php');
                     <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img src="../images/350x250.png">
+                                <img src="../images/350x250_1.png">
                             </div>
                             <div class="item">
-                                <img src="../images/350x250.png">
+                                <img src="../images/350x250_2.png">
                             </div>
                             <div class="item">
-                                <img src="../images/350x250.png">
+                                <img src="../images/350x250_3.png">
                             </div>
                             <div class="item">
-                                <img src="../images/350x250.png">
+                                <img src="../images/350x250_4.png">
                             </div>
                         </div>
                     </div> 
@@ -43,10 +43,10 @@ include('header.php');
                     <div id="thumbcarousel" class="carousel slide" data-interval="false">
                         <div class="carousel-inner">
                             <div class="item active">
-                                <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="../images/350x250.png"></div>
-                                <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="../images/350x250.png"></div>
-                                <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="../images/350x250.png"></div>
-                                <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="../images/350x250.png"></div>
+                                <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="../images/350x250_1.png"></div>
+                                <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="../images/350x250_2.png"></div>
+                                <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="../images/350x250_3.png"></div>
+                                <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="../images/350x250_4.png"></div>
                             </div><!-- /item -->
                         </div><!-- /carousel-inner -->
                     </div> <!-- /thumbcarousel -->

@@ -36,10 +36,10 @@
 	$req .=')'; // On ferme notre dernière condition
 	
 	if(!empty($_POST['NbCoeurMin']) AND !empty($_POST['NbCoeurMax'])){ // Récupération des valeurs des RangeSliders si ils sont renseigné.
-	  $req .=' AND ('.$_POST['NbCoeurMin'].' <= nb_coeur <= '.$_POST['NbCoeurMax'].')'; // Ajout des valeurs à notre requête
+	  $req .=' AND (nb_coeur BETWEEN '.$_POST['NbCoeurMin'].' AND '.$_POST['NbCoeurMax'].')'; // Ajout des valeurs à notre requête
 	}
 	if(!empty($_POST['PrixMin']) AND !empty($_POST['PrixMax'])){
-	  $req .=' AND ('.$_POST['PrixMin'].' <= prix <= '.$_POST['PrixMax'].')';
+	  $req .=' AND (prix BETWEEN '.$_POST['PrixMin'].' AND '.$_POST['PrixMax'].')';
 	}
     if(!empty($motcle)){ // Récupération du mot clé dans le header si la variable n'est pas vide
       $req = rtrim($req,')');
@@ -52,7 +52,7 @@
 	}
   }else{
 	$req = 'SELECT `id_article`, `modele`, `date_commercialisation`, `prix`, `id_famille`, `id_marque`, `nb_coeur`
-              FROM `article`'; // Si aucun filtre selectionner on envoie tous les articles
+              FROM `article`'; // Si aucun filtre n’est sélectionné on envoie tous les articles
   }
 ?>
             <div class="col-md-3">
@@ -97,16 +97,22 @@
                         
                   <div class="form-group">
                     <label for="sliderNbCoeur"><i class="fa fa-heart"></i> Nombre de coeurs</label>
+					<input type="hidden" id="NbCoeurMin" name="NbCoeurMin"/>
+					<input type="hidden" id="NbCoeurMax" name="NbCoeurMax"/>
                     <div id="sliderNbCoeur" name="sliderNbCoeur"></div>
                   </div>
                   
                   <div class="form-group">
                     <label for="sliderFreq"><i class="fa fa-heartbeat"></i> Fréquence - (GHz)</label>
+					<input type="hidden" id="FreqMin" name="FreqMin"/>
+					<input type="hidden" id="FreqMax" name="FreqMax"/>
                     <div id="sliderFreq" name="sliderFreq"></div>
                   </div>
                   
                   <div class="form-group">
                     <label for="sliderPrix"><i class="fa fa-eur"></i> Prix - (Euro)</label>
+					<input type="hidden" id="PrixMin" name="PrixMin"/>
+					<input type="hidden" id="PrixMax" name="PrixMax"/>
                     <div id="sliderPrix" name="sliderPrix"></div>
                   </div>
                     
@@ -132,13 +138,13 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="../images/800x300.png" alt="">
+                                    <img class="slide-image" src="../images/bandeau_1.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="../images/800x300.png" alt="">
+                                    <img class="slide-image" src="../images/bandeau_2.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="../images/800x300.png" alt="">
+                                    <img class="slide-image" src="../images/bandeau_3.jpg" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -187,7 +193,7 @@
  
                     // La requête sql pour récupérer les messages de la page actuelle.
                     $retour_articles=$idcom->query($req .=' LIMIT '.$premiereEntree.', '.$articlesParPages.'') or die("erreur requête");
-                    
+                    // echo $req;
                    $succesRecherche="NO"; // initialisation de la variable
 								while($donnees = $retour_articles->fetch()){ // récupération des données de la requête
 								  $id_famille = $donnees['id_famille'];
